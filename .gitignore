@@ -1,4 +1,5 @@
 logseq/
 site/
 .venv/
+.cache/
 __pycache__/

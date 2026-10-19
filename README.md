@@ -1,4 +1,3 @@
-@"
 # Voltfracht Wiki
 
 Wiki for the [Voltfracht](https://voltfracht.sgio.app/) game.
@@ -11,6 +10,5 @@ Wiki for the [Voltfracht](https://voltfracht.sgio.app/) game.
 
 This wiki is built using:
 
-- MkDocs
-- Material for MkDocs
+- [Zensical](https://zensical.org/)
 - GitHub Pages
