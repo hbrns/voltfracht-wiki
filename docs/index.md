@@ -1,17 +1,11 @@
 # Voltfracht Wiki
 
-Willkommen zum Voltfracht Wiki.
+<div class="grid cards" markdown>
 
-## Übersicht
+-   <img src="/assets/images/Flag_of_Germany.svg" width="18" alt="Deutsch"> __Deutsch__  
+    [Willkommen, Spieler 1 !](de/index.md) :material-clock-fast:{ .lg .middle }
 
-VoltFracht ist eine Wirtschafts-Simulation rund um Elektro-Lastwagen. Baue aus
-einem einzigen Transporter eine europaweite Spedition auf - auf einer echten
-Karte Europas, mit echten Ladesäulen-Standorten und echten Tages-Strompreisen.
+-   <img src="/assets/images/Flag_of_the_United_Kingdom.svg" width="18" alt="English"> __English__  
+    [Welcome, Player 1 !](en/index.md) :material-clock-fast:{ .lg .middle }
 
-## Abschnitte
-
-- Spielablauf
-
-## Mitwirken
-
-Alle Inhalte werden auf GitHub verwaltet.
+</div>

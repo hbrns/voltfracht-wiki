@@ -1,18 +1,19 @@
 [project]
 site_url = "https://hbrns.github.io/voltfracht-wiki/"
 site_name = "Voltfracht Wiki"
-# site_description = "Your project description"
-# site_author = "Your name"
+site_description = "Voltfracht Wiki"
+site_author = "The Voltfracht Wiki Contributor"
 
-# copyright = "Copyright &copy; 2026 Your name"
+copyright = "Copyright &copy; 2026 The Voltfracht Wiki Contributors"
 
 repo_url = "https://github.com/hbrns/voltfracht-wiki"
 repo_name = "hbrns/voltfracht-wiki"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-  { "Get started" = "index.md" },
-  { "Markdown in 5min" = "markdown.md" },
+   { "Voltfracht App" = "https://voltfracht.sgio.app" },
+#   { "Erste Schritte" = "de/index.md" },
+#   { "Markdown in 5min" = "de/markdown.md" },
 ]
 
 # extra_css = ["stylesheets/extra.css"]
@@ -22,7 +23,8 @@ nav = [
 # variant = "classic"
 # custom_dir = "overrides"
 # favicon = "images/favicon.png"
-language = "en"
+# language = "en"
+language = "de"
 features = [
   "announce.dismiss",
   # "content.action.edit",
@@ -116,3 +118,9 @@ pymdownx.tabbed.alternate_style = true
 pymdownx.tabbed.combine_header_slug = true
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tilde = {}
+
+[project.extra]
+alternate = [
+  { name = "English", link = "/en/", lang = "en" },
+  { name = "Deutsch", link = "/de/", lang = "de" },
+]
