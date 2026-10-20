@@ -11,9 +11,10 @@ repo_name = "hbrns/voltfracht-wiki"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-   { "Voltfracht App" = "https://voltfracht.sgio.app" },
-#   { "Erste Schritte" = "de/index.md" },
-#   { "Markdown in 5min" = "de/markdown.md" },
+   {'<img src="https://voltfracht.sgio.app/favicon-32.png" width="18" alt="Voltfracht App">' = "" },
+   {"Voltfracht (Browser)" = "https://voltfracht.sgio.app" },
+   {"Voltfracht (App Store)" = "https://apps.apple.com/app/id6795641452" },
+   {"Voltfracht (Google Play)" = "https://play.google.com/store/apps/details?id=com.voltfracht.app" },
 ]
 
 # extra_css = ["stylesheets/extra.css"]
@@ -121,6 +122,6 @@ pymdownx.tilde = {}
 
 [project.extra]
 alternate = [
-  { name = "English", link = "/en/", lang = "en" },
-  { name = "Deutsch", link = "/de/", lang = "de" },
+  { name = "English", link = "/voltfracht-wiki/en/", lang = "en" },
+  { name = "Deutsch", link = "/voltfracht-wiki/de/", lang = "de" },
 ]
