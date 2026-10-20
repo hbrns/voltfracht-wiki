@@ -23,9 +23,9 @@ nav = [
 [project.theme]
 # variant = "classic"
 # custom_dir = "overrides"
-# favicon = "images/favicon.png"
-# language = "en"
-language = "de"
+# favicon = "https://voltfracht.sgio.app/favicon-32.png"
+language = "en"
+# language = "de"
 features = [
   "announce.dismiss",
   # "content.action.edit",
