@@ -1,6 +1,6 @@
 # Freight Exchange & Cargo Systems
 
-The **Deals** Freight Exchange is the central marketplace where
+The **Orders** Freight Exchange is the central marketplace where
 dispatchers evaluate and accept logistics contracts across Europe.
 
 ---
@@ -50,11 +50,14 @@ Vehicles and freight contracts fall into five primary weight classes:
 Unlocking additional cargo licenses is the most effective way to increase
 the number of available profitable orders:
 
-* **Standard Cargo**: Unlocked by default for all starting fleets.
+* **Standard** Cargo: Unlocked by default for all starting fleets.
 * **Container**: Container transport.
-* **Refrigerated Goods**: Temperature-controlled transport.
-* **Liquid Cargo**: Tanker logistics for liquid freight.
-* **Hazardous Goods**: Specialized hazmat cargo.
+* **General Cargo**: General cargo transport.
+* **Hazmat**: Specialized hazardous cargo.
+* **Liquid**: Tanker logistics for liquid freight.
+* **Machinery**: Machinery transport.
+* **Refrigerated**: Temperature-controlled transport.
+* **Timber**: Specialized timber transport.
 * **Seasonal & Event Cargo**: Limited-time freight like Halloween pumpkins.
 
 ---
@@ -66,4 +69,5 @@ Dispatchers can refine job searches using built-in toolbar filters:
 * **Collapsible Tonnage Selector**: Filter jobs by exact vehicle class.
 * **Multi-Select Cargo Group Filter**: View multiple unlocked cargo types.
 * **Location Proximity**: Shows jobs near your truck.
+* **Location Distance**: Sort orders by distance.
 * **Revenue Yield Sorting**: Sort orders by payout.
