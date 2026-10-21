@@ -46,7 +46,7 @@ roadmap:
 
 ### Version 0.18 — European Tour & Charging Overhaul
 
-Released October 2026 across Web, iOS, and Android platforms.
+Released 17. October 2026 across Web.
 
 | Feature Category | Major Enhancements Introduced |
 | :--- | :--- |
@@ -57,9 +57,19 @@ Released October 2026 across Web, iOS, and Android platforms.
 | **Support System** | Direct in-game developer bug responses with push notifications, plus unique itemized receipt numbers (`Belegnummer`) for financial audit tracking. |
 | **Fleet Storage** | Instant vehicle sales directly from **The Hall (*Die Halle*)**, buying marketplace trucks directly into storage, and custom truck naming. |
 
+### Version 0.17.x - Halloween Special
+
+Released 04. October 2026
+
+* **Pumpkin** Cargo - only 7.5 t and 18 t orders
+* **Truck Specials**:
+  * Spectre 7.5t 2026, limited Halloween edition
+  * Spectre 18t 2026, limited Halloween edition
+
+
 ### Version 0.17 — Storage Hall & Marketplace Filters
 
-Released September 2026 across Web and Mobile stores.
+Released end of September 2026 across Web and Mobile stores.
 
 * **The Hall (*Die Halle*)**: Vehicle storage facility allowing dispatchers
   to park idle trucks off-slot, preserving mileage and resale value without
@@ -74,7 +84,7 @@ Released September 2026 across Web and Mobile stores.
 
 ### Version 0.16 — Stability & Connectivity
 
-Released September 2026.
+Released late September 2026.
 
 * **Connection Stability**: Fixed map loop rendering crashes on iOS hardware
   and optimized server-client web socket reconnects.
@@ -83,7 +93,7 @@ Released September 2026.
 
 ### Version 0.15 — Used Truck Marketplace
 
-Released September 2026.
+Released early September 2026.
 
 * **P2P Marketplace**: Player-to-player vehicle trading with customizable
   listing prices and instant slot release upon posting.
