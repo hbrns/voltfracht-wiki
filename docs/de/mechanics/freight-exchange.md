@@ -1,69 +1,75 @@
-# Freight Exchange & Cargo Systems
+# Frachtenbörse & Frachtsysteme
 
-The **Deals** Freight Exchange is the central marketplace where
-dispatchers evaluate and accept logistics contracts across Europe.
-
----
-
-## Order Mechanics & Availability
-
-Every contract listed on the exchange displays payload requirements, cargo
-type, departure, destination, distance, and financial yields.
-
-* **Independent Job Lists**: Since update 0.17, accepting an order removes it
-  only from your own exchange view, preventing order sniping by others.
-* **Beginner Payout Boost**: New companies receive a +10% bonus on base rates
-  for their first 7 days.
-* **PRO Member Advantages**: Active PRO subscribers earn a +25% score bonus on
-  completed runs.
+Die **Aufträge**-Frachtenbörse ist der zentrale Marktplatz, auf dem
+Disponenten Logistikverträge in ganz Europa bewerten und annehmen.
 
 ---
 
-## The Three Order Visibility Filters
+## Auftragsmechanik & Verfügbarkeit
 
-Visible orders on your freight exchange are governed by three independent
-filter criteria:
+Jeder auf der Börse gelistete Vertrag zeigt Nutzlastanforderungen,
+Frachttyp, Abfahrt, Ziel, Entfernung und finanzielle Erträge.
 
-1. **Tonnage Capacity**: Your truck's payload class must match the job.
-2. **Cargo Group License**: You must possess the license for the cargo type.
-3. **Country Access**: Both origin and destination must be in unlocked
-   nations.
+* **Unabhängige Auftragslisten**: Seit Update 0.17 wird ein Auftrag nach
+  Annahme nur noch aus der eigenen Börsenansicht entfernt, wodurch das
+  "Wegschnappen" von Aufträgen durch andere verhindert wird.
+* **Anfängerauszahlungsbonus**: Neue Unternehmen erhalten einen +10 %-Bonus
+  auf die Basissätze für ihre ersten 7 Tage.
+* **PRO-Mitgliedervorteile**: Aktive PRO-Abonnenten erhalten einen +25 %-Punktebonus
+  für abgeschlossene Fahrten.
 
 ---
 
-## Tonnage Classes
+## Die drei Auftragsfilter
 
-Vehicles and freight contracts fall into five primary weight classes:
+Sichtbare Aufträge in deiner Frachtenbörse werden durch drei unabhängige
+Filterkriterien gesteuert:
 
-| Class | Gross Weight | Ideal Operating Role |
+1. **Nutzlastkapazität**: Die Tonnageklasse deines LKWs muss zum Auftrag passen.
+2. **Frachtgruppenlizenz**: Du musst über die Lizenz für den Frachttyp verfügen.
+3. **Länderzugriff**: Sowohl Start als auch Ziel müssen in freigeschalteten
+   Nationen liegen.
+
+---
+
+## Tonnage-Klassen
+
+Fahrzeuge und Frachtverträge fallen in fünf primäre Gewichtsklassen:
+
+| Klasse | Bruttogewicht | Ideale Einsatzrolle |
 | :--- | :--- | :--- |
-| **7.5t** | Light Distribution | Urban delivery & regional starter runs |
-| **18t** | Medium Haul | Regional distribution & event transport |
-| **26t** | Heavy Rigid | Inter-city logistics & medium haulage |
-| **40t** | Articulated Semi | Long-distance cross-border logistics |
-| **44t** | Articulated Heavy Semi | Long-distance cross-border heavy logistics |
+| **7,5 t** | Leichte Distribution | Städtische Auslieferung & regionale Starterfahrten |
+| **18 t** | Mittlerer Transport | Regionale Distribution & Eventtransport |
+| **26 t** | Schwerer Starraufbau | Innerstädtische Logistik & mittlerer Transport |
+| **40 t** | Sattelzug | Langstrecken-Grenzüberschreitende Logistik |
+| **44 t** | Schwerer Sattelzug | Langstrecken-Grenzüberschreitender Schwertransport |
 
 ---
 
-## Cargo Categories & Licenses
+## Frachtkategorien & Lizenzen
 
-Unlocking additional cargo licenses is the most effective way to increase
-the number of available profitable orders:
+Das Freischalten zusätzlicher Frachtlizenzen ist der effektivste Weg, um die
+Anzahl verfügbarer profitabler Aufträge zu erhöhen:
 
-* **Standard Cargo**: Unlocked by default for all starting fleets.
-* **Container**: Container transport.
-* **Refrigerated Goods**: Temperature-controlled transport.
-* **Liquid Cargo**: Tanker logistics for liquid freight.
-* **Hazardous Goods**: Specialized hazmat cargo.
-* **Seasonal & Event Cargo**: Limited-time freight like Halloween pumpkins.
+* **Standardfracht**: Standardmäßig für alle Startflotten freigeschaltet.
+* **Container**: Containertransport.
+* **Allgemeine Fracht**: Allgemeiner Frachttransport.
+* **Gefahrgut**: Spezialisierter Gefahrguttransport.
+* **Flüssigfracht**: Tankwagenlogistik für Flüssigfracht.
+* **Maschinen**: Maschinentransport.
+* **Kühlfracht**: Temperaturkontrollierter Transport.
+* **Holz**: Spezialisierter Holztransport.
+* **Saisonale & Event-Fracht**: Zeitlich begrenzte Fracht wie Halloween-Kürbisse.
 
 ---
 
-## Exchange Search & Filtering Tools
+## Börsen-Suche & Filterwerkzeuge
 
-Dispatchers can refine job searches using built-in toolbar filters:
+Disponenten können die Auftragssuche mit integrierten Filterwerkzeugen verfeinern:
 
-* **Collapsible Tonnage Selector**: Filter jobs by exact vehicle class.
-* **Multi-Select Cargo Group Filter**: View multiple unlocked cargo types.
-* **Location Proximity**: Shows jobs near your truck.
-* **Revenue Yield Sorting**: Sort orders by payout.
+* **Klappbarer Tonnage-Auswähler**: Filtere Aufträge nach exakter Fahrzeugklasse.
+* **Mehrfachauswahl-Frachtgruppenfilter**: Zeige mehrere freigeschaltete
+  Frachttypen an.
+* **Standortnähe**: Zeige Aufträge in der Nähe deines LKWs an.
+* **Standortentfernung**: Sortiere Aufträge nach Entfernung.
+* **Ertrags-Rendite-Sortierung**: Sortiere Aufträge nach Auszahlung.

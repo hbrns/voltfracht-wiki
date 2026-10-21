@@ -111,8 +111,12 @@ syndicate competition:
 
 ## 🤝 Community & Official Channels
 
-* **Web Client**: [voltfracht.sgio.app](https://voltfracht.sgio.app/)
-* **Official Discord**: [Join the Community Server](https://discord.gg/dVH4Hj5wVM)
-* **Social Channels**: [Instagram](https://www.instagram.com/voltfracht) |
+* **Official Discord**: :fontawesome-brands-discord:{ .discord } [Join the
+  Community Server](https://discord.gg/dVH4Hj5wVM)
+* **Social Channels**:
+  :fontawesome-brands-instagram:{ .instagram }
+  [Instagram](https://www.instagram.com/voltfracht) |
+  :fontawesome-brands-youtube:{ .youtube }
   [YouTube](https://www.youtube.com/@VoltFracht) |
+  :fontawesome-brands-tiktok:{ .tiktok }
   [TikTok](https://www.tiktok.com/@voltfracht)

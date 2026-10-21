@@ -41,10 +41,10 @@ to that country **plus all directly adjacent neighboring countries**.
 > **Optimal Starting Location: Germany**  
 > When choosing your starting home depot, **Germany (*Deutschland*) is widely
 > considered the best choice**. Because Germany shares borders with **9
-> neighboring countries** (Denmark, Poland, Czech Republic, Austria, Switzerland,
-> France, Luxembourg, Belgium, and Netherlands), selecting a German home depot
-> grants immediate access to 10 European nations from day one without spending
-> coins or capital to unlock new borders.
+> neighboring countries** (Denmark, Poland, Czech Republic, Austria,
+> Switzerland, France, Luxembourg, Belgium, and Netherlands), selecting a German
+> home depot grants immediate access to 10 European nations from day one without
+> spending coins or capital to unlock new borders.
 
 ---
 
@@ -69,7 +69,7 @@ automatically added to delivery payouts and itemized in your financial logs.
 ### Leveling & Depot Expansion
 
 *   **Company Leveling**: Buying additional depot slots increases your company
-    level (e.g., spending €250,000 for a 2nd depot slot levels your account up
+    level (e.g., spending €250'000 for a 2nd depot slot levels your account up
     to Level 2).
 *   **Depot Slots**: Depot capacity caps the number of active, dispatchable
     trucks. Unneeded vehicles can be stored in the **Hall** to free up depot

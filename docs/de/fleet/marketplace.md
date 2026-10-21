@@ -1,65 +1,68 @@
-# Used Truck Marketplace
+# Gebrauchtwagenmarkt
 
-The Used Truck Marketplace in VoltFracht enables  player-to-player (P2P) vehicle
-trading. Dispatchers can list used e-trucks for sale to other companies or
-purchase pre-owned fleet models to expand their operations at lower costs
-compared to brand-new showroom prices.
-
----
-
-## 1. Access Requirements & Slot Management
-
-P2P vehicle trading is subject to specific unlock gates and fleet slot rules:
-
-* **Level 3 Access Gate**: P2P trading on the marketplace unlocks when a 
-  company reaches **Level 3**. Below Level 3, players can purchase new models 
-  from the showroom or use instant sell (*Sofortverkauf*), but cannot list or 
-  buy vehicles from other players.
-* **Slot Liberation Upon Listing**: As soon as a vehicle is listed on the 
-  marketplace, its active depot slot is immediately freed up. This allows 
-  companies to purchase or activate replacement trucks without waiting for the 
-  listing to sell.
-* **Direct Purchase to Hall**: Buyers can purchase used vehicles directly into 
-  **The Hall** if active depot slots are currently full.
-* **Expired Listing Handling**: Offers remain active on the market for 7 days. 
-  If an offer expires without selling, the owner can re-list it with an 
-  adjusted price or execute an instant sell. If active depot slots are full, 
-  returning the truck directly to the active depot remains disabled until 
-  capacity opens up.
+Der Gebrauchtwagenmarkt in VoltFracht ermöglicht den
+Player-to-Player-Handel (P2P) mit Fahrzeugen. Disponenten können gebrauchte
+E-LKWs zum Verkauf an andere Unternehmen anbieten oder vorkommisionierte
+Flottenmodelle zu niedrigeren Kosten im Vergleich zu den Neupreisen erwerben,
+um ihre Operationen auszubauen.
 
 ---
 
-## 2. Anti-Abuse Price Capping & Trading Limits
+## 1. Zugangsvoraussetzungen & Stellplatzverwaltung
 
-To prevent multi-account exploitation, artificial wealth transfers, and cash 
-funneling, VoltFracht enforces strict anti-abuse parameters on all marketplace 
-transactions:
+Der P2P-Fahrzeughandel unterliegt spezifischen Freischaltungsstufen und
+Flottenstellplatz-Regeln:
 
-| Security Rule | Mechanism | Gameplay Purpose |
+* **Level-3-Zugangssperre**: Der P2P-Handel auf dem Marktplatz wird freigeschaltet,
+  wenn ein Unternehmen **Level 3** erreicht. Unter Level 3 können Spieler neue
+  Modelle aus dem Showroom kaufen oder Sofortverkauf (*Sofortverkauf*) nutzen,
+  können aber keine Fahrzeuge von anderen Spielern listen oder kaufen.
+* **Stellplatz-Freigabe beim Listenvorgang**: Sobald ein Fahrzeug auf dem
+  Marktplatz gelistet wird, wird dessen aktiver Depot-Stellplatz sofort
+  freigegeben. Dies ermöglicht es Unternehmen, Ersatz-LKWs zu kaufen oder zu
+  aktivieren, ohne auf den Verkauf des gelisteten Fahrzeugs warten zu müssen.
+* **Direkter Kauf in die Halle**: Käufer können gebrauchte Fahrzeuge direkt
+  in **die Halle** erwerben, wenn die aktiven Depot-Stellplätze derzeit voll
+  sind.
+* **Abgelaufene Listung**: Angebote bleiben 7 Tage lang auf dem Markt aktiv.
+  Wenn ein Angebot ohne Verkauf abläuft, kann der Besitzer es mit einem
+  angepassten Preis neu listen oder einen Sofortverkauf durchführen. Wenn die
+  aktiven Depot-Stellplätze voll sind, bleibt die direkte Rückgabe des LKWs
+  ins aktive Depot bis zur Kapazitätsfreigabe deaktiviert.
+
+---
+
+## 2. Anti-Missbrauch Preisbegrenzung & Handelslimits
+
+Um Multi-Konto-Ausnutzung, künstliche Vermögensübertragungen und Geldwäsche
+zu verhindern, setzt VoltFracht strenge Anti-Missbrauch-Parameter für alle
+Marktplatz-Transaktionen durch:
+
+| Sicherheitsregel | Mechanismus | Spielzweck |
 | :--- | :--- | :--- |
-| **Price Range Cap** | Minimum: Current Instant-Sell Value<br>Maximum: 1.2× New Vehicle Price | Prevents listing trucks at fantasy prices (e.g., 10× new price) to transfer money between accounts. |
-| **Partner Trade Cap** | Maximum 3 transactions per day between the same two companies | Prevents rapid buy-and-burn cycling between main and alt accounts. |
-| **Level Gate** | Company Level 3 required for P2P market access | Prevents newly created throwaway accounts from trading immediately. |
+| **Preisspanne** | Minimum: Aktueller Sofortverkaufswert<br>Maximum: 1,2× Neupreis | Verhindert das Listen von LKWs zu Fantasiepreisen (z. B. 10× Neupreis), um Geld zwischen Konten zu übertragen. |
+| **Partner-Handelslimit** | Maximal 3 Transaktionen pro Tag zwischen denselben zwei Unternehmen | Verhindert schnelles Kauf- und Verkaufs-Zyklen zwischen Haupt- und Nebenkonten. |
+| **Level-Sperre** | Unternehmen Level 3 für P2P-Marktzugang erforderlich | Verhindert, dass neu erstellte Wegwerfkonten sofort handeln können. |
 
 ---
 
-## 3. Instant Sell vs. Player Trading
+## 3. Sofortverkauf vs. Player-zu-Player-Handel
 
-Dispatchers have two distinct methods for liquidating fleet assets:
+Disponenten haben zwei verschiedene Methoden zur Liquidierung von Flottenvermögen:
 
-### Instant Sell (*Sofortverkauf*)
+### Sofortverkauf (*Sofortverkauf*)
 
-* **Availability**: Unlocked at all levels directly from the Depot or Hall.
-* **Valuation**: Payout is calculated dynamically based on vehicle mileage, 
-  battery degradation, and model class.
-* **Speed**: Instant cash settlement directly into company funds without listing 
-  delays.
+* **Verfügbarkeit**: Auf allen Levels direkt aus Depot oder Halle freigeschaltet.
+* **Bewertung**: Auszahlung wird dynamisch basierend auf Fahrzeugkilometerstand,
+  Batteriedegradation und Modellklasse berechnet.
+* **Geschwindigkeit**: Sofortige Barauszahlung direkt auf das Unternehmenskonto
+  ohne Listungsverzögerungen.
 
-### P2P Marketplace Sale
+### P2P-Marktplatzverkauf
 
-* **Availability**: Requires Level 3 company progression.
-* **Valuation**: Seller manually sets the asking price within the dynamic 
-  price bounds (between instant-sell value and 1.2× new price).
-* **Flexibility**: Useful for trading rare collector vehicles (such as the 
-  *Early Bird 7S* or limited event trucks) whose market value exceeds standard 
-  depreciation curves.
+* **Verfügbarkeit**: Erfordert Unternehmen Level 3.
+* **Bewertung**: Verkäufer setzt den Anfragepreis manuell innerhalb der
+  dynamischen Preisspannen (zwischen Sofortverkaufswert und 1,2× Neupreis).
+* **Flexibilität**: Nützlich für den Handel mit seltenen Sammlerfahrzeugen (wie
+  z. B. *Early Bird 7S* oder limitierte Event-LKWs), deren Marktwert über
+  den Standard-Abschreibungskurven liegt.

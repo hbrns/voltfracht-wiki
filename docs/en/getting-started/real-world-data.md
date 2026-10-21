@@ -20,7 +20,7 @@ transit time is governed by five core real-world data feeds:
 | **Energy Market Prices** | **ENTSO-E** | Daily spot market pricing across European bidding zones | Establishes dynamic electricity costs per kWh for each country, directly impacting trip profit margins. |
 | **Road Network Routing** | **OSRM Server** | Self-hosted Open Source Routing Machine mapping 33 nations | Calculates exact road distance, highway routes, and border crossings for heavy-duty electric trucks. |
 | **Live Traffic & Congestion** | **HERE Technologies** | Real-time European highway traffic & active roadworks | Dynamically adjusts transit times and introduces delay risks on heavily congested corridors. |
-| **Terrain & Elevation** | **SRTM Data** | NASA Shuttle Radar Topography Mission 30-meter mesh | Applies realistic grade resistance: steep mountain climbs drain battery rapidly, while downhill slopes allow energy recuperation. |
+| **Terrain & Elevation** | **SRTM Data** | NASA Shuttle Radar Topography Mission 30-metre mesh | Applies realistic grade resistance: steep mountain climbs drain battery rapidly, while downhill slopes allow energy recuperation. |
 | **Atmospheric Physics** | **Live Temperature Cycles** | Daily European weather patterns | Extreme cold or high heat increases battery internal resistance and HVAC energy draw, reducing overall driving range. |
 
 ---

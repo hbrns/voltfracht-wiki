@@ -1,97 +1,139 @@
-# Economy & Fair-Play Guidelines
+# Wirtschaft & Fair-Play-Richtlinien
 
-This guide details the economic rules, anti-cheat policies, and Terms of
-Service (TOS / AGB) governing VoltFracht.
-
----
-
-## 1. Legal Nature of In-Game Currency ("€" & Coins)
-
-Section 2 of the VoltFracht Terms & Conditions (T&C) explicitly defines the
-legal status of all in-game assets and financial balances:
-
-* **Purely Virtual ("Funny Money")**: All in-game Euro balances ("€"), Coins
-  (★), vehicles, orders, and haulage assets are strictly virtual points with
-  **no real monetary value**.
-* **No Real-World Payouts**: Virtual Euros and Coins cannot be cashed out,
-  refunded, or exchanged for real-world currency, legal tender, or physical
-  goods.
-* **Digital Content Terms**: Optional purchases (such as VoltFracht PRO or
-  Coin packages) grant immediate digital usage rights. Per Section 3 of the
-  TOS (§ 356(5) BGB), performance begins immediately upon purchase and holds
-  no right of withdrawal or cash conversion.
+Dieser Leitfaden erläutert die wirtschaftlichen Regeln, Anti-Cheat-Richtlinien
+und die Allgemeinen Geschäftsbedingungen (AGB/T&C), die für VoltFracht gelten.
 
 ---
 
-## 2. In-Game Economy & Score Balancing
+## 1. Rechtliche Natur der In-Game-Währung ("€" & Coins)
 
-To maintain competitive integrity across international leaderboards:
+Absatz 2 der Allgemeinen Geschäftsbedingungen (AGB) von VoltFracht definiert
+explizit den rechtlichen Status aller In-Game-Vermögenswerte und finanziellen
+Salden:
 
-* **No Currency Conversion**: In-game Coins (★) cannot be converted into
-  virtual Euro (€) cash balance.
-* **Depot Upgrade Cap**: Upgrading depot capacity via Coins is capped at
-  Depot Level 8. Higher depot levels must be funded through earned freight
-  revenue to prevent pay-to-win advantages on public rankings.
+* **Rein virtuell ("Spielgeld")**: Alle In-Game-Euro-Bestände ("€"), Coins
+  (★), Fahrzeuge, Aufträge und Transportgüter sind streng virtuelle Punkte
+  **ohne realen Geldwert**.
+* **Keine Auszahlung in Echtgeld**: Virtuelle Euros und Coins können nicht in
+  Bargeld umgewandelt, erstattet oder gegen reale Währung, gesetzliche
+  Zahlungsmittel oder physische Güter eingetauscht werden.
+* **Digitale Inhalte**: Optionale Käufe (wie z. B. VoltFracht PRO oder
+  Coin-Pakete) gewähren sofortige digitale Nutzungsrechte. Gemäß Absatz 3 der
+  AGB (§ 356(5) BGB) beginnt die Leistung sofort mit dem Kauf und es besteht
+  kein Widerrufs- oder Rückgaberecht.
 
 ---
 
-## 3. Used Truck Marketplace Anti-Abuse Rules
+## 2. In-Game-Wirtschaft & Ranglisten-Balancierung
 
-To stop artificial money transfers between secondary accounts, trading on the
-used truck marketplace is restricted by automated safeguards:
+Um die Wettbewerbsintegrität in den internationalen Ranglisten zu wahren:
 
-| Anti-Abuse Rule | Enforcement Limit | Purpose |
+* **Keine Währungsumwandlung**: In-Game-Coins (★) können nicht in virtuelle
+  Euro (€) umgewandelt werden. Implementiert am 30. September 2026, um
+  Pay-to-Win-Ranglisten-Manipulation zu verhindern.
+* **Depot-Aufwertungslimit**: Die Aufwertung der Depotkapazität mit Coins ist
+  auf **Depot Level 8** begrenzt. Depotplätze ab Level 9 müssen durch erwirtschaftete
+  Frachteinnahmen (€) finanziert werden, um Pay-to-Win-Vorteile in öffentlichen
+  Ranglisten zu verhindern. Implementiert am 30. September 2026.
+
+**Begründung**: Diese wirtschaftlichen Anpassungen wurden eingeführt, nachdem
+Analysen ergaben, dass unbegrenzte Coin-zu-Euro-Umwandlungen und
+Depot-Erweiterungen das Kauf von Ranglistenpositionen ermöglichten, anstatt
+sie durch Spiel zu verdienen. Alle bestehenden Buchungen wurden überprüft
+(79'000+ Transaktionen geprüft). Die Coin-Berechnungen waren immer korrekt;
+nur der Umwandlungsweg wurde entfernt.
+
+---
+
+## 3. Anti-Missbrauch-Regeln für den Gebrauchtwagenmarkt
+
+Um künstliche Geldtransfers zwischen Sekundärkonten zu verhindern, ist der
+Handel auf dem Gebrauchtwagenmarkt durch automatisierte Schutzmaßnahmen
+eingeschränkt (implementiert am 26. September 2026):
+
+| Anti-Missbrauch-Regel | Durchsetzungslimit | Zweck |
 | :--- | :--- | :--- |
-| **Account Level Gate** | Level 3 required | Prevents instant throwaway account creation for price exploitation. |
-| **Price Bounds** | Min: Instant-sell value<br>Max: 1.2× new vehicle price | Prevents selling starter trucks at fantasy prices to transfer virtual cash. |
-| **Daily Partner Cap** | Max 3 trades/day per trading partner | Blocks continuous circular trading loops between affiliated accounts. |
+| **Konto-Level-Sperre** | Level 3 erforderlich | Verhindert sofortige Wegwerfkonten-Erstellung zur Preisausnutzung. |
+| **Preisgrenzen** | Min: Sofortverkaufswert<br>Max: 1,2× Neupreis | Verhindert den Verkauf von Starter-LKWs zu Fantasiepreisen zur virtuellen Geldübertragung. Zuvor konnten Preise bis zum 10-fachen des Neupreises gesetzt werden. |
+| **Tägliches Partnerlimit** | Max. 3 Geschäfte/Tag pro Handelspartner | Blockiert kontinuierliche Kreishandels-Schleifen zwischen verbundenen Konten. |
+
+**Hintergrund**: Diese Regeln wurden nach der Entdeckung eines Ausnutzungsschemas
+eingeführt, bei dem Spieler neue Konten erstellten, Startkapital sammelten,
+Fahrzeuge von ihrem Hauptkonto zu überteuerten Preisen kauften, diese günstig
+zurückverkauften und dann das temporäre Konto löschten. Die betroffenen Konten
+wurden identifiziert, unrechtmäßig erwirtschaftete Gewinne zurückgebucht und die
+Konten aus den Top-Ranglisten entfernt. Hauptkonto und 21 Wegwerfkonten wurden
+gesperrt.
 
 ---
 
-## 4. Terms of Service (AGB) & Anti-Cheat Policies
+## 4. Allgemeine Geschäftsbedingungen (AGB) & Anti-Cheat-Richtlinien
 
-VoltFracht enforces clear fair-play guidelines to ensure all leaderboard
-rankings reflect genuine human dispatching skill:
+VoltFracht setzt klare Fair-Play-Richtlinien durch, um sicherzustellen, dass
+alle Ranglistenplatzierungen echtes menschliches Dispatching-Fachwissen widerspiegeln.
 
-### The "You Play Yourself" Principle
+**Hinweis**: Mit Version 0.18 (veröffentlicht am 18. Oktober 2026) wurde ein
+neuer Fair-Play-Abschnitt zu den AGB hinzugefügt, der alle Spieler beim
+nächsten Login zur Zustimmung auffordert. Diese Regeln gelten ab dem Datum
+der Zustimmung, **nicht rückwirkend**.
 
-Every dispatch action, including selecting cargo, routing trucks, and setting
-charging stops, must be manually initiated by the account owner.
-Prohibited automation tools include:
+### Das "Du spielst selbst"-Prinzip
 
-* Automated scripts, bots, macros, and auto-clickers.
-* Interfacing with the server API outside the official web/mobile client.
+Jede Dispatching-Aktion, einschließlich der Auswahl von Fracht, Routenplanung
+und Festlegung von Ladestopps, muss manuell vom Kontoinhaber ausgelöst werden.
+Verboten sind:
 
-### Account Ownership
+* Automatisierte Skripte, Bots, Makros und Auto-Klicker.
+* Zugriff auf die Server-API außerhalb des offiziellen Web-/Mobile-Clients.
 
-* **Single-User Ownership**: Accounts belong strictly to a single individual.
-* **Prohibited Sharing**: Account sharing, joint multi-person play, renting,
-  selling, or transferring credentials is forbidden.
+**Begründung**: Die Analyse der Ranglistendaten durch den Entwickler zeigte
+Konten, die 24/7 ohne Pausen operierten, was auf geteilte Zugangsdaten oder
+automatisierte Skripte hindeutet. Beide verstoßen gegen den Geist des fairen
+Wettbewerbs.
 
-### Audit & Dispute Procedure
+### Kontobesitz
 
-To catch round-the-clock automated accounts fairly, the developer logs action
-timestamps (without IP or hardware tracking) for 90 days:
+* **Einzelbenutzerbesitz**: Konten gehören streng genommen einer einzelnen Person.
+* **Verbotenes Teilen**: Das Teilen von Konten, gemeinsames Spielen durch mehrere
+  Personen sowie Verkaufen, Vermieten oder Übertragen von Zugangsdaten ist
+  verboten.
+
+**Klarstellung**: Diese Regeln schränken nicht ein, wie oft Sie spielen oder
+auf wie vielen Ihrer eigenen Geräte Sie auf Ihr Konto zugreifen. Sie verbieten
+nur, dass ein einzelnes Konto mehr leistet, als ein Mensch vernünftigerweise
+bewältigen kann.
+
+### Prüf- und Streitverfahren
+
+Um Konten mit rund um die Uhr automatisierten Aktivitäten fair zu erkennen,
+protokolliert der Entwickler **nur Zeitstempel** (ohne IP- oder Hardware-Tracking)
+für **90 Tage** in Übereinstimmung mit der Datenschutzrichtlinie.
 
 ```mermaid
 graph LR
-    A["1. Direct Inquiry<br>Clarification"]
-    B["2. Warning Notice<br>Official Notice"]
-    C["3. Account Ban<br>Permanent Lock"]
+    A["1. Direktanfrage<br>Klarstellung"]
+    B["2. Offizielle Warnung<br>Verwarnung"]
+    C["3. Konto-Sperre<br>Dauerhafte Sperre"]
     
     A --> B --> C
 ```
 
-1. **Inquiry**: Players flagged for inhuman activity receive a direct in-game
-   clarification question first.
-2. **Warning**: Continued unverified automation results in a formal warning.
-3. **Ban**: Persistent violations lead to account suspension and removal from
-   leaderboard rankings.
+1. **Abfrage**: Spieler, die durch unköziperliche Aktivität auffallen (z. B.
+   24/7-Betrieb ohne Pausen), erhalten zunächst eine direkte In-Game-Klarstellungsfrage.
+2. **Warnung**: Fortgesetzte nicht verifizierte Automatisierung nach der Abfrage
+   führt zu einer offiziellen Warnung.
+3. **Sperre**: beharrliche Verstöße führen zur Kontosperre und Entfernung aus
+den Ranglisten.
+
+**Wichtig**: Kein Konto wird ohne vorherige Abfrage gesperrt. Die erste
+Benachrichtigung, die Sie erhalten, ist eine Frage, keine Strafe.
 
 ---
 
-## 5. Financial Transparency & Receipt Tracking
+## 5. Finanzielle Transparenz & Belegnummern
 
-Every financial transaction in VoltFracht generates an itemized booking
-receipt with a unique receipt number, allowing dispatchers to verify income,
-PRO bonus additions, and coin distributions directly in the transaction log.
+Jede finanzielle Transaktion in VoltFracht generiert eine detaillierte
+Buchungsquittung mit einer eindeutigen Belegnummer, die es Disponenten
+ermöglicht, Einnahmen, PRO-Boni und Coin-Verteilungen direkt im
+Transaktionsprotokoll zu überprüfen. Dieses System unterstützt den
+Fair-Play-Prüfprozess durch berechenbare Finanzaufzeichnungen.

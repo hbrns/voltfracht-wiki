@@ -1,150 +1,157 @@
-# VoltFracht Wiki — Getting Started Guide
+# VoltFracht-Wiki – Erste-Schritte-Anleitung
 
-Welcome to **VoltFracht**, an electric freight dispatching and logistics
-management simulation developed by solo indie developer **Sebastian Giove**.
-In VoltFracht, you act as the company dispatcher (*Disponent*). You choose the
-freight, select route strategies, and manage fleet expansion across Europe while
-your autonomous e-trucks handle the driving and charging navigation.
-
----
-
-## 1. Platform Availability & Account System
-
-VoltFracht is designed for seamless cross-platform play across desktop and
-mobile devices:
-
-*   **Web Browser**: Play directly at
-    [voltfracht.sgio.app](https://voltfracht.sgio.app/) with no installation
-    required. The web client receives instant game updates first.
-*   **iOS / iPadOS**: Available on the Apple App Store for iPhone and iPad
-   (requires iOS 15.0 or later).
-*   **Android**: Available on the Google Play Store.
-*   **Account Synchronization**: A single account (Google, Apple, or email
-    login) syncs your fleet, capital, and progress seamlessly across browser
-    and mobile apps. You can also start instantly as a guest without creating an
-    account.
-*   **Monetisation & Privacy**: VoltFracht is completely free-to-play. Progress
-    is non-compulsory; optional coin packs and a PRO subscription (€4.99/month)
-    are available. The game collects no personal user data from mobile clients.
+Willkommen bei **VoltFracht**, einem elektrischen Frachtdispatching- und
+Logistikmanagement-Simulationsspiel, das von Solo-Indie-Entwickler
+**Sebastian Giove** entwickelt wurde. Bei VoltFracht agierst du als
+Unternehmensdisponent. Du wählst die Fracht, wählst Routenstrategien aus und
+verwaltest die Flottenexpansion in ganz Europa, während deine autonomen
+E-LKWs das Fahren und die Ladeplanung übernehmen.
 
 ---
 
-## 2. Onboarding & Home Depot Selection
+## 1. Plattformverfügbarkeit & Kontosystem
 
-When starting your company, you select a home depot city and home country:
+VoltFracht ist für nahtloses plattformübergreifendes Spielen auf Desktop-
+und Mobilgeräten konzipiert:
 
-### The Neighboring Country Rule
-
-In VoltFracht, unlocking any country automatically grants you operational access
-to that country **plus all directly adjacent neighboring countries**.
-
-> **Optimal Starting Location: Germany**  
-> When choosing your starting home depot, **Germany (*Deutschland*) is widely
-> considered the best choice**. Because Germany shares borders with **9
-> neighboring countries** (Denmark, Poland, Czech Republic, Austria, Switzerland,
-> France, Luxembourg, Belgium, and Netherlands), selecting a German home depot
-> grants immediate access to 10 European nations from day one without spending
-> coins or capital to unlock new borders.
-
----
-
-## 3. First Steps & Starting Capital Strategy
-
-### Launch Strategy: Don't Wait!
-
-Your company begins with a single 7.5-tonner e-truck in your home depot and a
-starting cash balance. 
-
-> **Developer Recommendation**: Do not sit idle waiting for your first truck to
-> finish its run! Use your starting capital immediately to purchase a 2nd or 3rd
-> 7.5t truck. Having multiple vehicles active from the start accelerates cash
-> flow and levels up your company much faster.
-
-### Beginner Bonus (+10%)
-
-All newly registered companies receive a **+10% Beginner Bonus** on the base
-payout of every completed job for their **first 7 days**. This bonus is
-automatically added to delivery payouts and itemized in your financial logs.
-
-### Leveling & Depot Expansion
-
-*   **Company Leveling**: Buying additional depot slots increases your company
-    level (e.g., spending €250,000 for a 2nd depot slot levels your account up
-    to Level 2).
-*   **Depot Slots**: Depot capacity caps the number of active, dispatchable
-    trucks. Unneeded vehicles can be stored in the **Hall** to free up depot
-    slots without selling them.
+* **Webbrowser**: Spiele direkt unter
+  [voltfracht.sgio.app](https://voltfracht.sgio.app/) ohne Installation.
+  Der Web-Client erhält sofort Spielupdates.
+* **iOS / iPadOS**: Verfügbar im Apple App Store für iPhone und iPad
+  (erfordert iOS 15.0 oder neuer).
+* **Android**: Verfügbar im Google Play Store.
+* **Kontosynchronisation**: Ein einziges Konto (Google-, Apple- oder
+  E-Mail-Login) synchronisiert deine Flotte, dein Kapital und deinen
+  Fortschritt nahtlos zwischen Browser und mobilen Apps. Du kannst auch
+  sofort als Gast ohne Kontoerstellung starten.
+* **Monetarisierung & Datenschutz**: VoltFracht ist komplett kostenlos.
+  Fortschritt ist freiwillig. Optionale Coin-Pakete und ein PRO-Abo
+  (€4,99/Monat) sind verfügbar. Das Spiel sammelt keine persönlichen
+  Benutzerdaten von Mobilclients.
 
 ---
 
-## 4. Understanding the Dispatching Loop
+## 2. Onboarding & Auswahl des Heimatdepots
+
+Beim Start deines Unternehmens wählst du eine Heimatdepot-Stadt und ein
+Heimatland:
+
+### Die Nachbarländer-Regel
+
+In VoltFracht gewährt das Freischalten eines Landes automatisch operativen
+Zugang zu diesem Land **plus allen direkt angrenzenden Nachbarländern**.
+
+> **Optimaler Startstandort: Deutschland**
+> Bei der Wahl deines Start-Heimatdepots gilt **Deutschland** als mit Abstand
+> die beste Wahl. Da Deutschland Grenzen mit **9 Nachbarländern** teilt
+> (Dänemark, Polen, Tschechische Republik, Österreich, Schweiz, Frankreich,
+> Luxemburg, Belgien und Niederlande), gewährt die Auswahl eines deutschen
+> Heimatdepots sofortigen Zugang zu 10 europäischen Nationen ab Tag eins,
+> ohne Coins oder Kapital für neue Grenzen ausgeben zu müssen.
+
+---
+
+## 3. Erste Schritte & Startkapital-Strategie
+
+### Startstrategie: Nicht warten!
+
+Dein Unternehmen beginnt mit einem einzelnen 7,5-Tonner-E-LKW in deinem
+Heimatdepot und einem Startgeldbetrag.
+
+> **Empfehlung des Entwicklers**: Warte nicht untätig, bis dein erster LKW
+> seine Fahrt beendet hat! Nutze dein Startkapital sofort, um einen 2. oder
+> 3. 7,5t-LKW zu kaufen. Mehrere aktive Fahrzeuge von Anfang an beschleunigen
+den Geldfluss und steigern dein Unternehmen viel schneller.
+
+### Anfängerbonus (+10 %)
+
+Alle neu registrierten Unternehmen erhalten einen **+10 %-Anfängerbonus** auf
+den Basisauszahlung jedes abgeschlossenen Auftrags für ihre **ersten 7 Tage**.
+Dieser Bonus wird automatisch zu den Auszahlungen addiert und in deinen
+Finanzprotokollen aufgeschlüsselt.
+
+### Leveln & Depot-Erweiterung
+
+* **Unternehmens-Leveln**: Der Kauf zusätzlicher Depot-Stellplätze erhöht dein
+  Unternehmenslevel (z. B. die Ausgabe von €250'000 für einen 2.
+  Depot-Stellplatz erhöht dein Konto auf Level 2).
+* **Depot-Stellplätze**: Die Depotkapazität begrenzt die Anzahl aktiver,
+  dispatchbarer LKWs. Nicht benötigte Fahrzeuge können in **der Halle**
+  eingelagert werden, um Depot-Stellplätze freizugeben, ohne sie zu
+  verkaufen.
+
+---
+
+## 4. Grundlagen des Dispatching-Prozesses
 
 ```mermaid
 flowchart LR
-    A["Select Freight<br/>from Deals"]
-    B["Autonomous Run<br/>& Auto-Charging"]
-    C["Payout & Progress<br/>Money, Coins & XP"]
+    A["Fracht<br/>aus Deals auswählen"]
+    B["Autonome Fahrt<br/>& Auto-Laden"]
+    C["Auszahlung & Fortschritt<br/>Geld, Coins & XP"]
 
     A --> B --> C
 ```
 
-1. **Select Cargo**: Open the **Orders**, filter by tonnage class or cargo type,
-   and evaluate payout vs. route distance.
-2. **Dispatch Truck**: Once assigned, the truck autonomously routes through
-   real-world road networks, calculating required charging stops based on
-   payload and battery capacity.
-3. **Collect Payouts**: Upon arrival, your account receives the freight payout,
-   Coins, and experience points. Reinvest earnings into new truck models, higher
-   tonnage licenses, or depot expansions.
+1. **Fracht auswählen**: Öffne die **Aufträge**, filtere nach Tonnageklasse
+   oder Frachttyp und bewerten die Auszahlung im Verhältnis zur Route-Distanz.
+2. **LKW entsenden**: Sobald zugewiesen, navigiert der LKW autonom durch
+   reale Straßennetzwerke und berechnet erforderliche Ladestopps basierend auf
+   Nutzlast und Batteriekapazität.
+3. **Auszahlungen einsammeln**: Bei Ankunft erhält dein Konto die
+   Frachtauszahlung, Coins und Erfahrungspunkte. Investiere die Einnahmen
+   in neue LKW-Modelle, höhere Tonnage-Lizenzen oder Depot-Erweiterungen.
 
 ---
 
-## 5. Real-World Data Engine
+## 5. Echtzeit-Daten-Engine
 
-VoltFracht integrates **authentic European geographical, infrastructural, and
-economic data streams** directly into its core gameplay loop. Every delivery
-calculation, battery consumption rate, and charging cost reflects real-world
-physics and real-time European infrastructure.
+VoltFracht integriert **authentische europäische geografische,
+infrastrukturelle und wirtschaftliche Datenströme** direkt in seinen
+Kernspielkreis. Jede Lieferberechnung, jeder Batterieverbrauch und jede
+Ladekosten basieren auf realen physikalischen Gegebenheiten und Echtzeit-
+Infrastrukturdaten Europas.
 
-### Data Engine Architecture
+### Architektur der Daten-Engine
 
-| Data Layer | Primary Source | In-Game Simulation Effect |
+| Datenebene | Primäre Quelle | Auswirkung im Spiel |
 | :--- | :--- | :--- |
-| **Charging Network** | **OpenChargeMap** | Maps 12'481+ charging locations and 58'598+ individual charge points across 109 cities in 33 countries. |
-| **Electricity Spot Prices** | **ENTSO-E** | Dynamic, daily country-specific spot prices that dictate charging cost per kWh. |
-| **Road Routing** | **OSRM Server** | Self-hosted Open Source Routing Machine for accurate European road network distances. |
-| **Traffic & Congestion** | **HERE Traffic** | Live European traffic feeds and roadwork delays affecting transit times. |
-| **Topography & Elevation** | **SRTM Data** | Shuttle Radar Topography Mission elevation data; steep inclines drain battery range faster. |
-| **Weather Cycle** | **Live Temperature** | Real daily weather cycles; extreme cold or heat reduces battery efficiency and driving range. |
+| **Ladeinfrastruktur** | **OpenChargeMap** | Abbildung von 12'481+ Ladestandorten und 58'598+ einzelnen Ladepunkten in 109 Städten in 33 Ländern. |
+| **Strom-Spotpreise** | **ENTSO-E** | Dynamische, tägliche länderspezifische Spotpreise, die die Ladekosten pro kWh für jedes Land festlegen. |
+| **Straßenrouting** | **OSRM-Server** | Eigener Open-Source-Routing-Server für genaue europäische Straßennetz-Distanzen. |
+| **Verkehr & Staus** | **HERE Traffic** | Live-Europäischer Verkehrsfluss und aktive Baustellen, die Durchfahrtszeiten beeinflussen. |
+| **Topografie & Höhe** | **SRTM-Daten** | NASA Shuttle Radar Topography Mission 30-Meter-Mesh; steile Anstiege entleeren die Batterie schnell. |
+| **Wetterzyklus** | **Live-Temperatur** | Reale tägliche Wetterzyklen; extreme Kälte oder Hitze erhöhen den Batterie-Innenwiderstand. |
 
-### Charging Infrastructure (OpenChargeMap)
+### Ladeinfrastruktur (OpenChargeMap)
 
-VoltFracht utilizes real-world data from **OpenChargeMap** to plot actual heavy
-electric vehicle charging locations:
+VoltFracht nutzt Echtwelt-Daten von **OpenChargeMap**, um tatsächliche
+Standorte für schwere Elektrofahrzeuge abzubilden:
 
-* **Real Locations & Power Outputs**: Includes stations delivering up to
-  **600 kW** charging power.
-* **Plug Availability & Queueing**: Plug status (free/occupied) updates live.
-  If all plugs at a station are occupied, trucks wait with a live countdown
-  timer until a plug opens.
-* **Infrastructure Gaps**: In regions where real-world charging infrastructure
-  is sparse, charging stops require strategic range management.
+* **Reale Standorte & Leistungsdaten**: Enthält Stationen mit bis zu
+  **600 kW** Ladeleistung.
+* **Stecker-Verfügbarkeit & Warteschlangen**: Steckerstatus (frei/belegt)
+  aktualisiert sich in Echtzeit. Wenn alle Stecker an einer Station belegt
+  sind, warten LKWs mit einem Live-Countdown-Timer, bis ein Stecker frei wird.
+* **Infrastrukturlücken**: In Regionen, in denen die reale Ladeinfrastruktur
+  dünn ist, erfordern Ladestopps strategisches Reichweitenmanagement.
 
-### Dynamic Electricity Costs (ENTSO-E)
+### Dynamische Stromkosten (ENTSO-E)
 
-Charging expenses are governed by official daily electricity market data
-provided by **ENTSO-E** (European Network of Transmission System Operators
-for Electricity):
+Die Ladekosten werden durch offizielle tägliche Strommarktdaten von
+**ENTSO-E** (European Network of Transmission System Operators for
+Electricity) geregelt:
 
-* **Country-Specific Rates**: Electricity prices fluctuate daily depending on
-  the country where the truck charges.
-* **Margin Impact**: High electricity prices in certain countries directly
-  squeeze profit margins on long-distance cross-border runs.
+* **Länderspezifische Tarife**: Strompreise schwanken täglich in Abhängigkeit
+  vom nationalen Stromnetz, in dem der LKW geladen wird.
+* **Margenauswirkung**: Hohe Strompreise in bestimmten Ländern drücken
+  direkt die Gewinnmargen auf Langstrecken-Grenzüberschreitungen.
 
-### Topography & Weather Physics
+### Topografie & Wetterphysik
 
-* **SRTM Elevation**: Driving up mountain passes or steep gradients
-  significantly increases energy consumption per kilometer, while downhill
-  stretches allow energy recuperation.
-* **Weather Engine**: Real daily temperature cycles impact battery resistance
-  and cooling demand, factored directly into automated route planning.
+* **SRTM-Höhen**: Das Fahren beladener E-LKWs über Bergpässe oder steile
+  Steigungen erhöht den Energieverbrauch pro Kilometer erheblich, während
+  Gefällestrecken eine Energierückgewinnung ermöglichen.
+* **Wetter-Engine**: Reale tägliche Temperaturzyklen beeinflussen den
+  Batterie-Innenwiderstand und Kühlbedarf, die direkt in die automatisierte
+  Routenplanung einfließen.

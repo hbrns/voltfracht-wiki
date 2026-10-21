@@ -1,53 +1,57 @@
-# Tour through Europe
+# Tour durch Europa
 
-The **Tour through Europe** (*Tour durch Europa*) is a daily cooperative 
-syndicate event introduced in Version 0.18. It unites up to 10 member 
-companies within an alliance to complete a 20-stage logistics expedition 
-across European cities each day.
-
----
-
-## Event Mechanics & Daily Stages
-
-Every 24 hours, the game generates a fixed 20-stage route across European 
-transport corridors. The event combines shared progress tracking with 
-individual dispatch choices.
-
-* **Sequential Stage Chain**: The tour consists of 20 distinct delivery 
-  legs, spanning varied distances, cargo categories, and destination depots.
-* **Cooperative Stage Allocation**: Syndicate members select and claim 
-  available stages. Multiple players can work on different legs concurrently.
-* **Shared Progress Bar**: As members complete their assigned legs, the 
-  collective progress bar fills in real time for the entire alliance.
+Die **Tour durch Europa** (*Tour durch Europa*) ist ein tägliches
+kooperatives Syndikat-Event, das mit Version 0.18 eingeführt wurde. Es
+vereint bis zu 10 Mitgliederunternehmen in einem Bündnis, um eine
+20-Etappen-Logistikexpedition über europäische Städte jeden Tag abzuschließen.
 
 ---
 
-## Live Member Tracking
+## Event-Mechanik & Tägliche Etappen
 
-The Tour through Europe integrates directly into the global map interface, 
-offering real-time visual tracking of syndicate operations:
+Alle 24 Stunden generiert das Spiel eine feste 20-Etappen-Route über
+europäische Transportkorridore. Das Event kombiniert gemeinsame
+Fortschrittsverfolgung mit individuellen Dispatching-Entscheidungen.
 
-* **Live Vehicle Icons**: Members can view fellow syndicate trucks driving 
-  along their active tour routes in real time.
-* **Driver Tags & Routes**: Displays company names and active route vectors 
-  directly on the map during execution.
+* **Sequentielle Etappenkette**: Die Tour besteht aus 20 eindeutigen
+  Lieferetappen, die variierende Distanzen, Frachtkategorien und
+  Zieldepots umfassen.
+* **Kooperative Etappenzuweisung**: Syndikatmitglieder wählen und
+  beanspruchen verfügbare Etappen. Mehrere Spieler können gleichzeitig an
+  verschiedenen Etappen arbeiten.
+* **Gemeinsamer Fortschrittsbalken**: Wenn Mitglieder ihre zugewiesenen
+  Etappen abschließen, füllt sich der kollektive Fortschrittsbalken in
+  Echtzeit für das gesamte Bündnis.
 
 ---
 
-## Milestone Tier Rewards & Prestige
+## Live-Mitgliederverfolgung
 
-Completing stages unlocks shared milestone rewards for all participating 
-alliance members.
+Die Tour durch Europa integriert sich direkt in die globale Kartenoberfläche
+und bietet Echtzeit-Visuelle Verfolgung der Syndikatoperationen:
 
-| Completed Stages | Reward Payouts Included |
+* **Live-Fahrzeugsymbole**: Mitglieder können andere Syndikat-LKWs während
+  ihrer aktiven Tourrouten in Echtzeit auf der Karte fahren sehen.
+* **Fahrertags & Routen**: Zeigt Unternehmensnamen und aktive Routenvektoren
+  direkt auf der Karte während der Ausführung an.
+
+---
+
+## Meilenstein-Stufenbelohnungen & Prestige
+
+Das Abschließen von Etappen schaltet gemeinsame Meilenstein-Belohnungen für
+alle teilnehmenden Bündnismitglieder frei.
+
+| Abgeschlossene Etappen | Belohnungsauszahlungen |
 | :--- | :--- |
-| **5 Stages** | Virtual Cash (€), Coins (★) & Syndicate Prestige XP |
-| **10 Stages** | Virtual Cash (€), Coins (★) & Syndicate Prestige XP |
-| **15 Stages** | Virtual Cash (€), Coins (★) & Syndicate Prestige XP |
-| **20 Stages (Full Tour)** | Maximum Cash, Coins, & Full Syndicate Prestige Bonus |
+| **5 Etappen** | Virtuelles Bargeld (€), Coins (★) & Syndikat-Prestige-XP |
+| **10 Etappen** | Virtuelles Bargeld (€), Coins (★) & Syndikat-Prestige-XP |
+| **15 Etappen** | Virtuelles Bargeld (€), Coins (★) & Syndikat-Prestige-XP |
+| **20 Etappen (Vollständige Tour)** | Maximales Bargeld, Coins & Vollständiger Syndikat-Prestige-Bonus |
 
-### Reward Notifications
+### Belohnungsbenachrichtigungen
 
-Whenever a syndicate hits a milestone threshold (5, 10, 15, or 20 stages), 
-all participating members receive an automated in-game message and alert, 
-allowing them to claim their share of cash, coins, and prestige experience.
+Wann immer ein Syndikat einen Meilenstein (5, 10, 15 oder 20 Etappen) erreicht,
+erhalten alle teilnehmenden Mitglieder eine automatische In-Game-Nachricht und
+Benachrichtigung, die es ihnen ermöglicht, ihren Anteil an Bargeld, Coins
+und Prestige-Erfahrung einzufordern.

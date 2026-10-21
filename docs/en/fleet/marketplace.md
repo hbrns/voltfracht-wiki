@@ -52,8 +52,8 @@ Dispatchers have two distinct methods for liquidating fleet assets:
 * **Availability**: Unlocked at all levels directly from the Depot or Hall.
 * **Valuation**: Payout is calculated dynamically based on vehicle mileage, 
   battery degradation, and model class.
-* **Speed**: Instant cash settlement directly into company funds without listing 
-  delays.
+* **Speed**: Instant cash settlement directly into company funds
+  without listing delays.
 
 ### P2P Marketplace Sale
 

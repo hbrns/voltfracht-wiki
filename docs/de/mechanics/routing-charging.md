@@ -1,89 +1,92 @@
-# Routing & Charging Mechanics
+# Routing & Lademechanik
 
-In VoltFracht, your electric trucks navigate European road networks
-autonomously once dispatched. Successful logistics dispatching relies on
-understanding how battery state-of-charge (SoC), topography, weather, and
-charging station availability interact along the route.
-
----
-
-## 1. Autonomous Route Planning & OSRM
-
-VoltFracht utilizes a self-hosted Open Source Routing Machine (OSRM) server
-to calculate real-world truck paths across 33 European nations.
-
-* **Turn-by-Turn Navigation**: Trucks follow real road geometry rather than
-  straight-line distances.
-* **Live Traffic Delays**: Real-time traffic feeds from HERE Technologies adjust
-  estimated travel durations and introduce congestion delays.
-* **Automatic Stop Selection**: The routing engine calculates energy demand
-  and places mandatory charging stops before the vehicle's battery depletes.
+In VoltFracht navigieren deine elektrischen LKWs europäische Straßennetze
+autonom, sobald sie entsandt werden. Erfolgreiches Logistik-Dispatching basiert
+darauf, wie Ladezustand (SoC), Topografie, Wetter und Ladesäulenverfügbarkeit
+entlang der Route interagieren.
 
 ---
 
-## 2. Battery State-of-Charge & Energy Physics
+## 1. Autonomes Routenplanung & OSRM
 
-A vehicle's effective driving range is dynamically calculated based on three
-core physical factors:
+VoltFracht nutzt einen selbstgehosteten Open-Source-Routing-Server (OSRM),
+um reale LKW-Pfade über 33 europäische Nationen zu berechnen.
 
-| Factor | Primary Driver | In-Game Simulation Effect |
+* **Kurvengenaue Navigation**: LKWs folgen der realen Straßengeometrie und
+  nicht Luftlinienentfernungen.
+* **Live-Verkehrsverzögerungen**: Echtzeit-Verkehrsfeeds von HERE Technologies
+  passen die geschätzten Fahrtdauern an und führen Stauverzögerungen ein.
+* **Automatische Stopauswahl**: Die Routing-Engine berechnet den Energiebedarf
+  und platziert zwingende Ladestopps, bevor die Batterie des Fahrzeugs erschöpft
+  ist.
+
+---
+
+## 2. Batterieladezustand & Energiephysik
+
+Die effektive Fahrreichweite eines Fahrzeugs wird dynamisch basierend auf
+drei Kerneinflussfaktoren berechnet:
+
+| Faktor | Primärer Antrieb | Auswirkung im Spiel |
 | :--- | :--- | :--- |
-| **Payload Weight** | Cargo tonnage class (7.5t–44t) | Heavier freight increases energy consumption per kilometer. |
-| **SRTM Topography** | Mountain pass elevation data | Uphill climbs drain battery power rapidly; downhill sections recuperate energy. |
-| **Weather Cycle** | Daily temperature fluctuations | Extreme cold or heat increases internal battery resistance and HVAC power draw. |
+| **Nutzlastgewicht** | Tonnageklasse (7,5 t–44 t) | Schwere Fracht erhöht den Energieverbrauch pro Kilometer. |
+| **SRTM-Topografie** | Bergpass-Höhendaten | Bergauffahrten entleeren die Batterie schnell; Bergabfahrten ermöglichen Energierückgewinnung. |
+| **Wetterzyklus** | Tägliche Temperaturschwankungen | Extreme Kälte oder Hitze erhöhen den Batterie-Innenwiderstand und den HVAC-Stromverbrauch. |
 
-### Mountain Elevation (SRTM)
+### Berg-Höhen (SRTM)
 
-Using NASA Shuttle Radar Topography Mission elevation models, driving over
-mountain passes like the Alps or Pyrenees consumes up to double the normal
-kWh per kilometer during climbs. Conversely, steep descents trigger
-regenerative braking, feeding electricity back into the battery pack.
+Unter Verwendung von NASA Shuttle Radar Topography Mission-Höhenmodellen
+verbraucht das Fahren über Bergpässe wie die Alpen oder Pyrenäen bis zum
+Doppelten der normalen kWh pro Kilometer bei Steigungen. Umgekehrt lösen
+steile Gefälle die Rekuperationsbremse aus und speisen Elektrizität zurück
+in den Akku.
 
-### Temperature & HVAC Impact
+### Temperatur & HVAC-Auswirkung
 
-The internal weather engine simulates real European daily temperature cycles.
-Low ambient temperatures reduce chemical battery efficiency and require
-battery pre-heating, while hot summer days trigger high cooling demands. Both
-extremes shorten the vehicle's maximum range between charges.
-
----
-
-## 3. Charging Infrastructure & OpenChargeMap
-
-VoltFracht maps over 12'000 real-world European charging locations and 58'000
-charge points using OpenChargeMap infrastructure data.
-
-### Charging Power & Speeds
-
-Charging stations offer varying maximum power outputs ranging up to 600 kW.
-A higher kilowatt output significantly reduces the time your truck remains
-stationary at a charging station.
-
-### Live Plug Status & Queueing
-
-Every charging location tracks real-time plug occupancy:
-
-* **Free Plugs**: The truck hooks up immediately and begins charging.
-* **Occupied Plugs**: If all plugs are busy upon arrival, the truck enters a
-  waiting queue with a live countdown timer until a charging bay opens.
-
-### ENTSO-E Electricity Costs
-
-Charging expenses are calculated dynamically based on daily spot market
-electricity prices provided by ENTSO-E. Charging in countries with high
-spot prices directly increases operational expenses and reduces profit
-margins.
+Die interne Wetter-Engine simuliert reale tägliche europäische Temperaturzyklen.
+Niedrige Umgebungstemperaturen verringern die chemische Batterieeffizienz und
+erfordern Batterie-Vorwärmung, während heiße Sommertage hohen Kühlbedarf
+auslösen. Beide Extreme verkürzen die maximale Reichweite des Fahrzeugs
+zwischen den Ladungen.
 
 ---
 
-## 4. Low power (Map-Off Battery Saver)
+## 3. Ladeinfrastruktur & OpenChargeMap
 
-To optimize your device performance and battery consumption during long game
-sessions, VoltFracht features **Low power** mode.
+VoltFracht kartiert über 12'000 reale europäische Ladestandorte und 58'000
+Ladepunkte mit OpenChargeMap-Infrastrukturdaten.
 
-* **Map Disabling**: Toggling low power turns off intensive 3D map rendering vs.
-  map on.
-* **Client Performance**: Drastically reduces GPU/CPU workload and battery
-  drain on mobile devices and web browsers.
-* **Background Simulation**: Trucks continue driving, charging, and earning
-  revenue with full precision while low power mode is active.
+### Ladeleistung & -geschwindigkeiten
+
+Ladestationen bieten unterschiedliche maximale Leistungsabgaben von bis zu
+600 kW. Eine höhere Kilowatt-Leistung verkürzt die Zeit, die dein LKW an einer
+Ladestation steht, deutlich.
+
+### Live-Steckerstatus & Warteschlangen
+
+Jeder Ladestandort verfolgt die Echtzeit-Steckerbelegung:
+
+* **Freie Stecker**: Der LKW schaltet sich sofort an und beginnt mit dem Laden.
+* **Belegte Stecker**: Wenn alle Stecker bei Ankunft belegt sind, tritt der LKW
+  in eine Warteschlange mit einem Live-Countdown-Timer ein, bis ein Ladeplatz
+  frei wird.
+
+### ENTSO-E-Stromkosten
+
+Die Ladekosten werden dynamisch basierend auf den täglichen Spotmarkt-
+Strompreisen von ENTSO-E berechnet. Das Laden in Ländern mit hohen
+Spotpreisen erhöht die Betriebskosten direkt und verringert die Gewinnmargen.
+
+---
+
+## 4. Sparmodus (Karte aus / Akku-Sparmodus)
+
+Um die Geräteleistung und den Akkuverbrauch während langer Spielsitzungen
+zu optimieren, verfügt VoltFracht über den **Sparmodus**.
+
+* **Kartendeaktivierung**: Das Umschalten in den Sparmodus schaltet die
+  intensivere 3D-Kartenrendering aus vs. Karte an.
+* **Client-Leistung**: Reduziert die GPU-/CPU-Auslastung und den Akkuverbrauch
+  auf Mobilgeräten und Webbrowsern deutlich.
+* **Hintergrundsimulation**: LKWs fahren weiter, laden und verdienen Einnahmen
+  mit voller Präzision, während der Sparmodus aktiv ist.

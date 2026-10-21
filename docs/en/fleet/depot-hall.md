@@ -18,7 +18,21 @@ simultaneously assigned to freight runs.
 * **Level Progression**: Company levels scale directly with depot expansions
   (for example, purchasing a 2nd depot slot raises your company to Level 2).
 * **Capital Investments**: Higher depot slots require progressive cash (€) or
-  Coin investments up to Level 8.
+  Coin investments.
+
+### Economic Fair-Play Rules
+
+To maintain competitive leaderboard integrity:
+
+* **No Currency Conversion**: In-game Coins cannot be converted into virtual
+  Euro cash balance. Implemented 30 September 2026 to prevent ranking
+  exploitation.
+* **Depot Upgrade Cap**: Depot capacity upgrades via Coins are capped at
+  Level 8. Depot slots from Level 9 onwards must be funded exclusively
+  through earned freight revenue (€).
+
+For complete economic and anti-cheat policies, see
+[Economy & Fair-Play Guidelines](../economy/fair-play.md).
 
 | Depot Slot / Level | Slot Role & Fleet Limit | Primary Function |
 | :--- | :--- | :--- |

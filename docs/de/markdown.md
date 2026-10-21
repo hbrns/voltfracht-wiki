@@ -1,111 +1,111 @@
-<!-- ---
+---
 icon: simple/markdown
---- -->
+---
 
-# Markdown in 5min
+# Markdown in 5 Minuten
 
-## Headers
-
-```
-# H1 Header
-## H2 Header
-### H3 Header
-#### H4 Header
-##### H5 Header
-###### H6 Header
-```
-
-## Text formatting
+## Überschriften
 
 ```
-**bold text**
-*italic text*
-***bold and italic***
-~~strikethrough~~
-`inline code`
+# Überschrift H1
+## Überschrift H2
+### Überschrift H3
+#### Überschrift H4
+##### Überschrift H5
+###### Überschrift H6
 ```
 
-## Links and images
+## Textformatierung
 
 ```
-[Link text](https://example.com)
-[Link with title](https://example.com "Hover title")
-![Alt text](image.jpg)
-![Image with title](image.jpg "Image title")
+**Fett**
+*Kursiv*
+***Fett und kursiv***
+~~Durchgestrichen~~
+`Inline-Code`
 ```
 
-## Lists
+## Links und Bilder
 
 ```
-Unordered:
-
-- Item 1
-- Item 2
-  - Nested item
-
-Ordered:
-
-1. First item
-2. Second item
-3. Third item
+[Linktext](https://example.com)
+[Link mit Titel](https://example.com "Hover-Titel")
+![Alt-Text](image.jpg)
+![Bild mit Titel](image.jpg "Bildtitel")
 ```
 
-## Blockquotes
+## Listen
 
 ```
-> This is a blockquote
-> Multiple lines
->> Nested quote
+Ungeordnet:
+
+- Element 1
+- Element 2
+  - Verschachteltes Element
+
+Geordnet:
+
+1. Erstes Element
+2. Zweites Element
+3. Drittes Element
 ```
 
-## Code blocks
+## Blockzitate
+
+```
+> Dies ist ein Blockzitat
+> Mehrere Zeilen
+>> Verschachteltes Zitat
+```
+
+## Codeblöcke
 
 ````
 ```javascript
 function hello() {
-  console.log("Hello, world!");
+  console.log("Hallo Welt!");
 }
 ```
 ````
 
-## Tables
+## Tabellen
 
 ```
-| Header 1 | Header 2 | Header 3 |
+| Spalte 1 | Spalte 2 | Spalte 3 |
 |----------|----------|----------|
-| Row 1    | Data     | Data     |
-| Row 2    | Data     | Data     |
+| Zeile 1   | Daten    | Daten    |
+| Zeile 2   | Daten    | Daten    |
 ```
 
-## Horizontal rule
+## Horizontale Linie
 
 ```
 ---
-or
+oder
 ***
-or
+oder
 ___
 ```
 
-## Task lists
+## Aufgabenlisten
 
 ```
-- [x] Completed task
-- [ ] Incomplete task
-- [ ] Another task
+- [x] Erledigte Aufgabe
+- [ ] Unerledigte Aufgabe
+- [ ] Weitere Aufgabe
 ```
 
-## Escaping characters
+## Sonderzeichen maskieren
 
 ```
-Use backslash to escape: \* \_ \# \`
+Verwende Backslash zum Maskieren: \* \_ \# \`
 ```
 
-## Line breaks
+## Zeilenumbrüche
 
 ```
-End a line with two spaces  
-to create a line break.
+Beende eine Zeile mit zwei Leerzeichen  
+um einen Zeilenumbruch zu erzeugen.
 
-Or use a blank line for a new paragraph.
+Oder verwende eine Leerzeile für einen neuen Absatz.
 ```

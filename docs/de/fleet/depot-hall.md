@@ -1,56 +1,78 @@
-# Depot & The Hall
+# Depot & Die Halle
 
-Managing fleet capacity efficiently is key to scaling logistics operations
-in VoltFracht. Your home depot governs active vehicle deployment, while The
-Hall serves as long-term storage for inactive trucks.
+Die effiziente Verwaltung der Flottenkapazität ist der Schlüssel zum Skalieren
+der Logistikoperationen in VoltFracht. Ihr Heimmdepot steuert die aktive
+Fahrzeugbereitstellung, während die Halle als Langzeitspeicher für inaktive LKWs
+dient.
 
 ---
 
-## 1. Depot Capacity & Level Scaling
+## 1. Depot-Kapazität & Level-Skalierung
 
-Your depot dictates the maximum number of active e-trucks that can be
-simultaneously assigned to freight runs.
+Ihr Depot bestimmt die maximale Anzahl aktiver E-LKWs, die gleichzeitig für
+Frachtfahrten eingesetzt werden können.
 
-### Company Leveling & Slot Upgrades
+### Unternehmens-Level & Stellplatz-Upgrades
 
-* **Slot Scaling**: Every additional depot slot unlocked increases your max
-  active fleet size.
-* **Level Progression**: Company levels scale directly with depot expansions
-  (for example, purchasing a 2nd depot slot raises your company to Level 2).
-* **Capital Investments**: Higher depot slots require progressive cash (€) or
-  Coin investments up to Level 8.
+* **Stellplatz-Skalierung**: Jeder zusätzliche Depot-Stellplatz erhöht Ihre
+  maximale aktive Flottengröße.
+* **Level-Fortschritt**: Unternehmenslevel skalieren direkt mit
+  Depot-Erweiterungen (z. B. der Kauf eines 2. Depot-Stellplatzes erhöht Ihr
+  Unternehmen auf Level 2).
+* **Kapitalinvestitionen**: Höhere Depot-Stellplätze erfordern progressive
+  Barzahlungen (€) oder Coin-Investitionen.
 
-| Depot Slot / Level | Slot Role & Fleet Limit | Primary Function |
+### Wirtschaftliche Fair-Play-Regeln
+
+Um die Wettbewerbsintegrität in den Ranglisten zu wahren:
+
+* **Keine Währungsumwandlung**: In-Game-Coins können nicht in virtuelle
+  Euro-Bargeldbestände umgewandelt werden. Implementiert am 30. September 2026,
+  um Ranglisten-Manipulation zu verhindern.
+* **Depot-Aufwertungslimit**: Depot-Kapazitätserweiterungen mit Coins sind auf
+  **Level 8 begrenzt**. Depot-Stellplätze ab Level 9 müssen ausschließlich
+  durch erwirtschaftete Frachteinnahmen (€) finanziert werden.
+
+Für vollständige wirtschaftliche und Anti-Cheat-Richtlinien siehe
+[Wirtschaft & Fair-Play-Richtlinien](../economy/fair-play.md).
+
+| Depot-Stellplatz / Level | Stellplatz-Rolle & Flottenlimit | Primäre Funktion |
 | :--- | :--- | :--- |
-| **Level 1** | 1 Active Truck | Starter operations with 7.5t e-truck |
-| **Levels 2–5** | 2–5 Active Trucks | Regional expansion & 18t/26t class additions |
-| **Levels 6–10** | 6–12 Active Trucks | Enterprise fleet dispatching & 44t heavy haul |
+| **Level 1** | 1 Aktiver LKW | Starter-Operationen mit 7,5t-E-LKW |
+| **Levels 2–5** | 2–5 Aktive LKWs | Regionale Erweiterung & 18t/26t-Klassen-Zusätze |
+| **Levels 6–10** | 6–12 Aktive LKWs | Unternehmens-Flotten-Dispatching & 44t-Schwertransport |
 
 ---
 
-## 2. The Hall
+## 2. Die Halle
 
-**The Hall** is a dedicated vehicle storage facility that operates alongside
-active depot slots.
+**Die Halle** ist eine dedizierte Fahrzeugspeichereinrichtung, die parallel zu
+den aktiven Depot-Stellplätzen betrieben wird.
 
-### Purpose of Vehicle Storage
+### Zweck der Fahrzeugspeicherung
 
-* **Slot Liberation**: Storing an e-truck in The Hall immediately frees up an
-  active depot slot for new vehicle purchases without forcing a sale.
-* **Value & Mileage Preservation**: Stored trucks are completely paused,
-  preserving their mileage, battery condition, and resale valuation.
-* **Collector Preservation**: Provides safe storage for rare or event-exclusive
-  models (such as the Spectre Halloween edition or Early Bird 7S).
+* **Stellplatz-Freigabe**: Das Einlagern eines E-LKWs in der Halle befreit
+  sofort einen aktiven Depot-Stellplatz für neue Fahrzeugkäufe, ohne einen
+  Verkauf zu erzwingen.
+* **Wert- & Kilometerstand-Erhaltung**: Eingelagerte LKWs werden komplett
+  pausiert, was deren Kilometerstand, Batteriezustand und Wiederverkaufswert
+  erhält.
+* **Sammlerfahrzeug-Erhaltung**: Bietet sichere Aufbewahrung für seltene oder
+  exklusive Event-Modelle (wie z. B. die Spectre Halloween Edition oder
+  Early Bird 7S).
 
 ---
 
-## 3. Storage Rules & Workflow
+## 3. Speicherregeln & Arbeitsablauf
 
-Managing vehicles between active depot slots and The Hall follows simple rules:
+Die Verwaltung von Fahrzeugen zwischen aktiven Depot-Stellplätzen und der Halle
+folgt einfachen Regeln:
 
-1. **Status Requirement**: A truck must be idle in a depot and not currently
-   en route or carrying active cargo to be moved to The Hall.
-2. **Re-activation**: To transfer a truck back from The Hall into service,
-   at least one active depot slot must be vacant.
-3. **Marketplace Trading**: Vehicles stored in The Hall can also be listed
-   directly on the Used Truck Marketplace if account requirements are met.
+1. **Statusanforderung**: Ein LKW muss im Depot rupten und darf nicht
+   unterwegs sein oder aktive Fracht transportieren, um in die Halle bewegt
+   werden zu können.
+2. **Reaktivierung**: Um einen LKW aus der Halle zurück in den Dienst zu
+   übernehmen, muss mindestens ein aktiver Depot-Stellplatz frei sein.
+3. **Marktplatzhandel**: In der Halle eingelagerte Fahrzeuge können auch
+   direkt auf dem Gebrauchtwagenmarkt gelistet werden, wenn die
+   Kontoanforderungen erfüllt sind.
