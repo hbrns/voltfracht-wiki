@@ -62,37 +62,37 @@ den Syndikatswettbewerb zu meistern:
 
 === "1. Erste Schritte & Mechaniken"
 
-* [**Übersicht & Onboarding**](getting-started/overview.md): Wähle dein
-  Startdepot, nutze Startkapital und kaufe deine ersten 7,5 t E-LKWs.
-* [**Frachtenbörse & Ladung**](mechanics/freight-exchange.md): Filtere
-  Aufträge nach Tonnageklassen (7,5 t bis 44 t), Standard-, Kühl-,
-  Flüssig- und Gefahrgutfracht.
-* [**Routing & Laden**](mechanics/routing-charging.md): Verwalte den
-  Batterieladezustand, Wettereinflüsse und Steckerverfügbarkeit.
+    * [**Übersicht & Onboarding**](getting-started/overview.md): Wähle dein
+      Startdepot, nutze Startkapital und kaufe deine ersten 7,5 t E-LKWs.
+    * [**Frachtenbörse & Ladung**](mechanics/freight-exchange.md): Filtere
+      Aufträge nach Tonnageklassen (7,5 t bis 44 t), Standard-, Kühl-,
+      Flüssig- und Gefahrgutfracht.
+    * [**Routing & Laden**](mechanics/routing-charging.md): Verwalte den
+      Batterieladezustand, Wettereinflüsse und Steckerverfügbarkeit.
 
 === "2. Flotte, Markt & Wirtschaft"
 
-* [**Depot & Halle**](fleet/depot-hall.md): Erweitere die Depotkapazität
-  (Stufen 1–10) und lagere inaktive LKWs in der **Halle**, um Kilometerstand
-  und Stellplätze zu schonen.
-* [**Gebrauchtwagenmarkt**](fleet/marketplace.md): Regeln für den
-  P2P-Fahrzeughandel, Missbrauchsschutz-Preisobergrenzen (1,2-facher
-  Neupreislimit) und Stufenanforderungen.
-* [**Wirtschaft & Fair-Play**](economy/fair-play.md): In-Game-Währung,
-  optionales PRO-Abonnement (€4,99/Monat) und strenge
-  AGB-Anti-Bot-/Anti-Cheat-Regeln.
+    * [**Depot & Halle**](fleet/depot-hall.md): Erweitere die Depotkapazität
+      (Stufen 1–10) und lagere inaktive LKWs in der **Halle**, um Kilometerstand
+      und Stellplätze zu schonen.
+    * [**Gebrauchtwagenmarkt**](fleet/marketplace.md): Regeln für den
+      P2P-Fahrzeughandel, Missbrauchsschutz-Preisobergrenzen (1,2-facher
+      Neupreislimit) und Stufenanforderungen.
+    * [**Wirtschaft & Fair-Play**](economy/fair-play.md): In-Game-Währung,
+      optionales PRO-Abonnement (€4,99/Monat) und strenge
+      AGB-Anti-Bot-/Anti-Cheat-Regeln.
 
 === "3. Syndikate & Updates"
 
-* [**Syndikate & Herausforderungen**](syndicates/challenges.md): Schließe
-  dich in Bündnissen aus 10 Unternehmen zusammen, trete in 17 Aufstiegsligen
-  an und weise Rollen (*Schatzmeister*) zu.
-* [**Tour durch Europa**](syndicates/tour-through-europe.md): Tägliches
-  kooperatives 20-Etappen-Syndikatsevent mit Live-Kartenverfolgung und
-  Stufenbelohnungen.
-* [**Release-Protokoll & Roadmap**](references/changelog.md): Verfolge
-  Release-Updates und zukünftige Funktionen (Fahrerschulung, Mehrfaches Depot,
-  Schwertransport).
+    * [**Syndikate & Herausforderungen**](syndicates/challenges.md): Schließe
+      dich in Bündnissen aus 10 Unternehmen zusammen, trete in 17 Aufstiegsligen
+      an und weise Rollen (*Schatzmeister*) zu.
+    * [**Tour durch Europa**](syndicates/tour-through-europe.md): Tägliches
+      kooperatives 20-Etappen-Syndikatsevent mit Live-Kartenverfolgung und
+      Stufenbelohnungen.
+    * [**Release-Protokoll & Roadmap**](references/changelog.md): Verfolge
+      Release-Updates und zukünftige Funktionen (Fahrerschulung, Mehrfaches Depot,
+      Schwertransport).
 
 ---
 
