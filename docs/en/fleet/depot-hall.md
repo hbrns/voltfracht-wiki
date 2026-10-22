@@ -54,7 +54,9 @@ active depot slots.
 * **Value & Mileage Preservation**: Stored trucks are completely paused,
   preserving their mileage, battery condition, and resale valuation.
 * **Collector Preservation**: Provides safe storage for rare or event-exclusive
-  models (such as the Spectre Halloween edition or Early Bird 7S).
+  models (such as the [Spectre 7.5 t 2026](../vehicles/special-events.md#spectre-75-t-2026),
+  [Spectre 18 t 2026](../vehicles/special-events.md#spectre-18-t-2026) or
+  [Early Bird 7S](../vehicles/special-events.md#early-bird-7s-collector-vehicle)).
 
 ---
 

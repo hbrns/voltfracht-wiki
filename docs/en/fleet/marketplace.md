@@ -60,6 +60,7 @@ Dispatchers have two distinct methods for liquidating fleet assets:
 * **Availability**: Requires Level 3 company progression.
 * **Valuation**: Seller manually sets the asking price within the dynamic 
   price bounds (between instant-sell value and 1.2× new price).
-* **Flexibility**: Useful for trading rare collector vehicles (such as the 
-  *Early Bird 7S* or limited event trucks) whose market value exceeds standard 
-  depreciation curves.
+* **Flexibility**: Useful for trading rare collector vehicles (such as the
+  [Early Bird 7S](../vehicles/special-events.md#early-bird-7s-collector-vehicle)
+  or [limited event trucks](../vehicles/special-events.md)) whose market value
+  exceeds standard depreciation curves.

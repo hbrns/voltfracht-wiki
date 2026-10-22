@@ -1,4 +1,4 @@
-# VoltFracht-Wiki – Erste-Schritte-Anleitung
+# Erste-Schritte-Anleitung
 
 Willkommen bei **VoltFracht**, einem elektrischen Frachtdispatching- und
 Logistikmanagement-Simulationsspiel, das von Solo-Indie-Entwickler
@@ -41,13 +41,13 @@ Heimatland:
 In VoltFracht gewährt das Freischalten eines Landes automatisch operativen
 Zugang zu diesem Land **plus allen direkt angrenzenden Nachbarländern**.
 
-> **Optimaler Startstandort: Deutschland**
-> Bei der Wahl deines Start-Heimatdepots gilt **Deutschland** als mit Abstand
-> die beste Wahl. Da Deutschland Grenzen mit **9 Nachbarländern** teilt
-> (Dänemark, Polen, Tschechische Republik, Österreich, Schweiz, Frankreich,
-> Luxemburg, Belgien und Niederlande), gewährt die Auswahl eines deutschen
-> Heimatdepots sofortigen Zugang zu 10 europäischen Nationen ab Tag eins,
-> ohne Coins oder Kapital für neue Grenzen ausgeben zu müssen.
+!!! tip "Optimaler Startstandort: Deutschland"
+    Bei der Wahl deines Start-Heimatdepots gilt **Deutschland** als mit Abstand
+    die beste Wahl. Da Deutschland Grenzen mit **9 Nachbarländern** teilt
+    (Dänemark, Polen, Tschechische Republik, Österreich, Schweiz, Frankreich,
+    Luxemburg, Belgien und Niederlande), gewährt die Auswahl eines deutschen
+    Heimatdepots sofortigen Zugang zu 10 europäischen Nationen ab Tag eins,
+    ohne Coins oder Kapital für neue Grenzen ausgeben zu müssen.
 
 ---
 
@@ -58,10 +58,11 @@ Zugang zu diesem Land **plus allen direkt angrenzenden Nachbarländern**.
 Dein Unternehmen beginnt mit einem einzelnen 7,5-Tonner-E-LKW in deinem
 Heimatdepot und einem Startgeldbetrag.
 
-> **Empfehlung des Entwicklers**: Warte nicht untätig, bis dein erster LKW
-> seine Fahrt beendet hat! Nutze dein Startkapital sofort, um einen 2. oder
-> 3. 7,5t-LKW zu kaufen. Mehrere aktive Fahrzeuge von Anfang an beschleunigen
-den Geldfluss und steigern dein Unternehmen viel schneller.
+!!! tip "Empfehlung des Entwicklers"
+    Warte nicht untätig, bis dein erster LKW seine Fahrt beendet hat! Nutze dein
+    Startkapital sofort, um einen 2. oder 3. 7,5t-LKW zu kaufen. Mehrere aktive
+    Fahrzeuge von Anfang an beschleunigen den Geldfluss und steigern dein
+    Unternehmen viel schneller.
 
 ### Anfängerbonus (+10 %)
 
@@ -76,9 +77,9 @@ Finanzprotokollen aufgeschlüsselt.
   Unternehmenslevel (z. B. die Ausgabe von €250'000 für einen 2.
   Depot-Stellplatz erhöht dein Konto auf Level 2).
 * **Depot-Stellplätze**: Die Depotkapazität begrenzt die Anzahl aktiver,
-  dispatchbarer LKWs. Nicht benötigte Fahrzeuge können in **der Halle**
-  eingelagert werden, um Depot-Stellplätze freizugeben, ohne sie zu
-  verkaufen.
+  dispatchbarer LKWs. Nicht benötigte Fahrzeuge können in **der
+  [Halle](../fleet/depot-hall.md)** eingelagert werden, um Depot-Stellplätze
+  freizugeben, ohne sie zu verkaufen.
 
 ---
 
@@ -86,7 +87,7 @@ Finanzprotokollen aufgeschlüsselt.
 
 ```mermaid
 flowchart LR
-    A["Fracht<br/>aus Deals auswählen"]
+    A["Fracht<br/>aus 'Aufträge' auswählen"]
     B["Autonome Fahrt<br/>& Auto-Laden"]
     C["Auszahlung & Fortschritt<br/>Geld, Coins & XP"]
 

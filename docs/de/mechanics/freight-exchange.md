@@ -15,8 +15,8 @@ Frachttyp, Abfahrt, Ziel, Entfernung und finanzielle Erträge.
   "Wegschnappen" von Aufträgen durch andere verhindert wird.
 * **Anfängerauszahlungsbonus**: Neue Unternehmen erhalten einen +10 %-Bonus
   auf die Basissätze für ihre ersten 7 Tage.
-* **PRO-Mitgliedervorteile**: Aktive PRO-Abonnenten erhalten einen +25 %-Punktebonus
-  für abgeschlossene Fahrten.
+* **PRO-Mitgliedervorteile**: Aktive PRO-Abonnenten erhalten einen
+  +25 %-Punktebonus für abgeschlossene Fahrten.
 
 ---
 
@@ -67,9 +67,9 @@ Anzahl verfügbarer profitabler Aufträge zu erhöhen:
 
 Disponenten können die Auftragssuche mit integrierten Filterwerkzeugen verfeinern:
 
-* **Klappbarer Tonnage-Auswähler**: Filtere Aufträge nach exakter Fahrzeugklasse.
+* **Mehrfachauswahl-Tonnage**: Filtere Aufträge nach exakter Fahrzeugklasse.
 * **Mehrfachauswahl-Frachtgruppenfilter**: Zeige mehrere freigeschaltete
   Frachttypen an.
 * **Standortnähe**: Zeige Aufträge in der Nähe deines LKWs an.
-* **Standortentfernung**: Sortiere Aufträge nach Entfernung.
-* **Ertrags-Rendite-Sortierung**: Sortiere Aufträge nach Auszahlung.
+* **Entfernung**: Sortiere Aufträge nach Entfernung zwischen Start und Ziel.
+* **Ertrags-Rendite-Sortierung**: Sortiere Aufträge nach Auszahlungssumme.

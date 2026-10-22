@@ -13,9 +13,9 @@ um ihre Operationen auszubauen.
 Der P2P-Fahrzeughandel unterliegt spezifischen Freischaltungsstufen und
 Flottenstellplatz-Regeln:
 
-* **Level-3-Zugangssperre**: Der P2P-Handel auf dem Marktplatz wird freigeschaltet,
-  wenn ein Unternehmen **Level 3** erreicht. Unter Level 3 können Spieler neue
-  Modelle aus dem Showroom kaufen oder Sofortverkauf (*Sofortverkauf*) nutzen,
+* **Level-3-Zugangssperre**: Der P2P-Handel auf dem Marktplatz wird
+  freigeschaltet, wenn ein Unternehmen **Level 3** erreicht. Unter Level 3
+  können Spieler neue Modelle aus dem Showroom kaufen oder Sofortverkauf nutzen,
   können aber keine Fahrzeuge von anderen Spielern listen oder kaufen.
 * **Stellplatz-Freigabe beim Listenvorgang**: Sobald ein Fahrzeug auf dem
   Marktplatz gelistet wird, wird dessen aktiver Depot-Stellplatz sofort
@@ -48,9 +48,10 @@ Marktplatz-Transaktionen durch:
 
 ## 3. Sofortverkauf vs. Player-zu-Player-Handel
 
-Disponenten haben zwei verschiedene Methoden zur Liquidierung von Flottenvermögen:
+Disponenten haben zwei verschiedene Methoden zur Liquidierung von
+Flottenvermögen:
 
-### Sofortverkauf (*Sofortverkauf*)
+### Sofortverkauf
 
 * **Verfügbarkeit**: Auf allen Levels direkt aus Depot oder Halle freigeschaltet.
 * **Bewertung**: Auszahlung wird dynamisch basierend auf Fahrzeugkilometerstand,
@@ -64,5 +65,7 @@ Disponenten haben zwei verschiedene Methoden zur Liquidierung von Flottenvermög
 * **Bewertung**: Verkäufer setzt den Anfragepreis manuell innerhalb der
   dynamischen Preisspannen (zwischen Sofortverkaufswert und 1,2× Neupreis).
 * **Flexibilität**: Nützlich für den Handel mit seltenen Sammlerfahrzeugen (wie
-  z. B. *Early Bird 7S* oder limitierte Event-LKWs), deren Marktwert über
-  den Standard-Abschreibungskurven liegt.
+  zum Beispiel
+  [Early Bird 7S](../vehicles/special-events.md#early-bird-7s-sammlerfahrzeug)
+  oder [limitierte Event-LKWs](../vehicles/special-events.md)), deren Marktwert
+  über den Standard-Abschreibungskurven liegt.

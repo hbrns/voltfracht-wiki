@@ -105,7 +105,8 @@ Thermomanagement direkt.
   europäische Schwergutkorridore konfiguriert ist.
 * **HERE-Verkehrsfeeds**: Live-Verkehrsfluss und aktive Baustellen passen die
   Geschwindigkeitsprofile in Echtzeit an. Staus verlangsamen den Transit und
-  beeinflussen Lieferfristen und den Durchsatz täglicher Syndikat-Herausforderungen.
+  beeinflussen Lieferfristen und den Durchsatz täglicher
+  Syndikat-Herausforderungen.
 
 ---
 

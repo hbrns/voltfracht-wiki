@@ -60,7 +60,7 @@ Geografie-APIs abgerufen werden:
 Erkunde die Wiki-Abschnitte unten, um die Disposition von Elektroflotten und
 den Syndikatswettbewerb zu meistern:
 
-### "1. Erste Schritte & Mechaniken"
+=== "1. Erste Schritte & Mechaniken"
 
 * [**Übersicht & Onboarding**](getting-started/overview.md): Wähle dein
   Startdepot, nutze Startkapital und kaufe deine ersten 7,5 t E-LKWs.
@@ -70,7 +70,7 @@ den Syndikatswettbewerb zu meistern:
 * [**Routing & Laden**](mechanics/routing-charging.md): Verwalte den
   Batterieladezustand, Wettereinflüsse und Steckerverfügbarkeit.
 
-### "2. Flotte, Markt & Wirtschaft"
+=== "2. Flotte, Markt & Wirtschaft"
 
 * [**Depot & Halle**](fleet/depot-hall.md): Erweitere die Depotkapazität
   (Stufen 1–10) und lagere inaktive LKWs in der **Halle**, um Kilometerstand
@@ -79,9 +79,10 @@ den Syndikatswettbewerb zu meistern:
   P2P-Fahrzeughandel, Missbrauchsschutz-Preisobergrenzen (1,2-facher
   Neupreislimit) und Stufenanforderungen.
 * [**Wirtschaft & Fair-Play**](economy/fair-play.md): In-Game-Währung,
-  optionales PRO-Abonnement (€4,99/Monat) und strenge AGB-Anti-Bot-/Anti-Cheat-Regeln.
+  optionales PRO-Abonnement (€4,99/Monat) und strenge
+  AGB-Anti-Bot-/Anti-Cheat-Regeln.
 
-### "3. Syndikate & Updates"
+=== "3. Syndikate & Updates"
 
 * [**Syndikate & Herausforderungen**](syndicates/challenges.md): Schließe
   dich in Bündnissen aus 10 Unternehmen zusammen, trete in 17 Aufstiegsligen
@@ -97,26 +98,28 @@ den Syndikatswettbewerb zu meistern:
 
 ## ⚡ Schnellstart-Empfehlungen für neue Disponenten
 
-### Anfänger-Strategie
-
-1. **Wähle Deutschland als dein Heimatland**: Deutschland startet mit 9
-   freigeschalteten Nachbarländern, was dir die breitesten anfänglichen
-   Frachtoptionen bietet, ohne frühe Grenzerweiterungsgebühren zu zahlen.
-2. **Sofort reinvestieren**: Warte nicht, bis dein erster LKW seine Rückfahrt
-   beendet hat. Nutze dein Startkapital, um sofort einen zweiten oder dritten
-   7,5 t-LKW zu kaufen und den Umsatzfluss zu maximieren.
-3. **Achte auf Frachtfilter**: Wenn keine profitablen Routen angezeigt werden,
-   überprüfe deine Frachtfilter. Das Freischalten zusätzlicher Frachtgruppen
-   (Kühlgut, Gefahrgut, Flüssigkeiten) eröffnet deutlich mehr Frachtauswahl als
-   das reine Hochstufen der Tonnageklassen.
+!!! tip "Anfänger-Strategie"
+    1. **Wähle Deutschland als dein Heimatland**: Deutschland startet mit 9
+       freigeschalteten Nachbarländern, was dir die breitesten anfänglichen
+       Frachtoptionen bietet, ohne frühe Grenzerweiterungsgebühren zu zahlen.
+    2. **Sofort reinvestieren**: Warte nicht, bis dein erster LKW seine
+       Rückfahrt beendet hat. Nutze dein Startkapital, um sofort einen zweiten
+       oder dritten 7,5 t-LKW zu kaufen und den Umsatzfluss zu maximieren.
+    3. **Achte auf Frachtfilter**: Wenn keine profitablen Routen angezeigt
+       werden, überprüfe deine Frachtfilter. Das Freischalten zusätzlicher
+       Frachtgruppen (Kühlgut, Gefahrgut, Flüssigkeiten) eröffnet deutlich mehr
+       Frachtauswahl als das reine Hochstufen der Tonnageklassen.
 
 ---
 
 ## 🤝 Community & Offizielle Kanäle
 
-* **Web-Client**: [voltfracht.sgio.app](https://voltfracht.sgio.app/)
-* **Offizieller Discord**: [Dem Community-Server beitreten](https://discord.gg/dVH4Hj5wVM)
+* **Offizieller Discord**: :fontawesome-brands-discord:{ .discord } [Join the
+  Community Server](https://discord.gg/dVH4Hj5wVM)
 * **Social-Media-Kanäle**:
+  :fontawesome-brands-instagram:{ .instagram }
   [Instagram](https://www.instagram.com/voltfracht) |
+  :fontawesome-brands-youtube:{ .youtube }
   [YouTube](https://www.youtube.com/@VoltFracht) |
+  :fontawesome-brands-tiktok:{ .tiktok }
   [TikTok](https://www.tiktok.com/@voltfracht)

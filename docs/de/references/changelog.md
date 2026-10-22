@@ -1,7 +1,8 @@
 # Release-Protokoll & Entwickler-Roadmap
 
-Verfolge die Versionsverlaufshistorie, wichtige Feature-Updates und zukünftige
-Entwicklungspläne für VoltFracht, die europäische Elektro-Logistik-Simulation.
+Verfolge die Versionsverlaufshistorie, wichtige Feature-Updates und
+zukünftige Entwicklungspläne für VoltFracht, die europäische
+Elektro-Logistik-Simulation.
 
 ---
 
@@ -54,7 +55,7 @@ Zusammenarbeit mit der Spieler-Community. Hier ist die aktuelle Feature-Roadmap:
 Veröffentlicht am 18. Oktober 2026 für Web, Mobile-Builds folgen nach
 Web-Stabilisierung.
 
-**Kernfunktionen:**
+#### Kernfunktionen
 
 | Funktionskategorie | Wichtige Verbesserungen |
 | :--- | :--- |
@@ -63,16 +64,34 @@ Web-Stabilisierung.
 | **Sparmodus** | Kartenlose Rendering-Modus zur Eliminierung der 3D-GPU-Last, Reduzierung der Geräteerwärmung und Akkueinsparung während langer autonomer Fahrten. Volle Funktionalität für Routenverwaltung, Ladekontrolle und HUD. |
 | **Syndikatsrollen** | **Schatzmeister (*Kassenwart*)**-Rolle mit Finanzverwaltungsberechtigungen, 10-fache Gemeinschaftskassen-Erweiterung, Ein-Klick-Massen-Spenden, Leiter-Kronen-Symbol (*Krone*) und automatisierte Warnbanner für Syndikatsevents. |
 | **Supportsystem** | Direkte In-Game-Antworten des Entwicklers auf Fehlerberichte mit Push-Benachrichtigungen, plus eindeutige Belegnummern für Finanzprüfungen. |
-| **Flotten-Speicher** | Sofortiger Fahrzeugverkauf direkt aus **der Halle (*Die Halle*)**, Kauf von Marktplatz-LKWs direkt in die Lagerung, individuelle LKW-Benennung. |
+| **Flotten-Speicher** | Sofortiger Fahrzeugverkauf direkt aus **[der Halle](../fleet/depot-hall.md)**, Kauf von Marktplatz-LKWs direkt in die Lagerung, individuelle LKW-Benennung. |
 | **Wettersystem** | Echter Tagesgang mit Temperatureffekten. Kälte und Hitze reduzieren die Reichweite, Routenplaner berücksichtigt Wetterauswirkungen automatisch. |
 
-**Patch-Updates:**
+#### Patch-Updates
 
-- **0.18.376 & 0.18.377** (21. Oktober 2026)
+##### **0.18.382** (22. Oktober 2026)
+
+  - **Ladestopp-Besitz**: Benutzerbearbeitete Stopps (Säulentausch oder
+    Zielladestand angepasst) zeigen nun ein Handsymbol und werden beim
+    Umplanen beibehalten. Der Planer fügt bei Bedarf Zwischensopps ein,
+    statt Benutzerstopps zu ersetzen.
+  - **Stopp entfernen**: Neuer Button "Stopp entfernen" ermöglicht das Löschen
+    überflüssiger Ladestopps ohne kompletten Routenaufbau. Der Planer
+    verhindert das Entfernen nur, wenn der Stopp wirklich benötigt wird.
+  - **UI-Fixes**: Gestrichelte Linie zeigt zuverlässig Leerfahrten zu
+    Ladestationen. Kilometerangaben sind jetzt überall gleich geschrieben.
+  - **Mobile-Apps**: Neue Builds wurden an die Android- und iOS-Stores
+    eingereicht. Diese enthalten alle 0.18-Funktionen (Tour durch Europa,
+    Spartopf, Gebrauchtwagenkauf direkt in die Halle, Warteschlangen bei
+    belegten Säulen mit Countdown, Benachrichtigungen je Kategorie sowie
+    die neue Ladeplanung). Release-Zeitpunkt hängt von Store-Prüfung ab.
+
+##### **0.18.376 & 0.18.377** (21. Oktober 2026)
+
   - **Fähren**: Behebung des Fähr-Symbols, das fälschlich 15 km vor und nach
     jeder Überfahrt galt (30 km reine Landstraße ohne Stromverbrauch). Ab
     jetzt zählt nur die eigentliche Überfahrt: auf dem Schiff kostet es nichts,
-    auf der Straße schon. Betrifft ca. 12'500 km an Fährenrouten.
+    auf der Straße schon. Betrifft ca. 12'500 km an Fähren-Routen.
   - **Gebrauchtmarkt**: LKWs können nun direkt in die Halle gekauft werden.
     Slotzählweise wie im Shop: eingelagerte LKWs blockieren keine Depotplätze.
   - **Ladestopps**: Unerreichbarkeitsberechnungen für Säulentausch korrigiert.
@@ -83,7 +102,8 @@ Web-Stabilisierung.
     Feedback. Alle vier Benachrichtigungskategorien zugänglich.
   - **Android**: Google-Login-Defekt behoben (erfordert Store-Update).
 
-- **0.18.362** (20. Oktober 2026)
+##### **0.18.362** (20. Oktober 2026)
+
   - **Ladestopps umplanen**: Säulentausch-Reichweitenberechnungen korrigiert.
     Live-Steckerverfügbarkeit. Wunsch-Säulen können weiter abseits liegen.
   - **Frachtenbörse**: "Nur mein Standort" findet nun Ladestationen-Nähe.
@@ -93,7 +113,8 @@ Web-Stabilisierung.
   - **UI**: Weiße Tour-Ketten wiederhergestellt. Boost-Benachrichtigungen
     am Aktionsknopf.
 
-- **0.18.315** (18. Oktober 2026)
+##### **0.18.315** (18. Oktober 2026)
+
   - **Routen**: Calais-Grenze behoben (38 Säulen als Insel-Effekt).
     Anzeige der tatsächlichen Route-Distanz (Split-Bari: 272 km→1'441 km).
   - **Syndikat & Tour**: Tour-Linie unabhängig vom Syndikatszugriff sichtbar.
@@ -101,7 +122,7 @@ Web-Stabilisierung.
   - **Dealmaker**: Nachfragekurve-Spitzen wiederhergestellt.
   - **UI**: Mehrere Fenster-, Hallen-, Navigations-Fixes.
 
-**Veröffentlichungsprozess**: Version 0.18 durchlief 5–7 Tage internen Test
+**Veröffentlichungsprozess**: Version 0.18 durchlief 5-7 Tage internen Test
 mit Community-Teilnehmern auf dem Testserver vor Web-Release. Mobile
 Store-Builds folgen nach Web-Stabilisierung und Fehlerbehebung.
 
@@ -111,7 +132,8 @@ Store-Builds folgen nach Web-Stabilisierung und Fehlerbehebung.
 
 Veröffentlicht am 04. Oktober 2026 für Web.
 
-**Systemverbesserungen:**
+#### Systemverbesserungen
+
 * Discord-Link in Spieleinstellungen behoben (abgelaufene Einladung durch
   permanente ersetzt).
 * Coin-Aufschlüsselung zeigt nun korrekt: Basis-Coins, PRO-Bonus und
@@ -119,16 +141,26 @@ Veröffentlicht am 04. Oktober 2026 für Web.
 * 44t-LKW-Nutzlastbalken in dunklem Thema wieder sichtbar.
 * Kanäle in Datenbank zentralisiert für einfachere Aktualisierungen.
 
-**Halloween-Special-Event (03. Oktober 2026 – 31. Oktober 2026):**
-* **Kürbis-Fracht**: Saisonale Fracht nur als 7,5 t und 18 t Aufträge.
-  40 t-LKWs erhalten 18 t-Auszahlung (kein Größenvorteil).
-* **Spectre-LKWs**: Limitierte Halloween-Edition Spectre 7,5 t 2026 und
-  Spectre 18 t 2026 mit doppelten Punkten für Kürbis-Fracht.
-* **Ranglisten**: Eigene wöchentliche Wertung mit Belohnungen.
+### Halloween-Special-Event (03. Oktober 2026 – 31. Oktober 2026)
 
-**Hinweis**: Überprüft durch Analyse von 79'000+ echten Buchungen. Nur
-Anzeigefehler behoben; keine Änderungen an tatsächlichen Auszahlungen.
-Web-Only-Update. Mobile-Apps benötigen Store-Update.
+#### Kürbis-Fracht
+
+Saisonale Fracht nur als 7,5 t und 18 t Aufträge. 40 t-LKWs erhalten
+18 t-Auszahlung (kein Größenvorteil).
+
+#### Spectre-LKWs
+
+Limitierte Halloween-Edition Spectre 7,5 t 2026 und Spectre 18 t 2026 mit
+doppelten Punkten für Kürbis-Fracht.
+
+#### Ranglisten
+
+Eigene wöchentliche Wertung mit Belohnungen.
+
+!!! Hinweis
+    Überprüft durch Analyse von 79'000+ echten Buchungen. Nur
+    Anzeigefehler behoben; keine Änderungen an tatsächlichen Auszahlungen.
+    Web-Only-Update. Mobile-Apps benötigen Store-Update.
 
 ---
 
@@ -136,31 +168,44 @@ Web-Only-Update. Mobile-Apps benötigen Store-Update.
 
 Veröffentlicht am 30. September 2026 für Web und Mobile Stores.
 
-* **Die Halle (*Die Halle*)**: Fahrzeugspeichereinrichtung, die es Disponenten
-  ermöglicht, inaktive LKWs outside-Slot zu parken, dabei Kilometerstand und
-  Wiederverkaufswert ohne Verkauf zu erhalten. LKWs in der Halle blockieren
-  keine Depotplätze.
-* **Frachtenbörsen-Upgrade**:
-  * Mehrfachauswahl-Frachtgruppenfilter mit klappbaren Filter-Panels.
-  * Standortbasierte Nähe-Suche (*Nur mein Standort*).
-  * Tonnage-Filter.
-  * Umsatz/km-Rendite-Sortierung.
-  * Frachtenbörse lädt nur bei geöffnetem Tab, reduziert mobiles Datenvolumen.
-* **Deals-Integration**:
-  * Direkte Deal-Indikatoren bei Auftragslisten.
-  * Schnelle Links von aktiven Deals zur Frachtenbörsen-Suche.
-* **Fair-Play-Regeln**:
-  * Entfernung der Coin-zu-Euro-Währungsumwandlung.
-  * Depot-Stellplatz-Upgrades mit Coins auf Level 8 begrenzt.
-  * Coins gültig nur für Aktions-LKWs, einmal pro Konto.
-* **Bugfixes**:
-  * Neue Spieler mit 0 € außerhalb von 37 Städten (Startkapital vorhanden aber
-    nicht angezeigt).
-  * PRO-Bonus nun in Abrechnungen sichtbar (wurde gezahlt aber nicht angezeigt).
+#### Die Halle
 
-**Patch-Update:**
-- **0.17.198** (02. Oktober 2026): Tonnage-Filter in Frachtenbörse,
-  Flotteninfo in Syndikat-Ranglisten, Ladebildschirm-Bereinigung.
+* Fahrzeugspeichereinrichtung, die es Disponenten ermöglicht, inaktive LKWs
+  einzulagern, dabei Kilometerstand und Wiederverkaufswert ohne Verkauf zu
+  erhalten. LKWs in der Halle blockieren keine Depotplätze.
+
+#### Frachtenbörsen-Upgrade
+
+* Mehrfachauswahl-Frachtgruppenfilter mit klappbaren Filter-Panels.
+* Standortbasierte Nähe-Suche (*Nur mein Standort*).
+* Tonnage-Filter.
+* Umsatz/km-Rendite-Sortierung.
+* Frachtenbörse lädt nur bei geöffnetem Tab, reduziert mobiles Datenvolumen.
+
+#### Deals-Integration
+
+* Direkte Deal-Indikatoren bei Auftragslisten.
+* Schnelle Links von aktiven Deals zur Frachtenbörsen-Suche.
+
+#### Fair-Play-Regeln
+
+* Entfernung der Coin-zu-Euro-Währungsumwandlung.
+* Depot-Stellplatz-Upgrades mit Coins auf Level 8 begrenzt.
+* Coins gültig nur für Aktions-LKWs, einmal pro Konto.
+
+#### Bugfixes
+
+* Neue Spieler mit 0 € außerhalb von 37 Städten
+  (Startkapital vorhanden aber nicht angezeigt).
+* PRO-Bonus nun in Abrechnungen sichtbar (wurde gezahlt aber nicht angezeigt).
+
+#### Patch-Update:
+
+##### **0.17.198** (02. Oktober 2026)
+
+- Tonnage-Filter in Frachtenbörse,
+- Flotteninfo in Syndikat-Ranglisten,
+- Ladebildschirm-Bereinigung.
 
 ---
 
@@ -168,23 +213,30 @@ Veröffentlicht am 30. September 2026 für Web und Mobile Stores.
 
 Veröffentlicht am 29. September 2026.
 
-* **Verbindungsstabilität**:
-  * Behebung von Kartenschleifen-Rendering-Abstürzen auf iOS-Hardware.
-  * Optimierte Server-Client-Websocket-Neuanmeldungen.
-  * Reduzierte Datenübertragung bei Verbindung (nur eigene Routen, nicht alle).
-* **Leistung**:
-  * Serverseitige Fixes für Datenbank-Engpässe bei Spieleranstürmen.
-  * Deutliche Reduzierung der Antwortzeiten.
-* **Wirtschaftliche Anpassungen**:
-  * Entfernung der Coin-zu-Euro-Währungsumwandlung.
-  * Depot-Stellplatz-Upgrades mit Coins auf Level 8 begrenzt.
-* **Bugfixes**:
-  * LKWs mit <10 % Akku bleiben nicht mehr stehen.
-  * PRO-Bonus fällt nicht auf 0 % bei Offline-Ankunft.
-  * LKWs fehlen nicht mehr in Flottenübersicht nach Offline-Abschluss.
-  * Lieferbenachrichtigungen zeigen korrekten Betrag.
-  * iOS: Tastatur überdeckt Inhalt nicht mehr.
-  * Mobile: Reduzierte Ladesäulen-Symbolgröße in Europa-Ansicht.
+#### Verbindungsstabilität
+
+* Behebung von Kartenschleifen-Rendering-Abstürzen auf iOS-Hardware.
+* Optimierte Server-Client-Websocket-Neuanmeldungen.
+* Reduzierte Datenübertragung bei Verbindung (nur eigene Routen, nicht alle).
+
+#### Leistung
+
+* Serverseitige Fixes für Datenbank-Engpässe bei Spieleranstürmen.
+* Deutliche Reduzierung der Antwortzeiten.
+
+#### Wirtschaftliche Anpassungen
+
+* Entfernung der Coin-zu-Euro-Währungsumwandlung.
+* Depot-Stellplatz-Upgrades mit Coins auf Level 8 begrenzt.
+
+#### Bugfixes
+
+* LKWs mit <10 % Akku bleiben nicht mehr stehen.
+* PRO-Bonus fällt nicht auf 0 % bei Offline-Ankunft.
+* LKWs fehlen nicht mehr in Flottenübersicht nach Offline-Abschluss.
+* Lieferbenachrichtigungen zeigen korrekten Betrag.
+* iOS: Tastatur überdeckt Inhalt nicht mehr.
+* Mobile: Reduzierte Ladesäulen-Symbolgröße in Europa-Ansicht.
 
 ---
 
@@ -192,13 +244,23 @@ Veröffentlicht am 29. September 2026.
 
 Veröffentlicht Anfang September 2026.
 
-* **P2P-Marktplatz**: Player-to-Player-Fahrzeughandel mit anpassbaren
+#### P2P-Marktplatz
+
+* Player-to-Player-Fahrzeughandel mit anpassbaren
   Listenpreisen und sofortiger Stellplatz-Freigabe nach Listung.
-* **Sofortverkauf (*Sofortverkauf*)**: Algorithmische Barliquidation basierend
+
+#### Sofortverkauf
+
+* Algorithmische Barliquidation basierend
   auf Kilometerstand-Abschreibung.
-* **Early Bird 7S**: 30 Tage limitierter Sammler-E-LKW mit nominalem
-  Marktwert von €150'000.
-* **Responsive Mobile-UI**: Komplettes Querformat-Layout-Redign und
+
+#### Early Bird 7S
+
+* 30 Tage limitierter Sammler-E-LKW mit nominalem Marktwert von €150'000.
+
+#### Responsive Mobile-UI
+
+* Komplettes Querformat-Layout-Redign und
   vereinfachte mobile Navigationspanels.
 
 ---
@@ -207,9 +269,15 @@ Veröffentlicht Anfang September 2026.
 
 Veröffentlicht August 2026.
 
-* **Simulationsgrundlage**: Start der Kern-Europäischen Logistikkarte mit
-  33 Ländern und 109 Städten.
-* **Datenstrom-Integration**: Integration von OpenChargeMap-Stationsdaten,
+#### Simulationsgrundlage
+
+* Start der Kern-Europäischen Logistikkarte mit 33 Ländern und 109 Städten.
+
+#### Datenstrom-Integration
+
+* Integration von OpenChargeMap-Stationsdaten,
   ENTSO-E-Tages-Strompreisen, OSRM-Routing, HERE-Verkehr, und SRTM-Höhendaten.
-* **Fahrzeugklassen**: Erste Bereitstellung der 7,5 t-, 18 t-, 26 t- und
-  44 t-Elektro-LKW-Klassen.
+
+#### Fahrzeugklassen
+
+* Erste Bereitstellung der 7,5 t-, 18 t-, 26 t- und 44 t-Elektro-LKW-Klassen.

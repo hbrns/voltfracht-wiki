@@ -1,23 +1,23 @@
 # Depot & Die Halle
 
-Die effiziente Verwaltung der Flottenkapazität ist der Schlüssel zum Skalieren
-der Logistikoperationen in VoltFracht. Ihr Heimmdepot steuert die aktive
-Fahrzeugbereitstellung, während die Halle als Langzeitspeicher für inaktive LKWs
-dient.
+Die effiziente Verwaltung der Flottenkapazität ist der Schlüssel zum
+Skalieren der Logistikoperationen in VoltFracht. Dein Heimatdepot steuert
+die aktive Fahrzeugbereitstellung, während die Halle als Langzeitspeicher für
+inaktive LKWs dient.
 
 ---
 
 ## 1. Depot-Kapazität & Level-Skalierung
 
-Ihr Depot bestimmt die maximale Anzahl aktiver E-LKWs, die gleichzeitig für
+Dein Depot bestimmt die maximale Anzahl aktiver E-LKWs, die gleichzeitig für
 Frachtfahrten eingesetzt werden können.
 
 ### Unternehmens-Level & Stellplatz-Upgrades
 
-* **Stellplatz-Skalierung**: Jeder zusätzliche Depot-Stellplatz erhöht Ihre
+* **Stellplatz-Skalierung**: Jeder zusätzliche Depot-Stellplatz erhöht deine
   maximale aktive Flottengröße.
 * **Level-Fortschritt**: Unternehmenslevel skalieren direkt mit
-  Depot-Erweiterungen (z. B. der Kauf eines 2. Depot-Stellplatzes erhöht Ihr
+  Depot-Erweiterungen (z. B. der Kauf eines 2. Depot-Stellplatzes erhöht dein
   Unternehmen auf Level 2).
 * **Kapitalinvestitionen**: Höhere Depot-Stellplätze erfordern progressive
   Barzahlungen (€) oder Coin-Investitionen.
@@ -58,17 +58,19 @@ den aktiven Depot-Stellplätzen betrieben wird.
   pausiert, was deren Kilometerstand, Batteriezustand und Wiederverkaufswert
   erhält.
 * **Sammlerfahrzeug-Erhaltung**: Bietet sichere Aufbewahrung für seltene oder
-  exklusive Event-Modelle (wie z. B. die Spectre Halloween Edition oder
-  Early Bird 7S).
+  exklusive Event-Modelle (wie z. B. die
+  [Spectre 7,5 t 2026](../vehicles/special-events.md#spectre-75-t-2026),
+  [Spectre 18 t 2026](../vehicles/special-events.md#spectre-18-t-2026) oder
+  [Early Bird 7S](../vehicles/special-events.md#early-bird-7s-sammlerfahrzeug)).
 
 ---
 
-## 3. Speicherregeln & Arbeitsablauf
+## 3. Einlagerungsregeln & Arbeitsablauf
 
 Die Verwaltung von Fahrzeugen zwischen aktiven Depot-Stellplätzen und der Halle
 folgt einfachen Regeln:
 
-1. **Statusanforderung**: Ein LKW muss im Depot rupten und darf nicht
+1. **Statusanforderung**: Ein LKW muss im Depot stehen und darf nicht
    unterwegs sein oder aktive Fracht transportieren, um in die Halle bewegt
    werden zu können.
 2. **Reaktivierung**: Um einen LKW aus der Halle zurück in den Dienst zu

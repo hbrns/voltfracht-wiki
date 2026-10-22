@@ -63,6 +63,23 @@ stabilization period.
 
 #### Patch Updates
 
+##### **0.18.382** (22 October 2026)
+  - **Server Update**: Scheduled for 01:00, server restart required (tours
+    continue, reconnection needed)
+  - **Charging Stop Ownership**: User-modified stops (column swapped or
+    target SoC adjusted) now display a hand icon and are preserved during
+    route replanning. Planner adds intermediate stops if needed rather than
+    replacing user stops.
+  - **Remove Stop Button**: New "Remove stop" button allows deletion of
+    redundant charging stops without full route rebuild. Planner prevents
+    removal only if stop is essential.
+  - **UI Fixes**: Dashed line reliably indicates empty trips to chargers.
+    Kilometre display formatting now consistent across all views.
+  - **Mobile Apps**: New builds submitted to Android and iOS stores, containing
+    all 0.18 features (Tour through Europe, savings pot, used truck purchase
+    into The Hall, plug queue countdowns, per-category notifications, and
+    complete charging planning). Release timing depends on store review.
+
 ##### **0.18.376 & 0.18.377** (21 October 2026)
   - **Ferries**: Fixed ferry symbol incorrectly applying to 15 km land approach
     on each side, creating approximately 12'500 km of free travel. Now only
@@ -101,8 +118,9 @@ stabilization period.
 ##### **0.18.315** (18 October 2026)
   - **Routes**: Fixed "truck cannot proceed" errors around Calais caused by
     boundary crossing the Channel, creating island effect for 38 chargers.
-    Display distance now shows actual route distance (e.g., Split-Bari corrected
-    from 272 km to 1441 km). "Arrival 0 %" fixed for distant chargers.
+    Display distance now shows actual route distance (e.g., Split-Bari
+    corrected from 272 km to 1'441 km). "Arrival 0 %" fixed for distant
+    chargers.
   - **Syndicate & Tour**: White tour line now appears on map regardless of prior
     syndicate access. Savings goals pay full rewards (previously at 1/10th).
     Points now visible in finances. "Fahrbar" filter no longer shows completed
@@ -132,8 +150,8 @@ Released 04 October 2026 across Web.
   replaced with permanent link)
 * Coin breakdown display now correctly itemizes: Base Coins, PRO Bonus, and
   Total Coin Credit (previously appeared as confusing additions)
-* 44t truck payload bar visibility restored in dark theme (bar color matched
-  background)
+* 44t truck payload bar visibility restored in dark theme (bar colour
+  matched background)
 * Channel addresses moved to database for centralized management without
   requiring app releases
 

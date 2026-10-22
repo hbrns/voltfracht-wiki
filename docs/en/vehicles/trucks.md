@@ -79,6 +79,8 @@ All truck classes are affected by the same core performance variables:
 
 ### Early Bird 7S
 
+See [Early Bird 7S Collector Vehicle](./special-events.md#early-bird-7s-collector-vehicle)
+
 * **Type**: 30-day limited collector e-truck (launch window now expired)
 * **Value**: €150'000 nominal market value
 * **Availability**: Version 0.15 launch window only
@@ -87,7 +89,8 @@ All truck classes are affected by the same core performance variables:
 
 ### Spectre Halloween Editions
 
-* **Models**: Spectre 7.5 t 2026, Spectre 18 t 2026
+* **Spectre 7.5 t 2026**: See [Spectre 7.5 t 2026](./special-events.md#spectre-75-t-2026)
+* **Spectre 18 t 2026**: See [Spectre 18 t 2026](./special-events.md#spectre-18-t-2026)
 * **Type**: Limited Halloween Special event vehicles
 * **Availability**: 03 October 2026 - 31 October 2026 only
 * **Purchase**: Coins (★) only, once per account

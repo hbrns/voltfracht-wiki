@@ -88,8 +88,9 @@ syndicate competition:
     * [**Tour through Europa**](syndicates/tour-through-europe.md): Daily
       20-stage cooperative syndicate event with live map tracking and tier
       rewards.
-    * [**Release Log & Roadmap**](references/changelog.md): Track release updates
-      and future features (driver training, multi-depot, heavy transport).
+    * [**Release Log & Roadmap**](references/changelog.md): Track release
+      updates and future features (driver training, multi-depot,
+      heavy transport).
 
 ---
 

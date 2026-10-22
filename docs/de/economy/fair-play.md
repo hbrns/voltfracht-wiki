@@ -1,15 +1,13 @@
-# Wirtschaft & Fair-Play-Richtlinien
+# Wirtschaft & Fair-Play-Regeln
 
-Dieser Leitfaden erläutert die wirtschaftlichen Regeln, Anti-Cheat-Richtlinien
-und die Allgemeinen Geschäftsbedingungen (AGB/T&C), die für VoltFracht gelten.
+Hier findest du die Regeln für Wirtschaft und Fair-Play in VoltFracht.
 
 ---
 
-## 1. Rechtliche Natur der In-Game-Währung ("€" & Coins)
+## 1. Was ist das Spielgeld?
 
-Absatz 2 der Allgemeinen Geschäftsbedingungen (AGB) von VoltFracht definiert
-explizit den rechtlichen Status aller In-Game-Vermögenswerte und finanziellen
-Salden:
+Alle Währungen und Werte in VoltFracht sind virtuell und haben keinen
+echten Geldwert:
 
 * **Rein virtuell ("Spielgeld")**: Alle In-Game-Euro-Bestände ("€"), Coins
   (★), Fahrzeuge, Aufträge und Transportgüter sind streng virtuelle Punkte
@@ -24,116 +22,95 @@ Salden:
 
 ---
 
-## 2. In-Game-Wirtschaft & Ranglisten-Balancierung
+## 2. Fair-Play in der Wirtschaft
 
-Um die Wettbewerbsintegrität in den internationalen Ranglisten zu wahren:
+Damit alle gleich fair spielen können:
 
-* **Keine Währungsumwandlung**: In-Game-Coins (★) können nicht in virtuelle
-  Euro (€) umgewandelt werden. Implementiert am 30. September 2026, um
-  Pay-to-Win-Ranglisten-Manipulation zu verhindern.
-* **Depot-Aufwertungslimit**: Die Aufwertung der Depotkapazität mit Coins ist
-  auf **Depot Level 8** begrenzt. Depotplätze ab Level 9 müssen durch erwirtschaftete
-  Frachteinnahmen (€) finanziert werden, um Pay-to-Win-Vorteile in öffentlichen
-  Ranglisten zu verhindern. Implementiert am 30. September 2026.
+* **Kein Geldtausch**: Coins (★) können nicht in Euro (€) umgewandelt werden.
+  So kann niemand sich Plätze in den Ranglisten kaufen.
+  Regel seit 30. September 2026.
+* **Depot-Limit**: Depotplätze ab Level 9 können nicht mehr mit Coins gekauft
+  werden. Sie müssen mit echten Frachteinnahmen (€) bezahlt werden.
+  Regel seit 30. September 2026.
 
-**Begründung**: Diese wirtschaftlichen Anpassungen wurden eingeführt, nachdem
-Analysen ergaben, dass unbegrenzte Coin-zu-Euro-Umwandlungen und
-Depot-Erweiterungen das Kauf von Ranglistenpositionen ermöglichten, anstatt
-sie durch Spiel zu verdienen. Alle bestehenden Buchungen wurden überprüft
-(79'000+ Transaktionen geprüft). Die Coin-Berechnungen waren immer korrekt;
-nur der Umwandlungsweg wurde entfernt.
+**Warum?** Damals konnten Spieler mit Coins Ranglistenplätze kaufen.
+Alle Buchungen wurden geprüft (79'000+ Transaktionen). Die Coin-Berechnungen
+waren immer korrekt, nur der Tauschweg wurde entfernt.
 
 ---
 
-## 3. Anti-Missbrauch-Regeln für den Gebrauchtwagenmarkt
+## 3. Regeln für den Gebrauchtwagenmarkt
 
-Um künstliche Geldtransfers zwischen Sekundärkonten zu verhindern, ist der
-Handel auf dem Gebrauchtwagenmarkt durch automatisierte Schutzmaßnahmen
-eingeschränkt (implementiert am 26. September 2026):
+Damit niemand Geld zwischen Konten hin- und herschieben kann, gibt es
+Schutzregeln auf dem Gebrauchtwagenmarkt (seit 26. September 2026):
 
-| Anti-Missbrauch-Regel | Durchsetzungslimit | Zweck |
+| Regel | Limit | Zweck |
 | :--- | :--- | :--- |
-| **Konto-Level-Sperre** | Level 3 erforderlich | Verhindert sofortige Wegwerfkonten-Erstellung zur Preisausnutzung. |
-| **Preisgrenzen** | Min: Sofortverkaufswert<br>Max: 1,2× Neupreis | Verhindert den Verkauf von Starter-LKWs zu Fantasiepreisen zur virtuellen Geldübertragung. Zuvor konnten Preise bis zum 10-fachen des Neupreises gesetzt werden. |
-| **Tägliches Partnerlimit** | Max. 3 Geschäfte/Tag pro Handelspartner | Blockiert kontinuierliche Kreishandels-Schleifen zwischen verbundenen Konten. |
+| **Level-Sperre** | Level 3 nötig | Verhindert, dass neue Konten sofort den Markt nutzen. |
+| **Preisgrenzen** | Min: Sofortverkaufswert<br>Max: 1,2× Neupreis | Verhindert Preise, die zu hoch oder zu niedrig sind. |
+| **Handelslimit** | Max. 3 Geschäfte/Tag mit einem Partner | Verhindert ständiges Hin- und Herverkaufen. |
 
-**Hintergrund**: Diese Regeln wurden nach der Entdeckung eines Ausnutzungsschemas
-eingeführt, bei dem Spieler neue Konten erstellten, Startkapital sammelten,
-Fahrzeuge von ihrem Hauptkonto zu überteuerten Preisen kauften, diese günstig
-zurückverkauften und dann das temporäre Konto löschten. Die betroffenen Konten
-wurden identifiziert, unrechtmäßig erwirtschaftete Gewinne zurückgebucht und die
-Konten aus den Top-Ranglisten entfernt. Hauptkonto und 21 Wegwerfkonten wurden
-gesperrt.
+**Warum?** Einige Spieler haben neue Konten erstellt, Startgeld gesammelt,
+LKWs vom Hauptkonto teuer gekauft und dann günstig zurückverkauft.
+Diese Konten wurden gesperrt, das Geld zurückgebucht und aus den
+Ranglisten entfernt.
 
 ---
 
-## 4. Allgemeine Geschäftsbedingungen (AGB) & Anti-Cheat-Richtlinien
+## 4. Anti-Cheat-Regeln
 
-VoltFracht setzt klare Fair-Play-Richtlinien durch, um sicherzustellen, dass
-alle Ranglistenplatzierungen echtes menschliches Dispatching-Fachwissen widerspiegeln.
+Jeder muss selbst spielen. So sind alle Ranglistenplätze fair erreicht.
 
-**Hinweis**: Mit Version 0.18 (veröffentlicht am 18. Oktober 2026) wurde ein
-neuer Fair-Play-Abschnitt zu den AGB hinzugefügt, der alle Spieler beim
-nächsten Login zur Zustimmung auffordert. Diese Regeln gelten ab dem Datum
-der Zustimmung, **nicht rückwirkend**.
+**Hinweis**: Mit Version 0.18 (18. Oktober 2026) gibt es neue Fair-Play-Regeln.
+Alle müssen beim nächsten Login zustimmen. Die Regeln gelten ab dann.
 
-### Das "Du spielst selbst"-Prinzip
+### Du musst selbst spielen
 
-Jede Dispatching-Aktion, einschließlich der Auswahl von Fracht, Routenplanung
-und Festlegung von Ladestopps, muss manuell vom Kontoinhaber ausgelöst werden.
-Verboten sind:
+Jede Aktion (Fracht auswählen, Route planen, Ladestopps setzen) musst du
+selbst machen. Verboten sind:
 
 * Automatisierte Skripte, Bots, Makros und Auto-Klicker.
-* Zugriff auf die Server-API außerhalb des offiziellen Web-/Mobile-Clients.
+* Zugriff auf Server-API außerhalb vom offiziellen Client.
 
-**Begründung**: Die Analyse der Ranglistendaten durch den Entwickler zeigte
-Konten, die 24/7 ohne Pausen operierten, was auf geteilte Zugangsdaten oder
-automatisierte Skripte hindeutet. Beide verstoßen gegen den Geist des fairen
-Wettbewerbs.
+**Warum?** Konten, die 24/7 ohne Pausen laufen, nutzen meist Bots oder
+geteilte Zugangsdaten. Das ist nicht fair.
 
-### Kontobesitz
+### Ein Konto = Ein Spieler
 
-* **Einzelbenutzerbesitz**: Konten gehören streng genommen einer einzelnen Person.
-* **Verbotenes Teilen**: Das Teilen von Konten, gemeinsames Spielen durch mehrere
-  Personen sowie Verkaufen, Vermieten oder Übertragen von Zugangsdaten ist
-  verboten.
+* Jedes Konto gehört nur einer Person.
+* Du darfst dein Konto nicht mit anderen teilen oder Zugangsdaten weitergeben.
 
-**Klarstellung**: Diese Regeln schränken nicht ein, wie oft Sie spielen oder
-auf wie vielen Ihrer eigenen Geräte Sie auf Ihr Konto zugreifen. Sie verbieten
-nur, dass ein einzelnes Konto mehr leistet, als ein Mensch vernünftigerweise
-bewältigen kann.
+**Achtung:** Du kannst auf so vielen deinen eigenen Geräten spielen wie du
+willst. Aber ein Konto darf nicht mehr leisten, als ein Mensch schaffen kann.
 
-### Prüf- und Streitverfahren
+### Was passiert bei Verdacht?
 
-Um Konten mit rund um die Uhr automatisierten Aktivitäten fair zu erkennen,
-protokolliert der Entwickler **nur Zeitstempel** (ohne IP- oder Hardware-Tracking)
-für **90 Tage** in Übereinstimmung mit der Datenschutzrichtlinie.
+Um Bots zu erkennen, speichert der Entwickler nur Zeitstempel (keine IP
+oder Hardware-Daten) für 90 Tage. Das schützt deine Privatsphäre.
 
 ```mermaid
 graph LR
-    A["1. Direktanfrage<br>Klarstellung"]
-    B["2. Offizielle Warnung<br>Verwarnung"]
-    C["3. Konto-Sperre<br>Dauerhafte Sperre"]
+    A["1. Frage<br>Klarstellung"]
+    B["2. Warnung"]
+    C["3. Sperre"]
     
     A --> B --> C
 ```
 
-1. **Abfrage**: Spieler, die durch unköziperliche Aktivität auffallen (z. B.
-   24/7-Betrieb ohne Pausen), erhalten zunächst eine direkte In-Game-Klarstellungsfrage.
-2. **Warnung**: Fortgesetzte nicht verifizierte Automatisierung nach der Abfrage
-   führt zu einer offiziellen Warnung.
-3. **Sperre**: beharrliche Verstöße führen zur Kontosperre und Entfernung aus
-den Ranglisten.
+1. **Abfrage**: Spieler, die durch Bot-Aktivität auffallen (z. B.
+   24/7-Betrieb ohne Pausen), erhalten zunächst eine direkte In-Game-Frage.
+2. **Warnung**: Wenn du nach der Abfrage weiter Bots nutzt, gibt es eine
+   offizielle Warnung.
+3. **Sperre**: Bei weiteren Verstößen wird dein Konto gesperrt und aus den
+   Ranglisten entfernt.
 
 **Wichtig**: Kein Konto wird ohne vorherige Abfrage gesperrt. Die erste
-Benachrichtigung, die Sie erhalten, ist eine Frage, keine Strafe.
+Benachrichtigung, die du erhältst, ist eine Frage, keine Strafe.
 
 ---
 
-## 5. Finanzielle Transparenz & Belegnummern
+## 5. Transparente Finanzen
 
-Jede finanzielle Transaktion in VoltFracht generiert eine detaillierte
-Buchungsquittung mit einer eindeutigen Belegnummer, die es Disponenten
-ermöglicht, Einnahmen, PRO-Boni und Coin-Verteilungen direkt im
-Transaktionsprotokoll zu überprüfen. Dieses System unterstützt den
-Fair-Play-Prüfprozess durch berechenbare Finanzaufzeichnungen.
+Jede Transaktion in VoltFracht hat eine klare Buchungsquittung mit einer
+Belegnummer. So kannst du Einnahmen, PRO-Boni und Coin-Verteilungen direkt
+im Transaktionsprotokoll überprüfen.

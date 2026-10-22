@@ -81,6 +81,9 @@ Alle LKW-Klassen werden von denselben Kern-Leistungsvariablen beeinflusst:
 
 ### Early Bird 7S
 
+siehe
+[Early Bird 7S Sammlerfahrzeug](./special-events.md#early-bird-7s-sammlerfahrzeug)
+
 * **Typ**: 30 Tage limitiertes Sammler-E-LKW (Startfenster nun abgelaufen)
 * **Wert**: €150'000 nominaler Marktwert
 * **Verfügbarkeit**: Version 0.15-Startfenster nur
@@ -90,7 +93,10 @@ Alle LKW-Klassen werden von denselben Kern-Leistungsvariablen beeinflusst:
 
 ### Spectre Halloween-Editionen
 
-* **Modelle**: Spectre 7,5 t 2026, Spectre 18 t 2026
+* **Spectre 7,5 t 2026**: siehe
+  [Spectre 7,5 t 2026](./special-events.md#spectre-75-t-2026)
+* **Spectre 18 t 2026**: siehe
+  [Spectre 18 t 2026](./special-events.md#spectre-18-t-2026)
 * **Typ**: Limitierte Halloween-Special-Event-Fahrzeuge
 * **Verfügbarkeit**: 03. Oktober 2026 – 31. Oktober 2026 nur
 * **Sonderbonus**: Doppelte Punkte für Kürbis-Fracht während des Events
