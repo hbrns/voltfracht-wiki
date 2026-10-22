@@ -69,7 +69,7 @@ Web-Stabilisierung.
 
 #### Patch-Updates
 
-##### **0.18.382** (22. Oktober 2026)
+##### 0.18.382 (22. Oktober 2026)
 
   - **Ladestopp-Besitz**: Benutzerbearbeitete Stopps (Säulentausch oder
     Zielladestand angepasst) zeigen nun ein Handsymbol und werden beim
@@ -86,7 +86,7 @@ Web-Stabilisierung.
     belegten Säulen mit Countdown, Benachrichtigungen je Kategorie sowie
     die neue Ladeplanung). Release-Zeitpunkt hängt von Store-Prüfung ab.
 
-##### **0.18.376 & 0.18.377** (21. Oktober 2026)
+##### 0.18.376 & 0.18.377 (21. Oktober 2026)
 
   - **Fähren**: Behebung des Fähr-Symbols, das fälschlich 15 km vor und nach
     jeder Überfahrt galt (30 km reine Landstraße ohne Stromverbrauch). Ab
@@ -102,7 +102,7 @@ Web-Stabilisierung.
     Feedback. Alle vier Benachrichtigungskategorien zugänglich.
   - **Android**: Google-Login-Defekt behoben (erfordert Store-Update).
 
-##### **0.18.362** (20. Oktober 2026)
+##### 0.18.362 (20. Oktober 2026)
 
   - **Ladestopps umplanen**: Säulentausch-Reichweitenberechnungen korrigiert.
     Live-Steckerverfügbarkeit. Wunsch-Säulen können weiter abseits liegen.
@@ -113,7 +113,7 @@ Web-Stabilisierung.
   - **UI**: Weiße Tour-Ketten wiederhergestellt. Boost-Benachrichtigungen
     am Aktionsknopf.
 
-##### **0.18.315** (18. Oktober 2026)
+##### 0.18.315 (18. Oktober 2026)
 
   - **Routen**: Calais-Grenze behoben (38 Säulen als Insel-Effekt).
     Anzeige der tatsächlichen Route-Distanz (Split-Bari: 272 km→1'441 km).
@@ -157,7 +157,7 @@ doppelten Punkten für Kürbis-Fracht.
 
 Eigene wöchentliche Wertung mit Belohnungen.
 
-!!! Hinweis
+!!! info
     Überprüft durch Analyse von 79'000+ echten Buchungen. Nur
     Anzeigefehler behoben; keine Änderungen an tatsächlichen Auszahlungen.
     Web-Only-Update. Mobile-Apps benötigen Store-Update.
@@ -201,7 +201,7 @@ Veröffentlicht am 30. September 2026 für Web und Mobile Stores.
 
 #### Patch-Update:
 
-##### **0.17.198** (02. Oktober 2026)
+##### 0.17.198 (02. Oktober 2026)
 
 - Tonnage-Filter in Frachtenbörse,
 - Flotteninfo in Syndikat-Ranglisten,

@@ -63,76 +63,80 @@ stabilization period.
 
 #### Patch Updates
 
-##### **0.18.382** (22 October 2026)
-  - **Server Update**: Scheduled for 01:00, server restart required (tours
-    continue, reconnection needed)
-  - **Charging Stop Ownership**: User-modified stops (column swapped or
-    target SoC adjusted) now display a hand icon and are preserved during
-    route replanning. Planner adds intermediate stops if needed rather than
-    replacing user stops.
-  - **Remove Stop Button**: New "Remove stop" button allows deletion of
-    redundant charging stops without full route rebuild. Planner prevents
-    removal only if stop is essential.
-  - **UI Fixes**: Dashed line reliably indicates empty trips to chargers.
-    Kilometre display formatting now consistent across all views.
-  - **Mobile Apps**: New builds submitted to Android and iOS stores, containing
-    all 0.18 features (Tour through Europe, savings pot, used truck purchase
-    into The Hall, plug queue countdowns, per-category notifications, and
-    complete charging planning). Release timing depends on store review.
+##### 0.18.382 (22 October 2026)
 
-##### **0.18.376 & 0.18.377** (21 October 2026)
-  - **Ferries**: Fixed ferry symbol incorrectly applying to 15 km land approach
-    on each side, creating approximately 12'500 km of free travel. Now only
-    actual sea crossings are zero-cost; land travel consumes energy normally.
-  - **Used Marketplace**: Trucks can now be purchased directly into The Hall.
-    Previously blocked when depot was full despite available Hall slots. Slot
-    counting now matches shop behavior: stored trucks and own listings do not
-    block depot slots.
-  - **Charging Stops**: Reachability calculations corrected for
-    station swapping.
-    Zero-benefit stops (e.g., 36%→36%) now skippable.
-  - **Display**: Loading/unloading now shows correct status with progress
-    instead of generic travel status. Menu and leaderboard stability improved.
-    White tour line visibility restored.
-  - **Syndicate & Notifications**: Leader actions now provide explicit feedback
-    on rejection reasons. All four notification categories are now accessible
-    with browser toggle.
-  - **Android**: Google login defect fixed (app used incorrect credentials since
-    launch). Requires Store update; until then, use voltfracht.sgio.app in
-    browser for same account access.
+- **Server Update**: Scheduled for 01:00, server restart required (tours
+  continue, reconnection needed)
+- **Charging Stop Ownership**: User-modified stops (column swapped or
+  target SoC adjusted) now display a hand icon and are preserved during
+  route replanning. Planner adds intermediate stops if needed rather than
+  replacing user stops.
+- **Remove Stop Button**: New "Remove stop" button allows deletion of
+  redundant charging stops without full route rebuild. Planner prevents
+  removal only if stop is essential.
+- **UI Fixes**: Dashed line reliably indicates empty trips to chargers.
+  Kilometre display formatting now consistent across all views.
+- **Mobile Apps**: New builds submitted to Android and iOS stores, containing
+  all 0.18 features (Tour through Europe, savings pot, used truck purchase
+  into The Hall, plug queue countdowns, per-category notifications, and
+  complete charging planning). Release timing depends on store review.
 
-##### **0.18.362** (20 October 2026)
-  - **Charging Stops**: Station swapping reachability and distance calculations
-    fixed. "Nicht erreichbar" now correctly indicates distance issues rather
-    than offline status. Plug availability updates live instead of freezing at
-    first state. Wishlist stations can be further off-route.
-  - **Freight Exchange**: "Nur mein Standort" now correctly finds cargo near
-    charging stations. Location persistence after arrival fixed, preventing
-    erroneous empty leg calculations.
-  - **Sparmodus**: Stationary trucks can now be sent to charge (previously
-    required map view). Charging panel displays target truck with switching
-    capability. Trucks at chargers no longer hide the entire panel.
-  - **UI**: White tour chains restored on map. Boost notifications attached to
-    action button. Daily goals scaled more gradually for top players.
+##### 0.18.376 & 0.18.377 (21 October 2026)
 
-##### **0.18.315** (18 October 2026)
-  - **Routes**: Fixed "truck cannot proceed" errors around Calais caused by
-    boundary crossing the Channel, creating island effect for 38 chargers.
-    Display distance now shows actual route distance (e.g., Split-Bari
-    corrected from 272 km to 1'441 km). "Arrival 0 %" fixed for distant
-    chargers.
-  - **Syndicate & Tour**: White tour line now appears on map regardless of prior
-    syndicate access. Savings goals pay full rewards (previously at 1/10th).
-    Points now visible in finances. "Fahrbar" filter no longer shows completed
-    own stages. Stage acceptance pre-selects truck at location.
-  - **Dealmaker**: Fixed overly aggressive demand cap flattening the curve.
-    Curve peaks restored.
-  - **UI**: Fixed windows becoming unreachable on smaller screens. Hall sales
-    work again even with full depot. Navigation bar restored on Android without
-    map. Map tab no longer counts stored trucks as "in transit". Charger
-    occupancy now visible on open instead of requiring tap. Status messages no
-    longer appear in English.
-  - **Notifications**: Eliminated duplicate push banners while in-game.
+- **Ferries**: Fixed ferry symbol incorrectly applying to 15 km land approach
+  on each side, creating approximately 12'500 km of free travel. Now only
+  actual sea crossings are zero-cost; land travel consumes energy normally.
+- **Used Marketplace**: Trucks can now be purchased directly into The Hall.
+  Previously blocked when depot was full despite available Hall slots. Slot
+  counting now matches shop behavior: stored trucks and own listings do not
+  block depot slots.
+- **Charging Stops**: Reachability calculations corrected for
+  station swapping.
+  Zero-benefit stops (e.g., 36%→36%) now skippable.
+- **Display**: Loading/unloading now shows correct status with progress
+  instead of generic travel status. Menu and leaderboard stability improved.
+  White tour line visibility restored.
+- **Syndicate & Notifications**: Leader actions now provide explicit feedback
+  on rejection reasons. All four notification categories are now accessible
+  with browser toggle.
+- **Android**: Google login defect fixed (app used incorrect credentials since
+  launch). Requires Store update; until then, use voltfracht.sgio.app in
+  browser for same account access.
+
+##### 0.18.362 (20 October 2026)
+
+- **Charging Stops**: Station swapping reachability and distance calculations
+  fixed. "Nicht erreichbar" now correctly indicates distance issues rather
+  than offline status. Plug availability updates live instead of freezing at
+  first state. Wishlist stations can be further off-route.
+- **Freight Exchange**: "Nur mein Standort" now correctly finds cargo near
+  charging stations. Location persistence after arrival fixed, preventing
+  erroneous empty leg calculations.
+- **Sparmodus**: Stationary trucks can now be sent to charge (previously
+  required map view). Charging panel displays target truck with switching
+  capability. Trucks at chargers no longer hide the entire panel.
+- **UI**: White tour chains restored on map. Boost notifications attached to
+  action button. Daily goals scaled more gradually for top players.
+
+##### 0.18.315 (18 October 2026)
+
+- **Routes**: Fixed "truck cannot proceed" errors around Calais caused by
+  boundary crossing the Channel, creating island effect for 38 chargers.
+  Display distance now shows actual route distance (e.g., Split-Bari
+  corrected from 272 km to 1'441 km). "Arrival 0 %" fixed for distant
+  chargers.
+- **Syndicate & Tour**: White tour line now appears on map regardless of prior
+  syndicate access. Savings goals pay full rewards (previously at 1/10th).
+  Points now visible in finances. "Fahrbar" filter no longer shows completed
+  own stages. Stage acceptance pre-selects truck at location.
+- **Dealmaker**: Fixed overly aggressive demand cap flattening the curve.
+  Curve peaks restored.
+- **UI**: Fixed windows becoming unreachable on smaller screens. Hall sales
+  work again even with full depot. Navigation bar restored on Android without
+  map. Map tab no longer counts stored trucks as "in transit". Charger
+  occupancy now visible on open instead of requiring tap. Status messages no
+  longer appear in English.
+- **Notifications**: Eliminated duplicate push banners while in-game.
 
 **Release Process**: Version 0.18 underwent 5-7 day internal testing with
 community participants on test server before web release. Mobile Store builds to
@@ -155,7 +159,7 @@ Released 04 October 2026 across Web.
 * Channel addresses moved to database for centralized management without
   requiring app releases
 
-#### Halloween Special Event (03 October 2026 - 31 October 2026)
+### Halloween Special Event (03 October 2026 - 31 October 2026)
 
 * **Pumpkin Cargo**: Special seasonal freight available only as 7.5 t and 18 t
   orders. 40 t trucks receive 18 t payout with no size advantage.
@@ -163,12 +167,12 @@ Released 04 October 2026 across Web.
   18 t 2026 with double points for pumpkin cargo
 * **Leaderboard**: Dedicated weekly rankings with rewards for pumpkin hauling
 
-**Note**: Verified through analysis of 79'000+ real bookings from
-previous week -
-coin calculations were always correct; only display was misleading. No changes
-to actual payouts. Web-only update. Mobile apps require Store update; use
-[voltfracht.sgio.app](https://voltfracht.sgio.app) in browser for immediate
-access with same account and progress.
+!!! info
+    Verified through analysis of 79'000+ real bookings from previous week -
+    coin calculations were always correct; only display was misleading. No changes
+    to actual payouts. Web-only update. Mobile apps require Store update; use
+    [voltfracht.sgio.app](https://voltfracht.sgio.app) in browser for immediate
+    access with same account and progress.
 
 ---
 
