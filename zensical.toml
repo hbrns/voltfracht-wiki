@@ -1,7 +1,7 @@
 [project]
 site_url = "https://hbrns.github.io/voltfracht-wiki/"
 site_name = "Voltfracht Wiki"
-site_description = "Voltfracht Wiki"
+site_description = "The official community and documentation Wiki for VoltFracht"
 site_author = "The Voltfracht Wiki Contributor"
 
 copyright = "Copyright &copy; 2026 The Voltfracht Wiki Contributors"
@@ -28,8 +28,8 @@ language = "en"
 # language = "de"
 features = [
   "announce.dismiss",
-  # "content.action.edit",
-  # "content.action.view",
+  "content.action.edit",
+  "content.action.view",
   "content.code.annotate",
   "content.code.copy",
   "content.code.select",
