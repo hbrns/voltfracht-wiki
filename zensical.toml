@@ -8,7 +8,7 @@ copyright = "Copyright &copy; 2026 The Voltfracht Wiki Contributors"
 
 repo_url = "https://github.com/hbrns/voltfracht-wiki"
 repo_name = "hbrns/voltfracht-wiki"
-# edit_uri = "edit/main/docs/"
+edit_uri = "edit/main/docs/"
 
 nav = [
    {'<img src="https://voltfracht.sgio.app/favicon-32.png" width="18" alt="Voltfracht App">' = "" },
