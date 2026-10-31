@@ -16,9 +16,9 @@ transit time is governed by five core real-world data feeds:
 
 | Data Layer | Primary Data Source | Scale & Coverage | In-Game Simulation Mechanics |
 | :--- | :--- | :--- | :--- |
-| **Charging Infrastructure** | **OpenChargeMap** | 12'481+ locations / 58'598+ plugs across 109 cities in 33 countries | Dictates charging station coordinates, plug power outputs (up to 600 kW), live plug occupancy, and queue timers. |
+| **Charging Infrastructure** | **OpenChargeMap** | 12'481+ locations / 58'598+ plugs across 103 cities in 31 countries | Dictates charging station coordinates, plug power outputs (up to 600 kW), live plug occupancy, and queue timers. |
 | **Energy Market Prices** | **ENTSO-E** | Daily spot market pricing across European bidding zones | Establishes dynamic electricity costs per kWh for each country, directly impacting trip profit margins. |
-| **Road Network Routing** | **OSRM Server** | Self-hosted Open Source Routing Machine mapping 33 nations | Calculates exact road distance, highway routes, and border crossings for heavy-duty electric trucks. |
+| **Road Network Routing** | **OSRM Server** | Self-hosted Open Source Routing Machine mapping 31 nations | Calculates exact road distance, highway routes, and border crossings for heavy-duty electric trucks. |
 | **Live Traffic & Congestion** | **HERE Technologies** | Real-time European highway traffic & active roadworks | Dynamically adjusts transit times and introduces delay risks on heavily congested corridors. |
 | **Terrain & Elevation** | **SRTM Data** | NASA Shuttle Radar Topography Mission 30-metre mesh | Applies realistic grade resistance: steep mountain climbs drain battery rapidly, while downhill slopes allow energy recuperation. |
 | **Atmospheric Physics** | **Live Temperature Cycles** | Daily European weather patterns | Extreme cold or high heat increases battery internal resistance and HVAC energy draw, reducing overall driving range. |

@@ -81,7 +81,7 @@ automatically added to delivery payouts and itemized in your financial logs.
 
 ```mermaid
 flowchart LR
-    A["Select Freight<br/>from Deals"]
+    A["Select Freight<br/>from Exchange"]
     B["Autonomous Run<br/>& Auto-Charging"]
     C["Payout & Progress<br/>Money, Coins & XP"]
 
@@ -97,6 +97,10 @@ flowchart LR
    Coins, and experience points. Reinvest earnings into new truck models, higher
    tonnage licenses, or depot expansions.
 
+!!! info "Time scale: 20× real time"
+    The simulation runs at **20× real-time speed** — one in-game day passes
+    in roughly 72 real minutes.
+
 ---
 
 ## 5. Real-World Data Engine
@@ -110,7 +114,7 @@ physics and real-time European infrastructure.
 
 | Data Layer | Primary Source | In-Game Simulation Effect |
 | :--- | :--- | :--- |
-| **Charging Network** | **OpenChargeMap** | Maps 12'481+ charging locations and 58'598+ individual charge points across 109 cities in 33 countries. |
+| **Charging Network** | **OpenChargeMap** | Maps 12'481+ charging locations and 58'598+ individual charge points across 103 cities in 31 countries. |
 | **Electricity Spot Prices** | **ENTSO-E** | Dynamic, daily country-specific spot prices that dictate charging cost per kWh. |
 | **Road Routing** | **OSRM Server** | Self-hosted Open Source Routing Machine for accurate European road network distances. |
 | **Traffic & Congestion** | **HERE Traffic** | Live European traffic feeds and roadwork delays affecting transit times. |

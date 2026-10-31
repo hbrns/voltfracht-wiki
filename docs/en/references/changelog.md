@@ -19,6 +19,17 @@ roadmap:
   classes, energy-efficient driving techniques, and handling hazardous cargo.
 * **Experience Progression**: Driver experience levels will influence vehicle
   battery efficiency, turnaround times, and contract bonuses.
+* **Fleet Overview Preview (*Meine Flotte*)**: All trucks at a glance — status
+  (ready, en route, charging, loading), battery level, location, destination,
+  and route progress. Tapping a truck opens its route, charging plan, and
+  consumption details. With PRO, actual consumption is shown as a rolling
+  average of recent trips (the last few hundred kilometres weighted most);
+  PRO+ adds the deviation from the model's factory spec (valid at half load,
+  70 km/h, 15 °C) — green below, red above. Used trucks initially display the
+  previous owner's consumption and converge to the buyer's own after roughly
+  1'000 driven kilometres. Custom truck names accept letters, numbers, and
+  punctuation (no symbols or emoji); the leading number (e.g. #3) remains the
+  unique identifier in settlements.
 
 ### Upcoming Version 0.20 — Multi-Depot Fleet Expansion
 
@@ -39,6 +50,11 @@ roadmap:
   milestones.
 * **Short-Haul Rebalancing**: Ongoing economic adjustments to refine contract
   profitability ratios between short regional runs and long cross-border hauls.
+* **PRO Subscription Perks**: 2 additional order-queue slots and a 20 %
+  discount on all boosts for PRO subscribers.
+* **Test Community**: A dedicated test environment where selected players try
+  new features before release, report bugs with screenshots, complete test
+  tasks, and give direct feedback.
 
 ---
 
@@ -60,8 +76,78 @@ stabilization period.
 | **Support System** | Direct in-game developer bug responses with push notifications, plus unique itemized receipt numbers (`Belegnummer`) for financial audit tracking. |
 | **Fleet Storage** | Instant vehicle sales directly from **The Hall (*Die Halle*)**, buying marketplace trucks directly into storage, custom truck naming, and storage management independent of depot slots. |
 | **Weather System** | Real daylight cycle implementation with temperature effects. Cold and heat reduce vehicle range, with route planner automatically accounting for weather impacts. |
+| **Fair-Play Policy** | New Terms of Service section (consent required at next login): no scripts, bots, macros, auto-clickers, or access to the game outside the provided client; no account sharing, selling, or trading. Game-action timestamps are logged for 90 days (no IP, device, or content data). Escalation order: inquiry first, then warning, then suspension. Applies only after consent, not retroactively. |
 
 #### Patch Updates
+
+##### 31 October 2026 — Ferry Charging Planning Fix
+
+- **Ferry Charging Planning**: The charging planner treated the ferry port as a
+  destination, so before a crossing it charged only what was needed to reach
+  the harbor — not the configured target state-of-charge. Root cause: the
+  0.18.232 cap that limits the last charging stop before a destination to the
+  actually required amount. Applies from the next route planning; ongoing tours
+  keep their existing plan.
+- **Harbor Leg**: The harbor stage still only requires 50 km of remaining range
+  on arrival at the port. Whether this suffices in practice is being monitored
+  through player feedback on ferry crossings in the coming days.
+
+##### 0.18.396 (30 October 2026)
+
+- Version bump; no user-facing changes.
+
+##### 0.18.394 & 0.18.395 (29 October 2026)
+
+- **Client**: Swiss flag display corrected.
+- **Planning**: Route calculation display issue reported by a player fixed,
+  plus several smaller fixes noticed alongside.
+
+##### 0.18.389 (28 October 2026) — Server Performance Overhaul
+
+- **Routing Server**: Responses exceeded the send buffer and aborted
+  mid-transmission (283 aborts in the hour before the fix; zero since). Route
+  calculation time dropped from ~3.5 s to under 1 s.
+- **Charging Plan Completeness**: Long tours occasionally went out with no
+  charging plan at all (reported case: 4'107 km to Helsinki with zero charging
+  stops). After the fix, none of 139 long tours were affected.
+- **Charger Search**: Searching for charging stations along a route performed
+  over 20 million unnecessary computation steps per planning run; rebuilt.
+- **Finance Page**: A new booking type was not recognized by the category
+  overview, sending the finance page into an error state for ~1.5 hours before
+  being fixed.
+
+##### Deal Payout Bug & Compensation (27 October 2026)
+
+- **Bug**: Players who negotiated a deal for a long trip, dispatched the truck,
+  and logged out lost the deal bonus on arrival — on re-login the deal was
+  discarded as expired because the truck had already arrived.
+- **Server Update**: 09:00, ~10 minute pause. Bug sealed.
+- **Compensation**: 938 deliveries across 90 accounts totalling €39'951'786 in
+  lost deal bonuses (smallest case €3'335, largest €124'450). Each case
+  reconstructed individually; 82 cases excluded (truck already en route before
+  the handshake, a second truck to the same city, or the trip started after
+  the deal expired). Compensation paid as individual bookings in finances.
+- **Leaderboards**: Pumpkin leaderboard unaffected (kilometre-based). Wealth
+  leaderboard shifts only marginally — 0.3 % of total player wealth; 60 accounts
+  change rank (largest climb +4 places, largest drop −2), top 10 unchanged.
+- **Android**: Version 0.18.382 is now available on Google Play.
+
+##### 0.18.386 (27 October 2026) — Dispatch & Deal Latency
+
+- **Server Update**: 01:00, offline for ~15 minutes. Running tours unaffected.
+- Targets delays when dispatching trucks and handling deals. Root cause not yet
+  fully identified; tuning parameters included for the coming days.
+- **Weather Query**: On repeated errors, now falls back to the last known value
+  instead of blocking requests.
+- **Routing Under Load**: The OSRM query buffer was increased. Peak load now
+  exceeds 1'500 simultaneously driving trucks; since 0.18 every en-route truck
+  can be replanned manually and every slider change triggers a new route
+  calculation — the resulting load had been underestimated.
+
+##### Silent Security Update (25 October 2026)
+
+- Latest security patches applied server-side. No version change (remains
+  0.18.382).
 
 ##### 0.18.382 (22 October 2026)
 
@@ -268,7 +354,7 @@ Released early September 2026.
 Released August 2026.
 
 * **Simulation Foundation**: Launch of the core European logistics map spanning
-  33 countries and 109 cities.
+  31 countries and 103 cities.
 * **Data Stream Integrations**: Integration of OpenChargeMap station data,
   ENTSO-E daily spot energy pricing, OSRM routing, HERE traffic, and SRTM
   elevation profiles.

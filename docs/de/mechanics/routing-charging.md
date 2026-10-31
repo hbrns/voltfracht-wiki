@@ -10,7 +10,7 @@ entlang der Route interagieren.
 ## 1. Autonomes Routenplanung & OSRM
 
 VoltFracht nutzt einen selbstgehosteten Open-Source-Routing-Server (OSRM),
-um reale LKW-Pfade über 33 europäische Nationen zu berechnen.
+um reale LKW-Pfade über 31 europäische Nationen zu berechnen.
 
 * **Kurvengenaue Navigation**: LKWs folgen der realen Straßengeometrie und
   nicht Luftlinienentfernungen.
@@ -70,6 +70,20 @@ Jeder Ladestandort verfolgt die Echtzeit-Steckerbelegung:
 * **Belegte Stecker**: Wenn alle Stecker bei Ankunft belegt sind, tritt der LKW
   in eine Warteschlange mit einem Live-Countdown-Timer ein, bis ein Ladeplatz
   frei wird.
+
+### Einstellbare Wartezeit
+
+Unter **Einstellungen → „Warten an belegter Säule"** legst du fest, wie
+lange ein LKW vor einer belegten Säule wartet: **5, 15, 30 oder 60 echte
+Minuten** (voreingestellt: 30). Bei der **20-fachen Spielgeschwindigkeit**
+sind das knapp **2, 5, 10 oder 20 Spielstunden**.
+
+!!! tip
+    Kürzer warten ist nicht automatisch besser: Der LKW fährt dann nur
+    früher ungeladen los, und genau daraus kann die nächste Säule
+    unerreichbar werden. Solange er wartet, tippe die Säule in der
+    Routenansicht an und wähle eine andere — das ist zuverlässiger als
+    auf den Umplaner zu warten.
 
 ### ENTSO-E-Stromkosten
 

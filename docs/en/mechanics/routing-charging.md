@@ -10,7 +10,7 @@ charging station availability interact along the route.
 ## 1. Autonomous Route Planning & OSRM
 
 VoltFracht utilizes a self-hosted Open Source Routing Machine (OSRM) server
-to calculate real-world truck paths across 33 European nations.
+to calculate real-world truck paths across 31 European nations.
 
 * **Turn-by-Turn Navigation**: Trucks follow real road geometry rather than
   straight-line distances.
@@ -66,6 +66,19 @@ Every charging location tracks real-time plug occupancy:
 * **Free Plugs**: The truck hooks up immediately and begins charging.
 * **Occupied Plugs**: If all plugs are busy upon arrival, the truck enters a
   waiting queue with a live countdown timer until a charging bay opens.
+
+### Configurable Wait Time
+
+Under **Settings → "Wait at occupied station"** you set how long a truck
+waits at an occupied charger: **5, 15, 30, or 60 real minutes** (default:
+30). At the game's **20× time scale** that is roughly **2, 5, 10, or 20
+game hours**.
+
+!!! tip
+    Shorter waiting is not automatically better: the truck then leaves
+    earlier *uncharged*, which can make the next charger unreachable.
+    While it waits, tap the station in the route view and pick another
+    one — that is more reliable than waiting for the replanner.
 
 ### ENTSO-E Electricity Costs
 

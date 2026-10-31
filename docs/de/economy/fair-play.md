@@ -63,6 +63,8 @@ Jeder muss selbst spielen. So sind alle Ranglistenplätze fair erreicht.
 
 **Hinweis**: Mit Version 0.18 (18. Oktober 2026) gibt es neue Fair-Play-Regeln.
 Alle müssen beim nächsten Login zustimmen. Die Regeln gelten ab dann.
+Eine Übersicht über alle neun AGB-Abschnitte findest du unter
+[AGB — Übersicht](../references/terms.md).
 
 ### Du musst selbst spielen
 

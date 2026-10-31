@@ -72,7 +72,8 @@ rankings reflect genuine human dispatching skill.
 **Note**: With version 0.18 (released 18 October 2026), a new fair-play section
 was added to the AGB requiring all players to accept the updated terms upon
 next login. These rules apply from the date of player consent, not
-retroactively.
+retroactively. For a summary of all nine AGB sections, see
+[Terms of Service (AGB) — Summary](../references/terms.md).
 
 ### The "You Play Yourself" Principle
 

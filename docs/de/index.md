@@ -29,7 +29,7 @@ absprechen.
   Play Store) mit einheitlichem Kontofortschritt.
 * **Reale Infrastruktur**: Direkt auf Basis tatsächlicher europäischer Geografie-
   und Logistikdatenquellen aufgebaut – mit über 12'000 Ladestandorten und
-  58'000 Ladepunkten in 109 Städten in 33 Ländern.
+  58'000 Ladepunkten in 103 Städten in 31 Ländern.
 * **Echtzeit-Logistikfaktoren**: Auszahlungen und Reichweite hängen von
   täglichen Spot-Strompreisen, Live-Verkehrsfluss, Baustellen, Wetterzyklen
   und den Geländehöhenprofilen der Shuttle Radar Topography Mission (SRTM) ab.
@@ -51,7 +51,7 @@ Geografie-APIs abgerufen werden:
 | **ENTSO-E** | Tägliche Spotmarkt-Strompreise pro Land | Beeinflusst direkt die Ladekosten und Margenberechnungen pro Fahrt. |
 | **HERE Technologies** | Echtzeit-Verkehrsfluss und aktive Baustellen | Modifiziert Fahrtdauern und Umwegplanung. |
 | **SRTM-Höhendaten** | Hochpräzise Terrain- und Topografiedaten | Steigungen und Bergpässe erhöhen den Batteriestromverbrauch erheblich. |
-| **OSRM Routing** | Benutzerdefinierte Open-Source-Straßennetz-Routing-Engine | Berechnet exakte LKW-Fahrwege in 33 europäischen Nationen. |
+| **OSRM Routing** | Benutzerdefinierte Open-Source-Straßennetz-Routing-Engine | Berechnet exakte LKW-Fahrwege in 31 europäischen Nationen. |
 
 ---
 
@@ -123,3 +123,14 @@ den Syndikatswettbewerb zu meistern:
   [YouTube](https://www.youtube.com/@VoltFracht) |
   :fontawesome-brands-tiktok:{ .tiktok }
   [TikTok](https://www.tiktok.com/@voltfracht)
+
+---
+
+## 📰 Presse & Medien
+
+Externe Berichterstattung über VoltFracht:
+
+| Artikel | Quelle | Datum |
+| :--- | :--- | :--- |
+| [VoltFracht: Wie ein Spiel Lücken im Ladenetz sichtbar macht](https://www.elektroauto-news.net/news/voltfracht-spiel-luecke-ladenetz-elektro-lkw) | elektroauto-news.net | 18. Oktober 2026 |
+| [VoltFracht: Aufbau einer E-Lkw-Spedition als Online-Spiel](https://www.electrive.net/2026/09/19/voltfracht-elektro-lkw-spiel/) | electrive.net | 19. September 2026 |

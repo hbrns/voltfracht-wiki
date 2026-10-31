@@ -16,9 +16,9 @@ Ladekosten- und Transitzeit wird durch fünf Kern-Echtwelt-Datenfeeds gesteuert:
 
 | Datenebene | Primäre Datenquelle | Umfang & Abdeckung | Auswirkung im Spiel |
 | :--- | :--- | :--- | :--- |
-| **Ladeinfrastruktur** | **OpenChargeMap** | 12'481+ Standorte / 58'598+ Stecker in 109 Städten in 33 Ländern | Bestimmt Lade Stationskoordinaten, Steckerleistungen (bis zu 600 kW), Live-Steckerbelegung und Warteschlangen-Timer. |
+| **Ladeinfrastruktur** | **OpenChargeMap** | 12'481+ Standorte / 58'598+ Stecker in 103 Städten in 31 Ländern | Bestimmt Lade Stationskoordinaten, Steckerleistungen (bis zu 600 kW), Live-Steckerbelegung und Warteschlangen-Timer. |
 | **Energiemarktpreise** | **ENTSO-E** | Tägliche Spotmarktpreise über europäische Gebotszonen | Legt dynamische Stromkosten pro kWh für jedes Land fest, beeinflusst direkt die Reise-Gewinnmargen. |
-| **Straßennetz-Routing** | **OSRM-Server** | Eigengehosteter Open-Source-Routing-Server für 33 Nationen | Berechnet exakte Straßendistanzen, Autobahnrouten und Grenzüberschreitungen für schwere Elektro-LKWs. |
+| **Straßennetz-Routing** | **OSRM-Server** | Eigengehosteter Open-Source-Routing-Server für 31 Nationen | Berechnet exakte Straßendistanzen, Autobahnrouten und Grenzüberschreitungen für schwere Elektro-LKWs. |
 | **Live-Verkehr & Staus** | **HERE Technologies** | Echtzeit-Europäischer Autobahnverkehr & aktive Baustellen | Passt Durchfahrtszeiten dynamisch an und führt Verzögerungsrisiken auf stark frequentierten Korridoren ein. |
 | **Terrain & Höhe** | **SRTM-Daten** | NASA Shuttle Radar Topography Mission 30-Meter-Mesh | Wendet realistische Steigungswiderstände an: steile Bergpässe entleeren die Batterie schnell, Gefällestrecken ermöglichen Energierückgewinnung. |
 | **Atmosphärische Physik** | **Live-Temperaturzyklen** | Tägliche europäische Wettermuster | Extreme Kälte oder Hitze erhöhen den Batterie-Innenwiderstand und den HVAC-Energiebedarf, reduzieren die Gesamtreichweite. |

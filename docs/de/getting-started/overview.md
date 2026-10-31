@@ -103,6 +103,10 @@ flowchart LR
    Frachtauszahlung, Coins und Erfahrungspunkte. Investiere die Einnahmen
    in neue LKW-Modelle, höhere Tonnage-Lizenzen oder Depot-Erweiterungen.
 
+!!! info "Zeitmaßstab: 20-fache Echtzeit"
+    Die Simulation läuft mit **20-facher Echtzeit-Geschwindigkeit** — ein
+    Spieltag vergeht in etwa 72 echten Minuten.
+
 ---
 
 ## 5. Echtzeit-Daten-Engine
@@ -117,7 +121,7 @@ Infrastrukturdaten Europas.
 
 | Datenebene | Primäre Quelle | Auswirkung im Spiel |
 | :--- | :--- | :--- |
-| **Ladeinfrastruktur** | **OpenChargeMap** | Abbildung von 12'481+ Ladestandorten und 58'598+ einzelnen Ladepunkten in 109 Städten in 33 Ländern. |
+| **Ladeinfrastruktur** | **OpenChargeMap** | Abbildung von 12'481+ Ladestandorten und 58'598+ einzelnen Ladepunkten in 103 Städten in 31 Ländern. |
 | **Strom-Spotpreise** | **ENTSO-E** | Dynamische, tägliche länderspezifische Spotpreise, die die Ladekosten pro kWh für jedes Land festlegen. |
 | **Straßenrouting** | **OSRM-Server** | Eigener Open-Source-Routing-Server für genaue europäische Straßennetz-Distanzen. |
 | **Verkehr & Staus** | **HERE Traffic** | Live-Europäischer Verkehrsfluss und aktive Baustellen, die Durchfahrtszeiten beeinflussen. |

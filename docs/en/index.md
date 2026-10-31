@@ -28,7 +28,7 @@ and coordinating with fellow dispatchers in competitive syndicates.
   unified account progression.
 * **Real-World Infrastructure**: Built directly on actual European geographic
   and logistics data sources—mapping over 12'000 charging locations and 58'000
-  charge points across 109 cities in 33 countries.
+  charge points across 103 cities in 31 countries.
 * **Real-Time Logistics Factors**: Payouts and range depend on real daily spot
   electricity prices, live traffic flow, roadworks, weather cycles, and
   Shuttle Radar Topography Mission (SRTM) terrain elevation profiles.
@@ -49,7 +49,7 @@ by pulling data directly from leading logistics and geography APIs:
 | **ENTSO-E** | Daily spot market electricity prices per country | Directly affects charging costs and margin calculations per run. |
 | **HERE Technologies** | Real-time traffic flow and active roadworks | Modifies trip durations and detour planning. |
 | **SRTM Elevation** | High-precision terrain and topography data | Climbs and mountain passes significantly increase battery power consumption. |
-| **OSRM Routing** | Custom open-source road network routing engine | Calculates exact truck driving paths across 33 European nations. |
+| **OSRM Routing** | Custom open-source road network routing engine | Calculates exact truck driving paths across 31 European nations. |
 
 ---
 
@@ -121,3 +121,14 @@ syndicate competition:
   [YouTube](https://www.youtube.com/@VoltFracht) |
   :fontawesome-brands-tiktok:{ .tiktok }
   [TikTok](https://www.tiktok.com/@voltfracht)
+
+---
+
+## 📰 Press & Media
+
+External coverage of VoltFracht:
+
+| Article | Source | Date |
+| :--- | :--- | :--- |
+| [VoltFracht: Wie ein Spiel Lücken im Ladenetz sichtbar macht](https://www.elektroauto-news.net/news/voltfracht-spiel-luecke-ladenetz-elektro-lkw) | elektroauto-news.net | 18 October 2026 |
+| [VoltFracht: Aufbau einer E-Lkw-Spedition als Online-Spiel](https://www.electrive.net/2026/09/19/voltfracht-elektro-lkw-spiel/) | electrive.net | 19 September 2026 |

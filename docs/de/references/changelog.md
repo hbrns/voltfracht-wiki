@@ -21,6 +21,18 @@ Zusammenarbeit mit der Spieler-Community. Hier ist die aktuelle Feature-Roadmap:
   Gefahrgut.
 * **Erfahrungsstufen**: Fahrerfahrungsstufen beeinflussen die
   Batterieeffizienz der Fahrzeuge, die Umdrehzeiten und die Auftragsboni.
+* **Flottenübersicht-Vorschau (*Meine Flotte*)**: Alle LKW auf einen Blick —
+  Status (bereit, unterwegs, lädt, belädt), Akkustand, Standort, Ziel und
+  Routenfortschritt. Antippen öffnet die Details mit Route, Ladeplanung und
+  Verbrauch. Mit PRO wird der Ist-Verbrauch als gleitender Schnitt der letzten
+  Fahrten angezeigt (die letzten paar hundert Kilometer zählen am meisten);
+  PRO+ zeigt zusätzlich die Abweichung vom Werkswert des Modells (gültig bei
+  halber Ladung, 70 km/h, 15 °C) — grün darunter, rot darüber. Gebrauchte LKW
+  zeigen anfangs noch den Verbrauch des Vorbesitzers und nähern sich nach rund
+  1'000 eigenen Kilometern fast ganz dem eigenen Wert an. Eigene LKW-Namen
+  erlauben Buchstaben, Zahlen und Satzzeichen (keine Symbole oder Emoji); die
+  Nummer davor (z. B. #3) bleibt stehen und ist die eindeutige Kennung — auch
+  in der Abrechnung.
 
 ### Kommende Version 0.20 – Mehrfach-Depot-Flottenausbau
 
@@ -45,6 +57,11 @@ Zusammenarbeit mit der Spieler-Community. Hier ist die aktuelle Feature-Roadmap:
 * **Kurzstrecken-Neuabgleich**: Laufende wirtschaftliche Anpassungen zur
   Verfeinerung der Rentabilitätsverhältnisse zwischen kurzen regionalen
   Fahrten und langen grenzüberschreitenden Transporten.
+* **PRO-Abo-Vorteile**: 2 zusätzliche Plätze in der Auftrags-Warteschlange und
+  20 % Rabatt auf alle Boosts für PRO-Abonnenten.
+* **Test-Community**: Eine eigene Testumgebung, in der ausgewählte Spieler
+  neue Funktionen vor dem Release testen, Fehler mit Screenshots melden,
+  Testaufgaben ausprobieren und direkt Feedback geben.
 
 ---
 
@@ -66,8 +83,83 @@ Web-Stabilisierung.
 | **Supportsystem** | Direkte In-Game-Antworten des Entwicklers auf Fehlerberichte mit Push-Benachrichtigungen, plus eindeutige Belegnummern für Finanzprüfungen. |
 | **Flotten-Speicher** | Sofortiger Fahrzeugverkauf direkt aus **[der Halle](../fleet/depot-hall.md)**, Kauf von Marktplatz-LKWs direkt in die Lagerung, individuelle LKW-Benennung. |
 | **Wettersystem** | Echter Tagesgang mit Temperatureffekten. Kälte und Hitze reduzieren die Reichweite, Routenplaner berücksichtigt Wetterauswirkungen automatisch. |
+| **Fair-Play-Richtlinie** | Neuer AGB-Abschnitt (Zustimmung beim nächsten Login erforderlich): keine Skripte, Bots, Makros, Auto-Klicker und kein Zugriff auf das Spiel außerhalb des bereitgestellten Clients; keine gemeinsame Nutzung, kein Verkauf und Tausch von Konten. Zeitstempel von Spielhandlungen werden 90 Tage protokolliert (keine IP-, Geräte- oder Inhaltsdaten). Eskalation: erst Nachfrage, dann Verwarnung, dann Sperre. Gilt erst ab der Zustimmung, nicht rückwirkend. |
 
 #### Patch-Updates
+
+##### 31. Oktober 2026 — Fix der Ladeplanung an Fähren
+
+- **Ladeplanung an Fähren**: Der Planer behandelte den Fährhafen wie einen
+  Zielort und lud vor der Überfahrt nur den Bedarf bis zum Hafen — nicht den
+  eingestellten Zielladestand. Ursache: der Deckel aus 0.18.232, der den
+  letzten Ladestopp vor dem Ziel auf das tatsächlich Nötige begrenzt. Greift
+  ab der nächsten Routenplanung; laufende Touren behalten ihren Plan.
+- **Hafen-Etappe**: Diese verlangt weiterhin nur 50 km Restreichweite bei der
+  Ankunft am Hafen. Ob das in der Praxis reicht, wird anhand der Fährfahrten
+  der nächsten Tage beobachtet.
+
+##### 0.18.396 (30. Oktober 2026)
+
+- Versionssprung ohne sichtbare Änderungen für Spieler.
+
+##### 0.18.394 & 0.18.395 (29. Oktober 2026)
+
+- **Client**: Schweizer Flagge in der Anzeige korrigiert.
+- **Planung**: Anzeigefehler in der Routenberechnung behoben (von einem Spieler
+  gemeldet), dazu ein paar kleinere Fixes, die nebenbei aufgefallen sind.
+
+##### 0.18.389 (28. Oktober 2026) — Server-Performance-Überholung
+
+- **Routing-Server**: Antworten waren zu groß für den Sendepuffer und brachen
+  mitten in der Übertragung ab (283 Abbrüche in der Stunde vor dem Fix; seit
+  der Umstellung null). Routenberechnung von ~3,5 s auf unter 1 s gesunken.
+- **Vollständigkeit der Ladeplanung**: Lange Touren gingen gelegentlich ganz
+  ohne Ladeplanung raus (gemeldeter Fall: 4'107 km bis Helsinki ohne einzigen
+  Ladestopp). Seit der Umstellung ist das bei 139 langen Touren kein einziges
+  Mal mehr passiert.
+- **Säulensuche**: Die Suche nach Ladesäulen entlang einer Route machte pro
+  Planung über zwanzig Millionen überflüssige Rechenschritte; umgebaut.
+- **Finanzseite**: Eine neue Buchungsart war der Kategorie-Übersicht noch nicht
+  bekannt und brachte die Finanzseite für knapp eineinhalb Stunden in einen
+  Fehlerzustand.
+
+##### Deal-Auszahlungsfehler & Nachzahlung (27. Oktober 2026)
+
+- **Fehler**: Wer einen Deal für eine längere Fahrt verhandelt, losgeschickt
+  und sich abgemeldet hat, verlor den Bonus bei der Ankunft — der Deal wurde
+  beim Wiedereinstieg als verfallen aussortiert, weil der LKW in genau dieser
+  Sekunde schon angekommen war.
+- **Server-Update**: 09:00 Uhr, ca. 10 Minuten Pause. Fehler ist dicht.
+- **Nachzahlung**: 938 Lieferungen bei 90 Konten, zusammen 39'951'786 €
+  entgangener Deal-Bonus (kleinster Einzelfall 3'335 €, größter 124'450 €).
+  Jeder Fall einzeln rekonstruiert; 82 Fälle ausgeschlossen (LKW schon vor dem
+  Handschlag unterwegs, zweiter LKW in dieselbe Stadt, Fahrt erst nach Ablauf
+  des Deals gestartet). Auszahlung läuft als eigene Buchung in den Finanzen.
+- **Ranglisten**: Kürbisrangliste nicht betroffen (kilometerbasiert, Geld spielt
+  keine Rolle). Vermögensrangliste verschiebt sich nur geringfügig — 0,3 % des
+  Gesamtvermögens aller Spieler; 60 Konten wechseln den Platz (größter Aufstieg
+  +4 Plätze, größter Abstieg −2), die Top 10 bleiben unverändert.
+- **Android**: Version 0.18.382 steht jetzt auf Google Play zum Download bereit.
+
+##### 0.18.386 (27. Oktober 2026) — Verzögerungen beim Losschicken & bei Deals
+
+- **Server-Update**: 01:00 Uhr, ca. 15 Minuten offline. Laufende Touren sind
+  nicht betroffen.
+- Richtet sich gegen die Verzögerungen beim Losschicken und bei den Deals.
+  Die Ursache ist noch nicht zu 100 % gefunden; Justier-Parameter für die
+  kommenden Tage sind mit dabei.
+- **Wetterabfrage**: Fällt bei wiederholten Fehlern nun auf ihren letzten Wert
+  zurück, statt die Anfragen zu blockieren.
+- **Routing unter Last**: Der OSRM-Abfrage wurde mehr Puffer gegeben. In
+  Spitzenzeiten fahren über 1'500 LKW gleichzeitig; seit 0.18 kann jeder
+  unterwegs befindliche LKW manuell neu geplant werden und jeder Reglerzug
+  löst eine neue Routenberechnung aus — die Last war tatsächlich unterschätzt
+  worden.
+
+##### Lautloses Sicherheitsupdate (25. Oktober 2026)
+
+- Neueste Sicherheitspatches serverseitig eingespielt. Keine Versionsänderung
+  (bleibt 0.18.382).
 
 ##### 0.18.382 (22. Oktober 2026)
 
@@ -271,7 +363,7 @@ Veröffentlicht August 2026.
 
 #### Simulationsgrundlage
 
-* Start der Kern-Europäischen Logistikkarte mit 33 Ländern und 109 Städten.
+* Start der Kern-Europäischen Logistikkarte mit 31 Ländern und 103 Städten.
 
 #### Datenstrom-Integration
 
