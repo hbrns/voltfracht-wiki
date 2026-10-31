@@ -80,7 +80,7 @@ stabilization period.
 
 #### Patch Updates
 
-##### 31 October 2026 — Ferry Charging Planning Fix
+##### 0.18.394 (31 October 2026) — Ferry Charging Planning Fix
 
 - **Ferry Charging Planning**: The charging planner treated the ferry port as a
   destination, so before a crossing it charged only what was needed to reach

@@ -87,7 +87,7 @@ Web-Stabilisierung.
 
 #### Patch-Updates
 
-##### 31. Oktober 2026 — Fix der Ladeplanung an Fähren
+##### 0.18.394 (31. Oktober 2026) — Fix der Ladeplanung an Fähren
 
 - **Ladeplanung an Fähren**: Der Planer behandelte den Fährhafen wie einen
   Zielort und lud vor der Überfahrt nur den Bedarf bis zum Hafen — nicht den
