@@ -87,7 +87,7 @@ Web-Stabilisierung.
 
 #### Patch-Updates
 
-##### 0.18.394 (31. Oktober 2026) — Fix der Ladeplanung an Fähren
+##### 0.18.396 (30. Oktober 2026) — Fix der Ladeplanung an Fähren
 
 - **Ladeplanung an Fähren**: Der Planer behandelte den Fährhafen wie einen
   Zielort und lud vor der Überfahrt nur den Bedarf bis zum Hafen — nicht den
@@ -97,10 +97,6 @@ Web-Stabilisierung.
 - **Hafen-Etappe**: Diese verlangt weiterhin nur 50 km Restreichweite bei der
   Ankunft am Hafen. Ob das in der Praxis reicht, wird anhand der Fährfahrten
   der nächsten Tage beobachtet.
-
-##### 0.18.396 (30. Oktober 2026)
-
-- Versionssprung ohne sichtbare Änderungen für Spieler.
 
 ##### 0.18.394 & 0.18.395 (29. Oktober 2026)
 

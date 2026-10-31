@@ -80,7 +80,7 @@ stabilization period.
 
 #### Patch Updates
 
-##### 0.18.394 (31 October 2026) — Ferry Charging Planning Fix
+##### 0.18.396 (30 October 2026) — Ferry Charging Planning Fix
 
 - **Ferry Charging Planning**: The charging planner treated the ferry port as a
   destination, so before a crossing it charged only what was needed to reach
@@ -91,10 +91,6 @@ stabilization period.
 - **Harbor Leg**: The harbor stage still only requires 50 km of remaining range
   on arrival at the port. Whether this suffices in practice is being monitored
   through player feedback on ferry crossings in the coming days.
-
-##### 0.18.396 (30 October 2026)
-
-- Version bump; no user-facing changes.
 
 ##### 0.18.394 & 0.18.395 (29 October 2026)
 
