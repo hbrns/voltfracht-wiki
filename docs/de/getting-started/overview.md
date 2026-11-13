@@ -80,6 +80,12 @@ Finanzprotokollen aufgeschlüsselt.
   dispatchbarer LKWs. Nicht benötigte Fahrzeuge können in **der
   [Halle](../fleet/depot-hall.md)** eingelagert werden, um Depot-Stellplätze
   freizugeben, ohne sie zu verkaufen.
+* **Länder-Freischaltungen**: Nachbarländer freischalten kostet Coins — jedes
+  weitere Land kostet mehr. Erst danach erscheinen Aufträge von dort und
+  dorthin in der Börse, und du kannst dein Depot in diese Länder verlegen.
+* **Tonnage-Freischaltungen**: Höhere Tonnagen erlauben schwerere Aufträge und
+  größere LKW im Shop. Die Freischaltung ist dauerhaft und wird mit Coins
+  bezahlt — ein LKW dieser Klasse muss danach noch gekauft werden.
 
 ---
 

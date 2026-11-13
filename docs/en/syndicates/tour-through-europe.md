@@ -19,6 +19,15 @@ individual dispatch choices.
   available stages. Multiple players can work on different legs concurrently.
 * **Shared Progress Bar**: As members complete their assigned legs, the 
   collective progress bar fills in real time for the entire alliance.
+* **New Round at Midnight UTC**: Every night at midnight (UTC) the syndicate
+  gets a new round; each leg's destination is the next leg's start.
+* **Payload Requirement**: You need a truck with enough payload for a leg —
+  without one there is no "Take" button. The "Drivable" filter shows only
+  the legs you can take right now. Take one leg at a time; completed legs
+  turn green.
+* **Reward Claim**: The more the syndicate completes together, the bigger the
+  reward — anyone who drove at least one leg can claim it, and a tier you
+  forget is credited up to seven days later.
 
 ---
 

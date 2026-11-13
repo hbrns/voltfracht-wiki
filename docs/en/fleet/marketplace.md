@@ -26,6 +26,11 @@ P2P vehicle trading is subject to specific unlock gates and fleet slot rules:
   adjusted price or execute an instant sell. If active depot slots are full, 
   returning the truck directly to the active depot remains disabled until 
   capacity opens up.
+* **Listing Visibility & Commission**: Listings run for 7 days and are
+  visible either to everyone or only to your syndicate; the game keeps a 5%
+  commission on the sale proceeds.
+* **List Only from the Hall**: Only trucks stored in the Hall can be listed
+  on the used market.
 
 ---
 
@@ -54,6 +59,11 @@ Dispatchers have two distinct methods for liquidating fleet assets:
   battery degradation, and model class.
 * **Speed**: Instant cash settlement directly into company funds
   without listing delays.
+* **Idle Only**: Selling works only while the truck is idle — a truck on a
+  trip or listed on the marketplace stays put. The price follows the
+  odometer: a nearly new truck fetches almost its list price, a
+  well-travelled one much less; a bar shows where the truck sits between
+  the two ends.
 
 ### P2P Marketplace Sale
 

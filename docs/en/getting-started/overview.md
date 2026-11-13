@@ -74,6 +74,12 @@ automatically added to delivery payouts and itemized in your financial logs.
 *   **Depot Slots**: Depot capacity caps the number of active, dispatchable
     trucks. Unneeded vehicles can be stored in the **Hall** to free up depot
     slots without selling them.
+*   **Country Unlocks**: Unlocking neighbouring countries costs coins — each
+    further country costs more. Only then do orders from and to that country
+    appear in the exchange, and you can move your depot there.
+*   **Tonnage Unlocks**: Higher tonnage classes allow heavier orders and
+    bigger trucks in the shop. The unlock is permanent and paid in coins —
+    you still have to buy a truck of that class afterwards.
 
 ---
 

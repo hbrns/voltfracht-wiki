@@ -71,6 +71,9 @@ einem vollen 10-Unternehmens-Bündnis mit vollbesetzten 12-LKW-Flotten erhält.
   wird jede Herausforderungspunktezahl auf 100 % gekappt. Dies verhindert,
   dass massive Bündnisse durch reines Fahrzeugvolumen die Aufstiegsplätze
   dominieren und hält den Liga-Wettbewerb fair.
+* **Abrechnung am Wochenende**: Die Liga wird am Wochenende abgerechnet. Für
+  Auf- und Abstieg zählt die **schwächste eurer vier Challenges**; der
+  Fortschrittsbalken zeigt den Stand der laufenden Woche.
 
 ---
 
@@ -104,3 +107,54 @@ Syndikate gemeinsame finanzielle Sparziele (*Sparziele*) einrichten:
 * **Erweiterte Schatzkammer-Kapazität**: Aktualisierte Syndikat-Funktionen
   unterstützen erweiterte Spendenobergrenzen und Echtzeit-Push-Benachrichtigungen,
   wenn Sparmeilensteine freigeschaltet oder erreicht werden.
+
+---
+
+## 5. Prestige — Dauerhafte Bündnis-Auszeichnung
+
+Prestige ist die **dauerhafte** Auszeichnung eures Syndikats — anders als die
+Liga, die jede Woche neu entschieden wird.
+
+* **XP-Quellen**: Am Wochenende aus Wochen-Score und Podium, täglich aus den
+  Belohnungsstufen der [Tour durch Europa](./tour-through-europe.md).
+* **Stufenaufstieg**: Die Stufe steigt, sobald die XP reichen — auch mitten in
+  der Woche, ohne auf das Wochenende zu warten.
+* **Bonus pro Stufe**: Jede Stufe bringt allen Mitgliedern dauerhaft mehr
+  Auftrags-Coins und einen weiteren Punkt für die Allianzboni.
+
+---
+
+## 6. Tagesziele & Streak (solo)
+
+Neben den wöchentlichen Syndikats-Challenges gibt es **drei Tagesziele**
+(Aufträge, Kilometer, geladene kWh):
+
+* Jedes abgeschlossene Ziel zahlt Coins; alle drei zusammen ergeben einen
+  Tagesbonus.
+* Der Tag endet um Mitternacht in **deiner lokalen Zeitzone**.
+* Nicht abgeholte Ziele werden beim nächsten Login nachgezahlt — bis zu
+  sieben Tage rückwirkend. Der Tagesbonus wird nur gezahlt, wenn alle drei
+  Ziele des Tages erfüllt wurden.
+* Der Login-Streak erhöht die Tagesbelohnung, solange du keinen Tag auslässt.
+
+---
+
+## 7. Spendenauszahlung, Allianzboni & Aktivitätsprotokoll
+
+* **Sparziel-Auszahlung**: Bei Erfüllung wird ein Coin-Topf
+  (**Zielsumme ÷ 10.000**) unter allen Spendern verteilt: jeder bekommt
+  seinen Anteil an der Zielsumme, mindestens 1 % des Topfes, die drei größten
+  Spender zusätzlich +15 % / +10 % / +5 %. Unter 1.000 € Spende gibt es keine
+  Auszahlung. Das Spenden-Kontingent ist pro Zeitfenster begrenzt.
+* **Allianzboni**: Mit Allianz-Punkten aus Spenden schaltet der Leiter
+  **dauerhafte Boni** für Tonnagen, Warengruppen oder Länder frei. Sie gelten
+  für alle Mitglieder und werden in der Börse und in der Abrechnung oben
+  aufgeschlagen.
+* **Kassenwart-Grenzen**: Der Kassenwart darf genau zwei Dinge — ein Sparziel
+  freischalten und Allianz-Punkte auf die Boni setzen. Aufnehmen, Entfernen,
+  Umbenennen und die Leitungsübergabe bleiben beim Leiter. Es gibt immer
+  höchstens einen Kassenwart; jede Spenden-Entscheidung steht mit Namen im
+  Aktivitätsprotokoll.
+* **Aktivitätsprotokoll**: Das Syndikatsprotokoll (Beitritte, Austritte,
+  abgeschlossene Challenges, wöchentliche Abrechnungen, Leitungswechsel,
+  erreichte Sparziele) zeigt die letzten 10 Einträge; „Mehr laden" holt ältere.

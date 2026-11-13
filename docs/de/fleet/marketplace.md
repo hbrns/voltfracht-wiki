@@ -29,6 +29,11 @@ Flottenstellplatz-Regeln:
   angepassten Preis neu listen oder einen Sofortverkauf durchführen. Wenn die
   aktiven Depot-Stellplätze voll sind, bleibt die direkte Rückgabe des LKWs
   ins aktive Depot bis zur Kapazitätsfreigabe deaktiviert.
+* **Sichtbarkeit & Provision**: Angebote laufen 7 Tage und sind entweder für
+  alle oder nur für dein Syndikat sichtbar; das Spiel behält eine 5% Provision
+  vom Erlös ein.
+* **Nur aus der Halle inserieren**: Nur in der Halle eingelagerte LKW können
+  auf dem Gebrauchtmarkt inseriert werden.
 
 ---
 
@@ -58,6 +63,11 @@ Flottenvermögen:
   Batteriedegradation und Modellklasse berechnet.
 * **Geschwindigkeit**: Sofortige Barauszahlung direkt auf das Unternehmenskonto
   ohne Listungsverzögerungen.
+* **Nur im Stand**: Verkaufen geht nur, wenn der LKW gerade nichts zu tun
+  hat — ein LKW auf Tour oder mit aktivem P2P Marktplatz-Angebot lässt sich
+  nicht verkaufen. Der Preis richtet sich nach dem Kilometerstand: ein
+  neuwertiger LKW bringt fast den Neupreis, ein vielgefahrener deutlich
+  weniger; eine Leiste zeigt, wo der LKW zwischen beiden Enden steht.
 
 ### P2P-Marktplatzverkauf
 

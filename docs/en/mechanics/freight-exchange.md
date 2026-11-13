@@ -16,6 +16,10 @@ type, departure, destination, distance, and financial yields.
   for their first 7 days.
 * **PRO Member Advantages**: Active PRO subscribers earn a +25% score bonus on
   completed runs.
+* **Availability Timer**: The bar at the bottom of an order shows how long it
+  stays available; price, coins and bonuses are listed on the right.
+* **Seasonal Event Cargo**: Event cargo (e.g. Halloween pumpkins) can be
+  hauled without a license while the event is running.
 
 ---
 
@@ -59,6 +63,66 @@ the number of available profitable orders:
 * **Refrigerated**: Temperature-controlled transport.
 * **Timber**: Specialized timber transport.
 * **Seasonal & Event Cargo**: Limited-time freight like Halloween pumpkins.
+
+---
+
+## Per-Location Order Guarantee (as of November 2026)
+
+The server checks every tick whether each location of an active player has
+one short and one long tour per payload class — two of each if the exchange
+is not full. If something is missing, it is refilled immediately.
+
+An empty order list therefore almost always has one of the three filters as
+its cause, not the general pool:
+
+* The guarantee is per city and tonnage class, not per player. If several
+  other players' trucks are parked there, you share the same orders.
+* From 18 t upwards, every cargo group counts as "present", even if you have
+  not unlocked it yet — the guarantee is then fulfilled, but your filtered
+  list stays empty.
+* Short tours go to the four nearest cities; those can be abroad and are
+  filtered out if the country is not unlocked.
+* What counts is the place where the truck will be free next (destination of
+  the current trip or end of the tour chain). A truck at a charging station
+  has no location that counts.
+* Example Denmark: only two cities in the game; from Copenhagen, two of the
+  four nearest neighbors are Swedish — unlocking Sweden therefore opens half
+  the neighborhood and with it the missing return freight.
+
+---
+
+## Cargo Group Distribution (as of 11 November 2026)
+
+| Cargo group | Share at 7.5 t | Share from 18 t | Share across all orders |
+| :--- | :--- | :--- | :--- |
+| Standard | 100 % | 42 % | 62.3 % |
+| General cargo | 0 % | 16 % | 10.4 % |
+| Timber | 0 % | 9 % | 5.9 % |
+| Container | 0 % | 8 % | 5.2 % |
+| Refrigerated | 0 % | 8 % | 5.2 % |
+| Liquid | 0 % | 6 % | 3.9 % |
+| Machinery | 0 % | 6 % | 3.9 % |
+| Hazmat | 0 % | 5 % | 3.3 % |
+
+The 7.5 t class only has Standard cargo, which is why the "across all
+orders" percentages differ there.
+
+---
+
+## Pay per Cargo Group (as of mid-November 2026)
+
+Base rate per ton-kilometre and coin multiplier per cargo group:
+
+| Cargo group | Vehicle type | Base rate | Coins |
+| :--- | :--- | :--- | :--- |
+| Standard | 7.5 t (starter vehicle) | 0.52 €/t-km | ×1.0 (base) |
+| Hazmat | — | 1.05 €/t-km | ×1.8 |
+| Machinery | low-loader | 0.88 €/t-km | ×1.6 |
+| Liquid | tanker | 0.85 €/t-km | ×1.5 |
+| Refrigerated | refrigerated box | 0.78 €/t-km | ×1.4 |
+| Container | — | 0.64 €/t-km | ×1.2 |
+| Timber | — | 0.60 €/t-km | ×1.3 |
+| General cargo | box | 0.58 €/t-km | ×1.1 |
 
 ---
 

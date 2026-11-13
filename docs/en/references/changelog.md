@@ -30,6 +30,15 @@ roadmap:
   1'000 driven kilometres. Custom truck names accept letters, numbers, and
   punctuation (no symbols or emoji); the leading number (e.g. #3) remains the
   unique identifier in settlements.
+* **Status (as of 10 November 2026)**: 0.19 was submitted for review to Apple
+  and Google. Release target is 17 November — all platforms launch
+  simultaneously so nobody has an advantage (no early web release this time;
+  the test phase ran until 10 November). Route planning has already been
+  expanded to three slots. Planned balancing change: boost costs will depend
+  on fleet size (depot upgrade level), and without a subscription not all
+  boosters will be usable. This change was temporarily rolled back after a
+  silent server update (until 17 Nov) because clients do not display it
+  correctly yet.
 
 ### Upcoming Version 0.20 — Multi-Depot Fleet Expansion
 
@@ -79,6 +88,38 @@ stabilization period.
 | **Fair-Play Policy** | New Terms of Service section (consent required at next login): no scripts, bots, macros, auto-clickers, or access to the game outside the provided client; no account sharing, selling, or trading. Game-action timestamps are logged for 90 days (no IP, device, or content data). Escalation order: inquiry first, then warning, then suspension. Applies only after consent, not retroactively. |
 
 #### Patch Updates
+
+##### 0.18.409–0.18.411 (09 November 2026) — Server load after livestream
+
+- **Incident**: From around 21:30, dispatching trucks sometimes took very long
+  or failed entirely; with roughly 1,500 trucks driving, the game server
+  could no longer keep up with route calculation (load from the livestream
+  influx). Restarts at 22:45 and at noon only helped briefly.
+- **0.18.409** (06:30): When the OSRM routing server is overloaded, planning
+  no longer keeps looking for ever-larger detours; it retries once and then
+  reports "server busy".
+- **0.18.410** (13:30): Route planning now computes significantly less, with
+  the same result. Since then, with over 1,400 trucks driving, the server
+  runs at about half its capacity; planning usually takes only fractions of
+  a second.
+- **0.18.411** (15:00): New metrics to detect bottlenecks earlier. Players
+  were briefly disconnected at each of these updates.
+
+##### Silent server update (08 November 2026)
+
+- Short interruption to add measurement parameters during the livestream
+  rush.
+
+##### Silent server update (05 November 2026) — Measurement & DB hardening
+
+- **Dispatch**: Route planning averages 250 ms, every tenth dispatch takes
+  over 1.3 s, long tours up to 7 s; database share only about 13 %.
+- **Deal handshake**: averages 400 ms, worst case 7.5 s — only the first
+  handshake of the day is affected (search in the finance journal); the
+  matching index is optimized directly in 0.19.
+- **Security**: One account queried the same table every 20 s around the
+  clock for over a week (38,777 attempts, all logged and denied). Database
+  access is being hardened so such queries get blocked earlier.
 
 ##### 0.18.396 (30 October 2026) — Ferry Charging Planning Fix
 

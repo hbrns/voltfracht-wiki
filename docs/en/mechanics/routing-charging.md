@@ -74,11 +74,26 @@ waits at an occupied charger: **5, 15, 30, or 60 real minutes** (default:
 30). At the game's **20× time scale** that is roughly **2, 5, 10, or 20
 game hours**.
 
+If the wait time runs out, the truck drives on **without charging** — the
+charging cost planned for that stop is refunded, and if the battery is not
+enough for the remaining route, limp mode takes over.
+
 !!! tip
     Shorter waiting is not automatically better: the truck then leaves
     earlier *uncharged*, which can make the next charger unreachable.
     While it waits, tap the station in the route view and pick another
     one — that is more reliable than waiting for the replanner.
+
+### Charge Target (per truck, trip & stop)
+
+Every truck has a **charge target** that applies whenever a route is planned
+(**90 % by default**). While planning a trip you can override it for that
+trip and for each charging stop individually: tap the stop in the timeline to
+reveal its slider. Releasing the slider replans the route, so you
+immediately see whether a stop disappears. Each stop shows the state of
+charge on arrival, the target (e.g. SOC 12 % → 90 %) and the outside
+temperature there — temperature changes along the way, by place AND by time
+of day.
 
 ### ENTSO-E Electricity Costs
 

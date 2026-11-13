@@ -22,6 +22,16 @@ Fortschrittsverfolgung mit individuellen Dispatching-Entscheidungen.
 * **Gemeinsamer Fortschrittsbalken**: Wenn Mitglieder ihre zugewiesenen
   Etappen abschließen, füllt sich der kollektive Fortschrittsbalken in
   Echtzeit für das gesamte Bündnis.
+* **Neue Runde um Mitternacht (UTC)**: Jede Nacht um Mitternacht (UTC) bekommt
+  das Syndikat eine neue Rundtour; das Ziel einer Etappe ist der Start der
+  nächsten.
+* **Nutzlast-Voraussetzung**: Für eine Etappe brauchst du einen LKW mit
+  passender Nutzlast — sonst gibt es keinen Annehmen-Knopf. Der Filter
+  „Fahrbar" zeigt nur die Etappen, die du gerade nehmen kannst. Nimm eine
+  Etappe nach der anderen; erledigte Etappen werden grün.
+* **Belohnung abholen**: Je mehr die Gilde zusammen schafft, desto größer die
+  Belohnung — abholen kann sie jeder, der mindestens eine Etappe gefahren
+  ist, und vergessene Stufen werden bis zu sieben Tage später nachgezahlt.
 
 ---
 

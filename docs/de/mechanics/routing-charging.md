@@ -78,12 +78,27 @@ lange ein LKW vor einer belegten Säule wartet: **5, 15, 30 oder 60 echte
 Minuten** (voreingestellt: 30). Bei der **20-fachen Spielgeschwindigkeit**
 sind das knapp **2, 5, 10 oder 20 Spielstunden**.
 
+Läuft die Wartezeit ab, fährt der LKW **ohne Laden** weiter — die für diesen
+Stopp geplanten Ladekosten werden zurückerstattet, und reicht der Akku nicht
+für die Reststrecke, greift der Notlauf.
+
 !!! tip
     Kürzer warten ist nicht automatisch besser: Der LKW fährt dann nur
     früher ungeladen los, und genau daraus kann die nächste Säule
     unerreichbar werden. Solange er wartet, tippe die Säule in der
     Routenansicht an und wähle eine andere — das ist zuverlässiger als
     auf den Umplaner zu warten.
+
+### Ladeziel (pro LKW, Fahrt & Stopp)
+
+Jeder LKW hat ein **Ladeziel**, das bei jeder Routenplanung gilt
+(**Standard 90 %**). Beim Planen einer Tour kannst du es für diese Fahrt
+überschreiben und für jeden Ladestopp einzeln: Tippe in der Zeitleiste auf
+den Stopp, dann erscheint sein Regler. Beim Loslassen wird die Route neu
+geplant — du siehst also direkt, ob ein Stopp wegfällt. An jedem Stopp steht
+der Ladestand bei Ankunft, das Ladeziel (z. B. SOC 12 % → 90 %) und die
+Außentemperatur dort; die Temperatur ändert sich unterwegs — nach Ort UND
+nach Tageszeit.
 
 ### ENTSO-E-Stromkosten
 

@@ -68,6 +68,9 @@ operating 3 trucks each faces achievable targets relative to a full
   calculation, each challenge score is capped at 100%. This prevents 
   massive alliances from monopolizing promotion slots purely through raw 
   vehicle volume, keeping league movement competitive.
+* **Weekend Settlement**: Leagues settle at the weekend. For promotion and
+  relegation, what counts is your **weakest of the four challenges**; the
+  progress bar shows where you stand in the current week.
 
 ---
 
@@ -101,3 +104,53 @@ shared financial savings goals (*Sparziele*):
 * **Expanded Treasury Capacity**: Updated syndicate features support 
   expanded donation caps and real-time push notifications when savings 
   milestones are unlocked or completed.
+
+---
+
+## 5. Prestige — Permanent Syndicate Standing
+
+Prestige is your syndicate's **permanent** standing — unlike the league,
+which is decided anew every week.
+
+* **XP sources**: At the weekend from the weekly score and podium, and daily
+  from the reward tiers of the [Tour through Europe](./tour-through-europe.md).
+* **Level-ups**: The level rises as soon as the XP are there — mid-week too,
+  no need to wait for the weekend.
+* **Per-level bonus**: Each level permanently gives every member more order
+  coins and one more alliance-bonus point.
+
+---
+
+## 6. Daily Goals & Streak (solo)
+
+Alongside the weekly syndicate challenges, every player gets **three daily
+goals** (orders, kilometres, charged kWh):
+
+* Each completed goal pays coins; completing all three adds a daily bonus.
+* The day ends at midnight in **your local time zone**.
+* Goals you never collect are credited at your next login — up to seven days
+  back. The daily bonus is only credited if all three goals of that day were
+  completed.
+* The login streak raises the daily reward as long as you do not skip a day.
+
+---
+
+## 7. Donation Payout, Alliance Bonuses & Activity Log
+
+* **Savings-goal payout**: On completion, a coin pool of **target ÷ 10'000**
+  is split among ALL donors — everyone gets their share of the target, at
+  least 1 % of the pool, and the three largest donors an extra
+  +15 % / +10 % / +5 %. Below €1'000 donated there is no payout. Your donation
+  allowance is capped per time window.
+* **Alliance bonuses**: With alliance points from donations, the leader
+  unlocks **permanent bonuses** for tonnages, cargo groups or countries. They
+  apply to all members and are shown on top in the exchange and in the
+  settlement.
+* **Treasurer limits**: The treasurer may do exactly two things — open a
+  savings goal and assign alliance points. Accepting, removing, renaming and
+  handing over leadership stay with the leader. There is never more than one
+  treasurer, and every donation decision is recorded by name in the activity
+  feed.
+* **Activity log**: The syndicate log (joins, departures, completed
+  challenges, weekly settlements, leadership changes, reached savings goals)
+  shows the last 10 entries; "Load more" fetches older ones.

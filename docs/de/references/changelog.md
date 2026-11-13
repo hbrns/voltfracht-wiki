@@ -33,6 +33,15 @@ Zusammenarbeit mit der Spieler-Community. Hier ist die aktuelle Feature-Roadmap:
   erlauben Buchstaben, Zahlen und Satzzeichen (keine Symbole oder Emoji); die
   Nummer davor (z. B. #3) bleibt stehen und ist die eindeutige Kennung — auch
   in der Abrechnung.
+* **Status (10. November 2026)**: 0.19 wurde bei Apple und Google zur Prüfung
+  eingereicht. Release-Ziel ist der 17. November — alle Plattformen werden
+  gleichzeitig veröffentlicht, damit niemand einen Vor- oder Nachteil hat
+  (diesmal kein früherer Web-Release; die Testphase lief bis 10. November).
+  Die Routenplanung wurde bereits auf drei Slots erweitert. Geplante
+  Balancing-Änderung: Boost-Kosten richten sich künftig nach der Flottengröße
+  (Ausbaustufe des Depots), und ohne Abo sind nicht mehr alle Booster
+  nutzbar. Diese Änderung wurde nach einem lautlosen Serverupdate vorübergehend
+  zurückgenommen (bis 17.11.), weil die Clients sie noch nicht korrekt anzeigen.
 
 ### Kommende Version 0.20 – Mehrfach-Depot-Flottenausbau
 
@@ -86,6 +95,39 @@ Web-Stabilisierung.
 | **Fair-Play-Richtlinie** | Neuer AGB-Abschnitt (Zustimmung beim nächsten Login erforderlich): keine Skripte, Bots, Makros, Auto-Klicker und kein Zugriff auf das Spiel außerhalb des bereitgestellten Clients; keine gemeinsame Nutzung, kein Verkauf und Tausch von Konten. Zeitstempel von Spielhandlungen werden 90 Tage protokolliert (keine IP-, Geräte- oder Inhaltsdaten). Eskalation: erst Nachfrage, dann Verwarnung, dann Sperre. Gilt erst ab der Zustimmung, nicht rückwirkend. |
 
 #### Patch-Updates
+
+##### 0.18.409–0.18.411 (09. November 2026) — Serverlast nach Livestream
+
+- **Vorfall**: Ab etwa 21:30 Uhr dauerte das Losschicken teils sehr lange
+  oder schlug ganz fehl; bei rund 1'500 fahrenden LKW kam der Spielserver
+  mit der Routenberechnung nicht mehr hinterher (Last durch den Livestream-
+  Zulauf). Neustarts gegen 22:45 Uhr und um 12 Uhr halfen kurzzeitig.
+- **0.18.409** (06:30 Uhr): Ist der OSRM-Routingserver überlastet, sucht die
+  Planung nicht mehr immer größere Umwege, sondern versucht es einmal neu
+  und meldet sonst „Server ausgelastet".
+- **0.18.410** (13:30 Uhr): Die Routenplanung rechnet deutlich weniger, das
+  Ergebnis bleibt gleich. Seitdem liegt der Server bei über 1'400 fahrenden
+  LKW bei rund der Hälfte seiner Leistung; die Planung dauert meist nur
+  noch Bruchteile einer Sekunde.
+- **0.18.411** (15:00 Uhr): Neue Messwerte, um Engpässe früher zu erkennen.
+  Bei jedem dieser Updates wurden Spieler kurz getrennt.
+
+##### Leises Serverupdate (08. November 2026)
+
+- Kurze Unterbrechung, um im Livestream-Ansturm zusätzliche Messparameter
+  unterzubringen.
+
+##### Leises Serverupdate (05. November 2026) — Messung & Datenbank-Härtung
+
+- **Losschicken**: Routenplanung im Mittel 250 ms, jeder zehnte Versand über
+  1,3 s, lange Touren bis zu 7 s; Datenbankanteil nur rund 13 %.
+- **Deal-Handschlag**: im Mittel 400 ms, schlimmstenfalls 7,5 s — betroffen
+  ist nur der erste Handschlag des Tages (Suche im Finanzjournal); der
+  passende Index wird in 0.19 direkt mit optimiert.
+- **Sicherheit**: Ein Konto fragte über eine Woche rund um die Uhr alle 20 s
+  dieselbe Tabelle ab (38'777 Versuche, alle protokolliert und verweigert).
+  Datenbankzugriffe werden gehärtet, damit solche Abfragen früher geblockt
+  werden.
 
 ##### 0.18.396 (30. Oktober 2026) — Fix der Ladeplanung an Fähren
 
@@ -152,7 +194,7 @@ Web-Stabilisierung.
   löst eine neue Routenberechnung aus — die Last war tatsächlich unterschätzt
   worden.
 
-##### Lautloses Sicherheitsupdate (25. Oktober 2026)
+##### Leises Sicherheitsupdate (25. Oktober 2026)
 
 - Neueste Sicherheitspatches serverseitig eingespielt. Keine Versionsänderung
   (bleibt 0.18.382).
